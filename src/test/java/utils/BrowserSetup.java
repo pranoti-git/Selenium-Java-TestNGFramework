@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class BrowserSetup {
     public static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
     private Platform platform;
-    private WebDriver driver;
+    static WebDriver driver;
 
     public WebDriver invokeWebDriver(Logger logger) {
         try {
@@ -21,7 +21,7 @@ public class BrowserSetup {
 
             WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver(options);
-            threadDriver.set(driver);
+//            threadDriver.set(driver);
 //            return driver;
         return getDriver();
         }
@@ -33,7 +33,8 @@ public class BrowserSetup {
     }
 
     public static WebDriver getDriver(){
-        return threadDriver.get();
+//        return threadDriver.get();
+        return driver;
     }
 
 
