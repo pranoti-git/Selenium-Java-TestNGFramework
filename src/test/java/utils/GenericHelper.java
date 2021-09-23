@@ -25,7 +25,7 @@ public class GenericHelper {
     }
 
     public void navigateTo(String url){
-        logger.info("Navigating to : " + url);
+        TestBase.log("Navigating to : " + url);
         driver.navigate().to(url);
 //        try{
 //            driver.navigate().to(url);
@@ -36,67 +36,67 @@ public class GenericHelper {
     }
 
     public String getTitleOfWebPage(){
-        logger.info("Getting title of Web Page");
-        logger.info("Title is : " + driver.getTitle());
+        TestBase.log("Getting title of Web Page");
+        TestBase.log("Title is : " + driver.getTitle());
         return driver.getTitle();
     }
 
     public void setText(WebElement element, String text){
         element.clear();
         element.sendKeys(text);
-        logger.info("Text set : " + text);
+        TestBase.log("Text set : " + text);
     }
 
     public void click(WebElement element){
         element.click();
-        logger.info("Clicked");
+        TestBase.log("Clicked");
     }
 
     public void clickByJS(WebElement element){
         js.executeScript("arguments[0].click()",element);
-        logger.info("Clicked using JS");
+        TestBase.log("Clicked using JS");
     }
 
     public void clickWithRetryByJS(WebElement element){
         try{
             element.click();
-            logger.info("Clicked");
+            TestBase.log("Clicked");
         }
         catch (Exception e){
-            logger.info("Retry click by JS");
+            TestBase.log("Retry click by JS");
             js.executeScript("arguments[0].click()",element);
-            logger.info("Clicked using JS");
+            TestBase.log("Clicked using JS");
         }
     }
 
     public void clickElementWithFocus(WebElement element){
-        logger.info("Clicking element after scrolling");
+        TestBase.log("Clicking element after scrolling");
         scrollToElement(element);
         click(element);
     }
 
     public void scrollToElement(WebElement element){
-        logger.info("Scrolling to Element");
+        TestBase.log("Scrolling to Element");
         js.executeScript("arguments[0].scrollIntoView(true)",element);
-        logger.info("Scrolled to element");
+        TestBase.log("Scrolled to element");
     }
 
     public void scrollToTop(){
-        logger.info("Scrolling to Top");
+        TestBase.log("Scrolling to Top");
         js.executeScript("window.scrollTo(0,0)");
-        logger.info("Scrolled to Top");
+        TestBase.log("Scrolled to Top");
     }
 
     public void scrollToBottom(){
-        logger.info("Scrolling to Bottom");
+        TestBase.log("Scrolling to Bottom");
         js.executeScript("window.scrollTo(0,document.body.scrollHeight)");
-        logger.info("Scrolled to Bottom");
+        TestBase.log("Scrolled to Bottom");
     }
 
     public void setBrowserZoomLevel(float level){
-        logger.info("Setting browser zoom level to " + level +" %");
+        TestBase.log("Setting browser zoom level to " + level +" %");
         js.executeScript("document.body.style.zoom = '" + Float.toString(level/100)+"'");
-        logger.info("Zoom level set");
+        TestBase.log("Zoom level set");
     }
 
     public String getXpath(WebElement element){
@@ -105,7 +105,7 @@ public class GenericHelper {
     }
 
     public String getTextOfElement(WebElement element){
-        logger.info("Text is : " + element.getText());
+        TestBase.log("Text is : " + element.getText());
         return element.getText();
     }
 
@@ -114,13 +114,13 @@ public class GenericHelper {
         for(WebElement element:elementList){
             textList.add(element.getText());
         }
-        logger.info("Text for List is : \n" + textList);
+        TestBase.log("Text for List is : \n" + textList);
         return textList;
     }
 
     public void clickFromList(List<WebElement> elements,String text){
         boolean elementFound = false;
-        logger.info("Clicking from list with text : " + text);
+        TestBase.log("Clicking from list with text : " + text);
         for(WebElement element:elements){
             if(element.getText().equals(text)){
                 click(element);
@@ -134,7 +134,7 @@ public class GenericHelper {
     }
 
     public void refreshPage(){
-        logger.info("Refreshing page : " + driver.getCurrentUrl());
+        TestBase.log("Refreshing page : " + driver.getCurrentUrl());
         driver.navigate().refresh();
     }
 
@@ -148,7 +148,7 @@ public class GenericHelper {
     }
 
     public void pressEscapeKey(){
-        logger.info("Pressing Escape key");
+        TestBase.log("Pressing Escape key");
         Actions action = new Actions(driver);
         Action pressEscKey = action.sendKeys(Keys.ESCAPE).build();
         pressEscKey.perform();

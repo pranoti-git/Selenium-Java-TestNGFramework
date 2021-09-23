@@ -8,6 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.FindBys;
 import org.openqa.selenium.support.PageFactory;
 import utils.GenericHelper;
+import utils.TestBase;
 
 import java.util.List;
 
@@ -46,37 +47,37 @@ public class RegisterPage {
     }
 
     public void setUsername(String uname){
-        logger.info("Setting Username as : " + uname);
+        TestBase.log("Setting Username as : " + uname);
         genericHelper.setText(usernameInput,uname);
     }
 
     public void setPassword(String pass){
-        logger.info("Setting Password as : " + pass);
+        TestBase.log("Setting Password as : " + pass);
         genericHelper.setText(passwordInput,pass);
     }
 
     public void setConfirmPassword(String cpass){
-        logger.info("Setting Confirm Password as : " + cpass);
+        TestBase.log("Setting Confirm Password as : " + cpass);
         genericHelper.setText(confirmPassInput,cpass);
     }
 
     public void clickSubmitButton(){
-        logger.info("Clicking Submit button");
+        TestBase.log("Clicking Submit button");
         genericHelper.click(submitButton);
     }
 
     public String getSuccessMessage(){
-        logger.info("Getting Success Message");
+        TestBase.log("Getting Success Message");
         return genericHelper.getTextOfElement(successMessage);
     }
 
     public void openCountryDropdown(){
-        logger.info("Opening country dropdown");
+        TestBase.log("Opening country dropdown");
         genericHelper.click(countryDropdown);
     }
 
     public List<String> getListOfCountries(){
-        logger.info("Getting options in countries");
+        TestBase.log("Getting options in countries");
         return genericHelper.getTextOfElementList(countryOptions);
     }
 

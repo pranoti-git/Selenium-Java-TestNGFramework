@@ -15,7 +15,7 @@ public class BrowserSetup {
     public WebDriver invokeWebDriver(Logger logger) {
         try {
 //        String downloadPath = "./AutomationDownloads";
-            logger.info("Setting properties for browser");
+            TestBase.log("Setting properties for browser");
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--incognito");
 
@@ -26,7 +26,7 @@ public class BrowserSetup {
         return getDriver();
         }
         catch(Exception e){
-            logger.error("Exception occurred.\n" + e.getStackTrace());
+            TestBase.log("Exception occurred.\n" + e.getStackTrace());
 //            return driver;
             return getDriver();
         }

@@ -14,39 +14,45 @@ public abstract class TestBase {
     protected WebDriver driver;
     protected WebDriverWait wait;
     private Logger logger;
+    public static StringBuilder classLogs;
 
     @BeforeTest(alwaysRun = true)
     public void setLogger(){
         System.out.println("*************** Setting Logger ***************");
         logger = LogManager.getLogger(TestBase.class);
-        logger.info("*************** Logger Set ***************");
+        log("*************** Logger Set ***************");
     }
 
     @BeforeTest(alwaysRun = true,dependsOnMethods = "setLogger")
     public void invokeBrowser(){
-        logger.info("*************** Invoking Browser ***************");
+        log("*************** Invoking Browser ***************");
         browserSetup = new BrowserSetup();
         driver = browserSetup.invokeWebDriver(logger);
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver,15);
-        logger.info("*************** Invoking Finished ***************");
+        log("*************** Invoking Finished ***************");
     }
 
     @BeforeTest(alwaysRun = true,dependsOnMethods = "invokeBrowser")
     public void navigateToBaseURL(){
         String url = "http://demo.guru99.com/test/newtours/";
-        logger.info("Navigating to Base URL" + url);
+        log("Navigating to Base URL " + url);
         driver.get(url);
+    }
+
+    public static void log(String log){
+        if(classLogs == null) classLogs = new StringBuilder();
+        classLogs.append(log).append(System.lineSeparator());
     }
 
 
 
     @AfterTest
     public void closeDriver(){
-        logger.info("Closing Web Browser");
+        log("Closing Web Browser");
         driver.quit();
-        logger.info("Web Browser Closed");
+        log("Web Browser Closed");
     }
 
 

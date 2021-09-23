@@ -29,7 +29,7 @@ public class RegisterTest extends TestBase{
 
     @BeforeMethod(alwaysRun = true)
     public void navigateToRegisterPage(){
-        logger.info("Navigating to Register Page");
+        TestBase.log("Navigating to Register Page");
         genericHelper.navigateTo("http://demo.guru99.com/test/newtours/register.php");
     }
 
@@ -38,7 +38,7 @@ public class RegisterTest extends TestBase{
         String expectedTitle = "Register: Mercury Tours and Travels";
         String actualTitle = genericHelper.getTitleOfWebPage();
         Assert.assertTrue(expectedTitle.equals(actualTitle),"Title not matched. Actual title is : '" + actualTitle + "'. Expected Title is : '" + expectedTitle +"'");
-        logger.info("Case Pass : Verify Title Of Register Page 0001");
+        TestBase.log("Case Pass : Verify Title Of Register Page 0001");
     }
 
     @Test(priority = 1, groups = "P1")
@@ -51,7 +51,7 @@ public class RegisterTest extends TestBase{
         softAssert.assertTrue(genericHelper.isDisplayed(registerPage.submitButton),"Submit Button not displayed");
 
         softAssert.assertAll();
-        logger.info("Case Pass : Verify Mandatory Fields Displayed In Register Page 0002");
+        TestBase.log("Case Pass : Verify Mandatory Fields Displayed In Register Page 0002");
     }
 
     @Test(priority = 2, groups = "P1", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
@@ -66,7 +66,7 @@ public class RegisterTest extends TestBase{
 //        Thread.sleep(2000);
 
         Assert.assertTrue(registerPage.getSuccessMessage().equals(expectedMessage),"Success Message not matched");
-        logger.info("Case Pass : Verify Registration With Mandatory Fields 0003");
+        TestBase.log("Case Pass : Verify Registration With Mandatory Fields 0003");
     }
 
     @Test(priority = 3, groups = "P2", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
@@ -79,7 +79,7 @@ public class RegisterTest extends TestBase{
 //        Thread.sleep(2000);
 
         Assert.assertTrue(!genericHelper.isDisplayed(registerPage.successMessage),"Success Message is displayed for Blank Mandatory Fields");
-        logger.info("Case Pass : Verify Registration With Blank Mandatory Fields 0004");
+        TestBase.log("Case Pass : Verify Registration With Blank Mandatory Fields 0004");
     }
 
     @Test(priority = 4, groups = "P3")
@@ -103,7 +103,7 @@ public class RegisterTest extends TestBase{
         }
 
         softAssert.assertAll();
-        logger.info("Case Pass : Verify Available Countries 0005");
+        TestBase.log("Case Pass : Verify Available Countries 0005");
     }
 
 }
