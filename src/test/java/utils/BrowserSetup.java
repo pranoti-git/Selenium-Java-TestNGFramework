@@ -32,7 +32,7 @@ public class BrowserSetup {
         }
     }
 
-    public static WebDriver getDriver(){
+    public static synchronized WebDriver getDriver(){
         return threadDriver.get();
 //        return driver;
     }

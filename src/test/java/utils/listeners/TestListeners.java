@@ -2,7 +2,6 @@ package utils.listeners;
 
 import io.qameta.allure.Attachment;
 import io.qameta.allure.Allure;
-import org.bouncycastle.util.test.TestResult;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -22,8 +21,8 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
 
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
         System.out.println("Execution Finished For $$ " + method.getTestMethod().getMethodName() + " of Class : " + testResult.getTestClass());
-//        attachLogs(testResult.getMethod().getConstructorOrMethod().getName());
-        attachLogs(testResult.getMethod().getMethodName(),testResult.getMethod().getMethodName());
+//                attachLogs(testResult.getMethod().getConstructorOrMethod().getName());
+        attachLogs(method.getTestMethod().getMethodName(),method.getTestMethod().getMethodName());
         if(testResult.getThrowable() != null){
             System.out.println(testResult.getThrowable().getMessage());
             attachScreenshot(method.getTestMethod().getMethodName(),BrowserSetup.getDriver());
@@ -32,8 +31,8 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult testResult){
-        attachScreenshot(testResult.getMethod().getMethodName(),BrowserSetup.getDriver());
         System.out.println("Case Pass $$ " + testResult.getMethod().getMethodName());
+        attachScreenshot(testResult.getMethod().getMethodName(),BrowserSetup.getDriver());
     }
 
     @Override
