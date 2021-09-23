@@ -54,7 +54,7 @@ public class RegisterTest extends TestBase{
         logger.info("Case Pass : Verify Mandatory Fields Displayed In Register Page 0002");
     }
 
-    @Test(priority = 2, groups = "P1", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
+//    @Test(priority = 2, groups = "P1", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
     public void verifyRegistrationWithMandatoryFields_0003() {
         String expectedMessage = "Thank you for registering. You may now sign-in using the user name and password you've just entered.";
 
@@ -69,7 +69,7 @@ public class RegisterTest extends TestBase{
         logger.info("Case Pass : Verify Registration With Mandatory Fields 0003");
     }
 
-    @Test(priority = 3, groups = "P2", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
+//    @Test(priority = 3, groups = "P2", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
     public void verifyRegistrationWithBlankMandatoryFields_0004() {
         registerPage.setUsername("");
         registerPage.setPassword("");
@@ -82,7 +82,7 @@ public class RegisterTest extends TestBase{
         logger.info("Case Pass : Verify Registration With Blank Mandatory Fields 0004");
     }
 
-    @Test(priority = 4, groups = "P3")
+//    @Test(priority = 4, groups = "P3")
     public void verifyAvailableCountries_0005(){
         SoftAssert softAssert = new SoftAssert();
         List<String> expectedCountries = new ArrayList<>();
