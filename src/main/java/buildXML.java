@@ -15,10 +15,10 @@ public class buildXML {
         try {
             p.load(new FileInputStream(log4JPropertyFile));
             PropertyConfigurator.configure(p);
-            System.out.println("Logger for buildXML configured");
+            System.out.println("\n\n\n\n\nLogger for buildXML configured");
         } catch (IOException e) {
             System.out.println("Logger for buildXML is not configured!");
         }
-        logger.info("I am in buildXML");
+        logger.info("\n\n\n\n\nI am in buildXML");
     }
 }
