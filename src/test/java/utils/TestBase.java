@@ -7,9 +7,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Listeners;
+import utils.listeners.TestListeners;
 
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
+
+@Listeners(TestListeners.class)
 
 public abstract class TestBase {
     private BrowserSetup browserSetup;
@@ -22,25 +26,25 @@ public abstract class TestBase {
     public void setLogger(){
         System.out.println("*************** Setting Logger ***************");
         logger = LogManager.getLogger(TestBase.class);
-        log("*************** Logger Set ***************");
+        TestBase.log("*************** Logger Set ***************");
     }
 
     @BeforeTest(alwaysRun = true)
     public void invokeBrowser(){
-        log("*************** Invoking Browser ***************");
+        TestBase.log("*************** Invoking Browser ***************");
         browserSetup = new BrowserSetup();
         driver = browserSetup.invokeWebDriver(logger);
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver,15);
-        log("*************** Invoking Finished ***************");
+        TestBase.log("*************** Invoking Finished ***************");
     }
 
     @BeforeTest(alwaysRun = true,dependsOnMethods = "invokeBrowser")
     public void navigateToBaseURL(){
         String url = "http://demo.guru99.com/test/newtours/";
-        log("Navigating to Base URL " + url);
+        TestBase.log("Navigating to Base URL " + url);
         try{
             driver.get(url);
         }
@@ -62,9 +66,9 @@ public abstract class TestBase {
 
     @AfterTest
     public void closeDriver(){
-        log("Closing Web Browser");
+        TestBase.log("Closing Web Browser");
         driver.quit();
-        log("Web Browser Closed");
+        TestBase.log("Web Browser Closed");
     }
 
 
