@@ -26,7 +26,7 @@ public abstract class TestBase {
     public void setLogger(){
         System.out.println("\n\n\n\n\n*************** Setting Logger ***************");
         logger = LogManager.getLogger(TestBase.class);
-        TestBase.log("*************** Logger Set ***************");
+        TestBase.log("\n\n*************** Logger Set ***************");
     }
 
     @BeforeTest(alwaysRun = true,dependsOnMethods = "setLogger")
