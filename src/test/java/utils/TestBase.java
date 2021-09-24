@@ -55,11 +55,10 @@ public abstract class TestBase {
 
     public static void log(String log){
         if(classLogs == null) classLogs = new StringBuilder();
-
+        logger.info(log);
         Calendar current = Calendar.getInstance();
         log = current.getTime() + " ## " + log;
         classLogs.append(log).append(System.lineSeparator());
-//        logger.info(log);
     }
 
 
@@ -67,7 +66,12 @@ public abstract class TestBase {
     @AfterTest
     public void closeDriver(){
         TestBase.log("Closing Web Browser");
-        driver.quit();
+        try{
+            driver.quit();
+        }catch (Exception e){
+            Assert.fail("Exception occured while Closing WebBrowser. \n" + e.getMessage());
+        }
+
         TestBase.log("Web Browser Closed");
     }
 
