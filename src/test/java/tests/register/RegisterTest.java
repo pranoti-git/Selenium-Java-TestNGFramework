@@ -10,6 +10,7 @@ import org.testng.asserts.SoftAssert;
 import pageObjects.register.RegisterPage;
 import utils.GenericHelper;
 import utils.TestBase;
+import utils.listeners.TestListeners;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,6 +63,7 @@ public class RegisterTest extends TestBase{
         registerPage.setPassword("123");
         registerPage.setConfirmPassword("123");
 //        Thread.sleep(3000);
+        TestListeners.attachScreenshot("After Filling Register Form",driver);
         registerPage.clickSubmitButton();
 //        Thread.sleep(2000);
 

@@ -4,9 +4,11 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
+import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
 public abstract class TestBase {
@@ -16,19 +18,20 @@ public abstract class TestBase {
     private Logger logger;
     public static StringBuilder classLogs;
 
-    @BeforeTest(alwaysRun = true)
+    //@BeforeTest(alwaysRun = true)
     public void setLogger(){
         System.out.println("*************** Setting Logger ***************");
         logger = LogManager.getLogger(TestBase.class);
         log("*************** Logger Set ***************");
     }
 
-    @BeforeTest(alwaysRun = true,dependsOnMethods = "setLogger")
+    @BeforeTest(alwaysRun = true)
     public void invokeBrowser(){
         log("*************** Invoking Browser ***************");
         browserSetup = new BrowserSetup();
         driver = browserSetup.invokeWebDriver(logger);
         driver.manage().window().maximize();
+        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver,15);
         log("*************** Invoking Finished ***************");
@@ -38,11 +41,20 @@ public abstract class TestBase {
     public void navigateToBaseURL(){
         String url = "http://demo.guru99.com/test/newtours/";
         log("Navigating to Base URL " + url);
-        driver.get(url);
+        try{
+            driver.get(url);
+        }
+        catch (Exception e){
+            Assert.fail("Unable to navigate to "+ url +"\nFollowing Error occurred\n" + e.getMessage());
+        }
     }
 
     public static void log(String log){
+
         if(classLogs == null) classLogs = new StringBuilder();
+
+        Calendar current = Calendar.getInstance();
+        log = current.getTime() + " ## " + log;
         classLogs.append(log).append(System.lineSeparator());
     }
 

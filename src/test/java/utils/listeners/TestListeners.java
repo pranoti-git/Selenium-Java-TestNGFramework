@@ -80,7 +80,7 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
     }
 
     @Attachment(value = "Screenshot", type = "image/png")
-    public void attachScreenshot(String name,WebDriver driver) {
+    public static void attachScreenshot(String name,WebDriver driver) {
         System.out.println("Attaching screenshot of URL $$ " + driver.getCurrentUrl());
         Allure.addAttachment("Screenshot_"+name, new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
     }

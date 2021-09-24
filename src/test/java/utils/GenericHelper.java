@@ -26,13 +26,13 @@ public class GenericHelper {
 
     public void navigateTo(String url){
         TestBase.log("Navigating to : " + url);
-        driver.navigate().to(url);
-//        try{
-//            driver.navigate().to(url);
-//        }
-//        catch (Exception e){
-//            logger.error("Some issue occurred while navigation. \n"+ e.getStackTrace());
-//        }
+//        driver.navigate().to(url);
+        try{
+            driver.navigate().to(url);
+        }
+        catch (Exception e){
+            TestBase.log("Some issue occurred while navigation. \n"+ e.getStackTrace());
+        }
     }
 
     public String getTitleOfWebPage(){
