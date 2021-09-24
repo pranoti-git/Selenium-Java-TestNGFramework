@@ -19,6 +19,7 @@ public class buildXML {
         } catch (IOException e) {
             System.out.println("Logger for buildXML is not configured!");
         }
-        logger.info("\n\n\n\n\nI am in buildXML");
+        logger.info("\n\n\n\n\n");
+        logger.info("I am in buildXML");
     }
 }
