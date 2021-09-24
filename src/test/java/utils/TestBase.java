@@ -19,17 +19,17 @@ public abstract class TestBase {
     private BrowserSetup browserSetup;
     protected WebDriver driver;
     protected WebDriverWait wait;
-    private Logger logger;
+    private static Logger logger;
     public static StringBuilder classLogs;
 
-    //@BeforeTest(alwaysRun = true)
+    @BeforeTest(alwaysRun = true)
     public void setLogger(){
         System.out.println("*************** Setting Logger ***************");
         logger = LogManager.getLogger(TestBase.class);
         TestBase.log("*************** Logger Set ***************");
     }
 
-    @BeforeTest(alwaysRun = true)
+    @BeforeTest(alwaysRun = true,dependsOnMethods = "setLogger")
     public void invokeBrowser(){
         TestBase.log("*************** Invoking Browser ***************");
         browserSetup = new BrowserSetup();
@@ -54,12 +54,12 @@ public abstract class TestBase {
     }
 
     public static void log(String log){
-
         if(classLogs == null) classLogs = new StringBuilder();
 
         Calendar current = Calendar.getInstance();
         log = current.getTime() + " ## " + log;
         classLogs.append(log).append(System.lineSeparator());
+//        logger.info(log);
     }
 
 
