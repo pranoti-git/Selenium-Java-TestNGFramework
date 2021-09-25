@@ -62,7 +62,7 @@ public abstract class TestBase {
     }
 
 
-    @AfterTest
+    @AfterTest(alwaysRun = true)
     public void closeDriver(){
         TestBase.log("Closing Web Browser");
         try{
@@ -70,7 +70,9 @@ public abstract class TestBase {
         }catch (Exception e){
             Assert.fail("Exception occurred while Closing WebBrowser. \n" + e.getMessage());
         }
-
+        finally {
+            driver.quit();
+        }
         TestBase.log("Web Browser Closed");
     }
 }

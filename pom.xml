@@ -81,7 +81,6 @@
                     <!--                    <testFailureIgnore>true</testFailureIgnore>-->
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/TestNG.xml</suiteXmlFile>
-                        <!--                        <suiteXmlFile>src/test/resources/TestNG_Register.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
                     <!--                    <argLine>&ndash;&gt;-->
                     <!--                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"-->
