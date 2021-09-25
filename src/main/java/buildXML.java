@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 public class buildXML {
 
     private static final String testCaseMaster = "src/test/resources/TestCaseMaster.xlsx";
-    //private static final String listner = "src/test/java/utils/listeners/TestListeners.java";
+    private static final String listener = "utils.listeners.TestListeners";
     private static final String testNGFile = "src/test/resources/TestNG.xml";
     private static List<ITestCase> testCases;
     private static List<HashMap<String, String>> data;
@@ -39,7 +39,7 @@ public class buildXML {
             logger.info("\n\n\n\n\n");
             logger.info("::::::::::     Logger for buildXML configured     ::::::::::");
         } catch (IOException e) {
-            System.out.println("::::::::::     Logger for buildXML is not configured     ::::::::::");
+            logger.info("::::::::::     Logger for buildXML is not configured     ::::::::::");
         }
     }
 
@@ -145,7 +145,7 @@ public class buildXML {
         XmlInclude xmlInclude;
         XmlRun xmlRun;
 
-//        suite.addListener(listner);
+        suite.addListener(listener);
         for (ITestCase testCase : testCases) {
             xmlClass = new XmlClass();
             xmlClass.setName(testCase.getClassPath());

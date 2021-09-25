@@ -24,23 +24,21 @@ public abstract class TestBase {
 
     @BeforeTest(alwaysRun = true)
     public void setLogger(){
-        System.out.println("\n\n\n\n\n");
-        System.out.println("**********     Setting Logger     **********");
+        System.out.println("\n\n\n\n\n*************** Setting Logger ***************");
         logger = LogManager.getLogger(TestBase.class);
-        TestBase.log("\n\n");
-        TestBase.log("**********     Logger Set     **********");
+        TestBase.log("*************** Logger Set ***************");
     }
 
     @BeforeTest(alwaysRun = true,dependsOnMethods = "setLogger")
     public void invokeBrowser(){
-        TestBase.log("**********     Invoking Browser     **********");
+        TestBase.log("*************** Invoking Browser ***************");
         browserSetup = new BrowserSetup();
         driver = browserSetup.invokeWebDriver(logger);
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wait = new WebDriverWait(driver,15);
-        TestBase.log("**********     Invoking Finished     **********");
+        TestBase.log("*************** Invoking Finished ***************");
     }
 
     @BeforeTest(alwaysRun = true,dependsOnMethods = "invokeBrowser")
@@ -64,19 +62,15 @@ public abstract class TestBase {
     }
 
 
-
-    @AfterTest(alwaysRun = true)
+    @AfterTest
     public void closeDriver(){
         TestBase.log("Closing Web Browser");
         try{
             driver.quit();
         }catch (Exception e){
-            Assert.fail("Exception occured while Closing WebBrowser. \n" + e.getMessage());
+            Assert.fail("Exception occurred while Closing WebBrowser. \n" + e.getMessage());
         }
 
         TestBase.log("Web Browser Closed");
     }
-
-
-
 }

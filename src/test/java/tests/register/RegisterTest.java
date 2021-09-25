@@ -34,7 +34,7 @@ public class RegisterTest extends TestBase{
         genericHelper.navigateTo("http://demo.guru99.com/test/newtours/register.php");
     }
 
-    @Test(priority = 0, groups = "P3")
+    //@Test(priority = 0, groups = "P3")
     public void verifyTitleOfRegisterPage_0001(){
         String expectedTitle = "Register: Mercury Tours and Travels";
         String actualTitle = genericHelper.getTitleOfWebPage();
@@ -71,8 +71,8 @@ public class RegisterTest extends TestBase{
         TestBase.log("Case Pass : Verify Registration With Mandatory Fields 0003");
     }
 
-    @Test(priority = 3, groups = "P2", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
-    public void verifyRegistrationWithBlankMandatoryFields_0004() {
+    //@Test(priority = 3, groups = "P2", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
+    public void verifyRegistrationWithBlankMandatoryFields_0004() throws InterruptedException {
         registerPage.setUsername("");
         registerPage.setPassword("");
         registerPage.setConfirmPassword("");
@@ -84,7 +84,7 @@ public class RegisterTest extends TestBase{
         TestBase.log("Case Pass : Verify Registration With Blank Mandatory Fields 0004");
     }
 
-    @Test(priority = 4, groups = "P3")
+    //@Test(priority = 4, groups = "P3")
     public void verifyAvailableCountries_0005(){
         SoftAssert softAssert = new SoftAssert();
         List<String> expectedCountries = new ArrayList<>();

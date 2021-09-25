@@ -63,7 +63,6 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
-
             <plugin>
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
@@ -79,13 +78,14 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-<!--                    <testFailureIgnore>true</testFailureIgnore>-->
+                    <!--                    <testFailureIgnore>true</testFailureIgnore>-->
                     <suiteXmlFiles>
                         <suiteXmlFile>src/test/resources/TestNG.xml</suiteXmlFile>
+                        <!--                        <suiteXmlFile>src/test/resources/TestNG_Register.xml</suiteXmlFile>-->
                     </suiteXmlFiles>
-<!--                    <argLine>&ndash;&gt;-->
-<!--                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"-->
-<!--                    </argLine>-->
+                    <!--                    <argLine>&ndash;&gt;-->
+                    <!--                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"-->
+                    <!--                    </argLine>-->
                     <systemProperties>
                         <property>
                             <name>allure.results.directory</name>
@@ -105,6 +105,17 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-clean-plugin</artifactId>
+            <version>3.1.0</version>
+        </dependency>
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -124,6 +135,7 @@
             <version>1.2.17</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
@@ -135,13 +147,6 @@
             <artifactId>allure-testng</artifactId>
             <version>2.13.5</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi-ooxml</artifactId>
-            <version>4.1.2</version>
-        </dependency>
-
 
     </dependencies>
 
