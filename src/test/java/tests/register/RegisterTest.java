@@ -34,7 +34,7 @@ public class RegisterTest extends TestBase{
         genericHelper.navigateTo("http://demo.guru99.com/test/newtours/register.php");
     }
 
-    //@Test(priority = 0, groups = "P3")
+    @Test(priority = 0, groups = "P3")
     public void verifyTitleOfRegisterPage_0001(){
         String expectedTitle = "Register: Mercury Tours and Travels";
         String actualTitle = genericHelper.getTitleOfWebPage();
@@ -56,35 +56,35 @@ public class RegisterTest extends TestBase{
     }
 
     @Test(priority = 2, groups = "P1", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
-    public void verifyRegistrationWithMandatoryFields_0003() {
+    public void verifyRegistrationWithMandatoryFields_0003() throws InterruptedException {
         String expectedMessage = "Thank you for registering. You may now sign-in using the user name and password you've just entered.";
 
         registerPage.setUsername("qwerty");
         registerPage.setPassword("123");
         registerPage.setConfirmPassword("123");
-//        Thread.sleep(3000);
+//        genericHelper.hardWait(3);
         TestListeners.attachScreenshot("After Filling Register Form",driver);
         registerPage.clickSubmitButton();
-//        Thread.sleep(2000);
+//        genericHelper.hardWait(2);
 
         Assert.assertTrue(registerPage.getSuccessMessage().equals(expectedMessage),"Success Message not matched");
         TestBase.log("Case Pass : Verify Registration With Mandatory Fields 0003");
     }
 
-    //@Test(priority = 3, groups = "P2", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
+    @Test(priority = 3, groups = "P2", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
     public void verifyRegistrationWithBlankMandatoryFields_0004() {
         registerPage.setUsername("");
         registerPage.setPassword("");
         registerPage.setConfirmPassword("");
-//        Thread.sleep(3000);
+//        genericHelper.hardWait(3);
         registerPage.clickSubmitButton();
-//        Thread.sleep(2000);
+//        genericHelper.hardWait(2);
 
         Assert.assertTrue(!genericHelper.isDisplayed(registerPage.successMessage),"Success Message is displayed for Blank Mandatory Fields");
         TestBase.log("Case Pass : Verify Registration With Blank Mandatory Fields 0004");
     }
 
-    //@Test(priority = 4, groups = "P3")
+    @Test(priority = 4, groups = "P3")
     public void verifyAvailableCountries_0005(){
         SoftAssert softAssert = new SoftAssert();
         List<String> expectedCountries = new ArrayList<>();

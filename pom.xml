@@ -81,7 +81,7 @@
                 <configuration>
 <!--                    <testFailureIgnore>true</testFailureIgnore>-->
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/TestNG_Register.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/TestNG.xml</suiteXmlFile>
                     </suiteXmlFiles>
 <!--                    <argLine>&ndash;&gt;-->
 <!--                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"-->
@@ -106,12 +106,6 @@
 
     <dependencies>
 
-<!--        <dependency>-->
-<!--            <groupId>org.apache.maven.plugins</groupId>-->
-<!--            <artifactId>maven-clean-plugin</artifactId>-->
-<!--            <version>3.1.0</version>-->
-<!--        </dependency>-->
-
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
@@ -122,7 +116,6 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.4.0</version>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
@@ -131,7 +124,6 @@
             <version>1.2.17</version>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
@@ -142,6 +134,12 @@
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
             <version>2.13.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.2</version>
         </dependency>
 
 
