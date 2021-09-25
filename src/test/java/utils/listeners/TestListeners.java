@@ -23,7 +23,7 @@ import java.io.IOException;
 
 public class TestListeners implements IInvokedMethodListener, ITestListener {
     private static Logger logger = LogManager.getLogger(TestListeners.class);
-    
+
     public void beforeInvocation(IInvokedMethod method, ITestResult testResult) {
         if(TestBase.classLogs!=null){
             TestBase.classLogs.delete(0,TestBase.classLogs.length());
@@ -37,7 +37,6 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
 //        attachLogs(method.getTestMethod().getMethodName(),method.getTestMethod().getMethodName());
         if(TestBase.classLogs != null){
             attachLogs(method.getTestMethod().getMethodName(),TestBase.classLogs);
-
         }
 
         if(testResult.getThrowable() != null){
@@ -89,6 +88,4 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
         logger.info("Attaching screenshot of URL $$ " + driver.getCurrentUrl());
         Allure.addAttachment("Screenshot_"+name, new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
     }
-
-
 }

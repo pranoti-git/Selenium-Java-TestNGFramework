@@ -18,6 +18,22 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <mainClass>buildXML</mainClass>
+                </configuration>
+            </plugin>
+
+            <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
                 <version>3.1.0</version>
                 <executions>
@@ -38,14 +54,6 @@
                 </executions>
             </plugin>
 
-<!--            <plugin>-->
-<!--                <groupId>org.apache.maven.plugins</groupId>-->
-<!--                <artifactId>maven-compiler-plugin</artifactId>-->
-<!--                <configuration>-->
-<!--                    <source>1.8</source>-->
-<!--                    <target>1.8</target>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -70,13 +78,13 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M5</version>
                 <configuration>
-<!--                    <testFailureIgnore>true</testFailureIgnore>-->
+                    <!--                    <testFailureIgnore>true</testFailureIgnore>-->
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/TestNG_Register.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/TestNG.xml</suiteXmlFile>
                     </suiteXmlFiles>
-<!--                    <argLine>&ndash;&gt;-->
-<!--                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"-->
-<!--                    </argLine>-->
+                    <!--                    <argLine>&ndash;&gt;-->
+                    <!--                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"-->
+                    <!--                    </argLine>-->
                     <systemProperties>
                         <property>
                             <name>allure.results.directory</name>
@@ -96,12 +104,17 @@
     </build>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.0.0</version>
+        </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.apache.maven.plugins</groupId>-->
-<!--            <artifactId>maven-clean-plugin</artifactId>-->
-<!--            <version>3.1.0</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-clean-plugin</artifactId>
+            <version>3.1.0</version>
+        </dependency>
 
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -113,7 +126,6 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.4.0</version>
-            <scope>test</scope>
         </dependency>
 
         <dependency>
@@ -134,7 +146,6 @@
             <artifactId>allure-testng</artifactId>
             <version>2.13.5</version>
         </dependency>
-
 
     </dependencies>
 

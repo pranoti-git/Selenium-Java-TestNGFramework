@@ -153,5 +153,11 @@ public class GenericHelper {
         Action pressEscKey = action.sendKeys(Keys.ESCAPE).build();
         pressEscKey.perform();
     }
+
+    public void hardWait(long timeInSeconds) throws InterruptedException {
+        TestBase.log("Waiting for " + timeInSeconds + " seconds");
+        Thread.sleep(timeInSeconds * 1000);
+        TestBase.log("Waiting Finished");
+    }
 }
 
