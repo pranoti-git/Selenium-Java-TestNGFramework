@@ -33,7 +33,7 @@ public abstract class TestBase {
     public void invokeBrowser(){
         TestBase.log("*************** Invoking Browser ***************");
         browserSetup = new BrowserSetup();
-        driver = browserSetup.invokeWebDriver(logger);
+        driver = browserSetup.invokeWebDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
