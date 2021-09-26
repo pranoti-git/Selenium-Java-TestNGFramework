@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="utils.listeners.TestListeners"/>
   </listeners>
-  <test thread-count="1" name="Register" parallel="tests">
+  <test thread-count="1" name="Login" parallel="tests">
     <groups>
       <run>
         <include name="P1"/>
@@ -13,7 +13,7 @@
       </run>
     </groups>
     <classes>
-      <class name="tests.register.RegisterTest"/>
+      <class name="tests.login.LoginTest"/>
     </classes>
-  </test> <!-- Register -->
+  </test> <!-- Login -->
 </suite> <!-- Automation Suite -->

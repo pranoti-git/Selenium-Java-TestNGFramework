@@ -37,12 +37,10 @@ public class RegisterPage {
     @FindBy(xpath = "//b[contains(text(),'Dear')]/ancestor::p/following-sibling::p[1]/font")
     public WebElement successMessage;
 
-    private Logger logger;
     private GenericHelper genericHelper;
 
     public RegisterPage(WebDriver driver){
         PageFactory.initElements(driver,this);
-        this.logger = LogManager.getLogger(this.getClass());;
         genericHelper = new GenericHelper(driver);
     }
 

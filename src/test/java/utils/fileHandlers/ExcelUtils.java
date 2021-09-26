@@ -9,8 +9,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class excelUtils {
-    private static Logger logger = LogManager.getLogger(excelUtils.class);
+public class ExcelUtils {
+    private static Logger logger = LogManager.getLogger(ExcelUtils.class);
     public static String readPropertyFromExcel(String sheetName, String property) throws IOException {
         logger.info("Reading Property '" + property +"' from sheet '" + sheetName + "'");
         String value = "";

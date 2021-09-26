@@ -18,12 +18,10 @@ import java.util.List;
 public class RegisterTest extends TestBase{
     RegisterPage registerPage;
     GenericHelper genericHelper;
-    private Logger logger;
 
 
     @BeforeClass(alwaysRun = true)
     public void initialize(){
-        logger = LogManager.getLogger(this.getClass());
         registerPage = new RegisterPage(driver);
         genericHelper = new GenericHelper(driver);
     }
@@ -31,19 +29,19 @@ public class RegisterTest extends TestBase{
     @BeforeMethod(alwaysRun = true)
     public void navigateToRegisterPage(){
         TestBase.log("Navigating to Register Page");
-        genericHelper.navigateTo("http://demo.guru99.com/test/newtours/register.php");
+        genericHelper.navigateTo(TestBase.baseURL+"/register.php");
     }
 
     @Test(priority = 0, groups = "P3")
-    public void verifyTitleOfRegisterPage_0001(){
+    public void verifyTitleOfRegisterPage_RG0001(){
         String expectedTitle = "Register: Mercury Tours and Travels";
         String actualTitle = genericHelper.getTitleOfWebPage();
         Assert.assertTrue(expectedTitle.equals(actualTitle),"Title not matched. Actual title is : '" + actualTitle + "'. Expected Title is : '" + expectedTitle +"'");
-        TestBase.log("Case Pass : Verify Title Of Register Page 0001");
+        TestBase.log("Case Pass : Verify Title Of Register Page RG0001");
     }
 
     @Test(priority = 1, groups = "P1")
-    public void verifyMandatoryFieldsDisplayedInRegisterPage_0002(){
+    public void verifyMandatoryFieldsDisplayedInRegisterPage_RG0002(){
         SoftAssert softAssert = new SoftAssert();
 
         softAssert.assertTrue(genericHelper.isDisplayed(registerPage.usernameInput),"Username Input not displayed");
@@ -52,11 +50,11 @@ public class RegisterTest extends TestBase{
         softAssert.assertTrue(genericHelper.isDisplayed(registerPage.submitButton),"Submit Button not displayed");
 
         softAssert.assertAll();
-        TestBase.log("Case Pass : Verify Mandatory Fields Displayed In Register Page 0002");
+        TestBase.log("Case Pass : Verify Mandatory Fields Displayed In Register Page RG0002");
     }
 
-    @Test(priority = 2, groups = "P1", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
-    public void verifyRegistrationWithMandatoryFields_0003() throws InterruptedException {
+    @Test(priority = 2, groups = "P1", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_RG0002")
+    public void verifyRegistrationWithMandatoryFields_RG0003() throws InterruptedException {
         String expectedMessage = "Thank you for registering. You may now sign-in using the user name and password you've just entered.";
 
         registerPage.setUsername("qwerty");
@@ -68,11 +66,11 @@ public class RegisterTest extends TestBase{
 //        genericHelper.hardWait(2);
 
         Assert.assertTrue(registerPage.getSuccessMessage().equals(expectedMessage),"Success Message not matched");
-        TestBase.log("Case Pass : Verify Registration With Mandatory Fields 0003");
+        TestBase.log("Case Pass : Verify Registration With Mandatory Fields RG0003");
     }
 
-    @Test(priority = 3, groups = "P2", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_0002")
-    public void verifyRegistrationWithBlankMandatoryFields_0004() throws InterruptedException {
+    @Test(priority = 3, groups = "P2", dependsOnMethods = "verifyMandatoryFieldsDisplayedInRegisterPage_RG0002")
+    public void verifyRegistrationWithBlankMandatoryFields_RG0004() throws InterruptedException {
         registerPage.setUsername("");
         registerPage.setPassword("");
         registerPage.setConfirmPassword("");
@@ -81,11 +79,11 @@ public class RegisterTest extends TestBase{
 //        genericHelper.hardWait(2);
 
         Assert.assertTrue(!genericHelper.isDisplayed(registerPage.successMessage),"Success Message is displayed for Blank Mandatory Fields");
-        TestBase.log("Case Pass : Verify Registration With Blank Mandatory Fields 0004");
+        TestBase.log("Case Pass : Verify Registration With Blank Mandatory Fields RG0004");
     }
 
     @Test(priority = 4, groups = "P3")
-    public void verifyAvailableCountries_0005(){
+    public void verifyAvailableCountries_RG0005(){
         SoftAssert softAssert = new SoftAssert();
         List<String> expectedCountries = new ArrayList<>();
         expectedCountries.add("INDIA");
@@ -105,7 +103,7 @@ public class RegisterTest extends TestBase{
         }
 
         softAssert.assertAll();
-        TestBase.log("Case Pass : Verify Available Countries 0005");
+        TestBase.log("Case Pass : Verify Available Countries RG0005");
     }
 
 }

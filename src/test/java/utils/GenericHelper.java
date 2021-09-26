@@ -41,6 +41,12 @@ public class GenericHelper {
         return driver.getTitle();
     }
 
+    public String getURL(){
+        TestBase.log("Getting URL of Web Page");
+        TestBase.log("URL is : " + driver.getCurrentUrl());
+        return driver.getCurrentUrl();
+    }
+
     public void setText(WebElement element, String text){
         element.clear();
         element.sendKeys(text);

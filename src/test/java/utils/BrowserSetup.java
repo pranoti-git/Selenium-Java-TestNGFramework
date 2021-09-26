@@ -8,7 +8,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import utils.fileHandlers.excelUtils;
+import utils.fileHandlers.ExcelUtils;
+
+import java.util.Locale;
 
 public class BrowserSetup {
     public static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
@@ -43,11 +45,11 @@ public class BrowserSetup {
 
     public WebDriver invokeWebDriver() {
         try {
-            switch (excelUtils.readPropertyFromExcel("Configuration", "Browser")) {
-                case "Chrome": launchChromeBrowser();
+            switch (ExcelUtils.readPropertyFromExcel("Configuration", "Browser").toUpperCase()) {
+                case "CHROME": launchChromeBrowser();
                     break;
 
-                case "Firefox": launchFirefoxBrowser();
+                case "FIREFOX": launchFirefoxBrowser();
                     break;
 
                 default: TestBase.log("Launching Default Browser");
