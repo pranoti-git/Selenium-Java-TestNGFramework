@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import javax.swing.*;
 import java.util.ArrayList;
@@ -136,6 +138,17 @@ public class GenericHelper {
         }
         if(!elementFound){
             logger.error("Element with following text not found : " + text);
+        }
+    }
+
+    public void selectByVisibleText(WebElement element, String text){
+        Select select = new Select(element);
+        try{
+            select.selectByVisibleText(text);
+            TestBase.log("Selected by Visible text : " + text);
+        }catch (Exception e){
+            TestBase.log("No Visible Text found for : " + text);
+//            Assert.fail("No Visible Text found for : " + text);
         }
     }
 

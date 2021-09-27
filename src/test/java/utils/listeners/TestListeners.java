@@ -12,10 +12,15 @@ import org.testng.IInvokedMethodListener;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.reporters.Files;
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 import utils.BrowserSetup;
 import utils.TestBase;
 
+import javax.imageio.ImageIO;
 import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
 
@@ -87,5 +92,22 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
     public static void attachScreenshot(String name,WebDriver driver) {
         logger.info("Attaching screenshot of URL $$ " + driver.getCurrentUrl());
         Allure.addAttachment("Screenshot_"+name, new ByteArrayInputStream(((TakesScreenshot)driver).getScreenshotAs(OutputType.BYTES)));
+    }
+
+    @Attachment(value = "Screenshot", type = "image/png")
+    public static void attachScreenshotFullPage(String name,WebDriver driver){
+        logger.info("Attaching Full Page Screenshot of URL $$ " + driver.getCurrentUrl());
+        try{
+            Screenshot screenshot=new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(driver);
+            ByteArrayOutputStream bos = new ByteArrayOutputStream();
+            ImageIO.write(screenshot.getImage(), "jpg", bos );
+            byte [] data = bos.toByteArray();
+            Allure.addAttachment("Screenshot_"+name, new ByteArrayInputStream(data));
+        }
+        catch (IOException ioe){
+            logger.info("Error is attaching fullpage screenshot. Hence attaching normal screenshot");
+            attachScreenshot(name, driver);
+        }
+
     }
 }
