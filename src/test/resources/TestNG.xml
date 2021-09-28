@@ -16,4 +16,28 @@
       <class name="tests.register.RegisterTest"/>
     </classes>
   </test> <!-- Register -->
+  <test thread-count="1" name="Login" parallel="tests">
+    <groups>
+      <run>
+        <include name="P1"/>
+        <include name="P2"/>
+        <include name="P3"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.login.LoginTest"/>
+    </classes>
+  </test> <!-- Login -->
+  <test thread-count="1" name="Find Flight" parallel="tests">
+    <groups>
+      <run>
+        <include name="P1"/>
+        <include name="P2"/>
+        <include name="P3"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.flight.FlightTest"/>
+    </classes>
+  </test> <!-- Find Flight -->
 </suite> <!-- Automation Suite -->

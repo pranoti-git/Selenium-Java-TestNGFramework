@@ -21,6 +21,9 @@ public class buildXML {
     private static List<HashMap<String, String>> data;
     private static Logger logger;
 
+    private static FileInputStream fis ;
+    private static XSSFWorkbook workbook ;
+
     public static void main(String ... a) throws IOException {
         setLogger();
         logger.info("::::::::::     Creating TestNG.xml File     ::::::::::");
@@ -44,8 +47,8 @@ public class buildXML {
     }
 
     public static void getDataFromSheet() throws IOException {
-        FileInputStream fis = new FileInputStream(testCaseMaster);
-        XSSFWorkbook workbook = new XSSFWorkbook(fis);
+        fis = new FileInputStream(testCaseMaster);
+        workbook = new XSSFWorkbook(fis);
         data = new ArrayList<>();
         List<String> sheets = new ArrayList<>();
         sheets.add("Test");
@@ -137,7 +140,7 @@ public class buildXML {
         XmlSuite suite = new XmlSuite();
         suite.setName("Automation Suite");
         suite.setParallel(XmlSuite.ParallelMode.TESTS);
-        suite.setThreadCount(1);
+        suite.setThreadCount((int)Float.parseFloat(workbook.getSheet("Configuration").getRow(2).getCell(1).toString()));
         XmlTest test;
         XmlClass xmlClass;
         XmlGroups xmlGroups;

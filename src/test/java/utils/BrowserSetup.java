@@ -1,44 +1,68 @@
 package utils;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.apache.log4j.Logger;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import utils.fileHandlers.ExcelUtils;
 
 public class BrowserSetup {
     public static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
+    public static WebDriver driver;
     private Platform platform;
-    public WebDriver driver;
 
-    public WebDriver invokeWebDriver(Logger logger) {
+    public static synchronized WebDriver getDriver() {
+        return threadDriver.get();
+    }
+
+    public static WebDriver launchChromeBrowser() {
+        TestBase.log("Launching Chrome Browser");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--incognito");
+
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver(options);
+        return driver;
+    }
+
+    public static WebDriver launchFirefoxBrowser() {
+        TestBase.log("Launching Firefox Browser");
+        DesiredCapabilities caps = new DesiredCapabilities();
+        FirefoxOptions options = new FirefoxOptions();
+        options.addArguments("-private");
+        caps.setCapability("moz:firefoxOptions", options);
+
+        WebDriverManager.firefoxdriver().setup();
+        driver = new FirefoxDriver(caps);
+        return driver;
+    }
+
+    public WebDriver invokeWebDriver() {
         try {
-//        String downloadPath = "./AutomationDownloads";
-            TestBase.log("Setting properties for browser");
-            ChromeOptions options = new ChromeOptions();
-            options.addArguments("--incognito");
+            switch (ExcelUtils.readPropertyFromExcel("Configuration", "Browser").toUpperCase()) {
+                case "CHROME": launchChromeBrowser();
+                    break;
 
-            WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver(options);
+                case "FIREFOX": launchFirefoxBrowser();
+                    break;
+
+                default: TestBase.log("Launching Default Browser");
+                    launchChromeBrowser();
+            }
+
             threadDriver.set(driver);
-//            return driver;
-        return getDriver();
-        }
-        catch(Exception e){
+            return getDriver();
+        } catch (Exception e) {
             TestBase.log("Exception occurred.\n" + e.getStackTrace());
-//            return driver;
             return getDriver();
         }
     }
 
-    public static synchronized WebDriver getDriver(){
-        return threadDriver.get();
-//        return driver;
-    }
-
-
-
+    //this can be used to invoke platform specific browser
     private Platform getCurrentPlatform() {
         String currentPlatform = System.getProperty("os.name").toLowerCase();
         if (currentPlatform.contains("win")) {

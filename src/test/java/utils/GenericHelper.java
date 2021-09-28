@@ -8,6 +8,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 
 import javax.swing.*;
 import java.util.ArrayList;
@@ -41,6 +43,12 @@ public class GenericHelper {
         return driver.getTitle();
     }
 
+    public String getURL(){
+        TestBase.log("Getting URL of Web Page");
+        TestBase.log("URL is : " + driver.getCurrentUrl());
+        return driver.getCurrentUrl();
+    }
+
     public void setText(WebElement element, String text){
         element.clear();
         element.sendKeys(text);
@@ -59,13 +67,11 @@ public class GenericHelper {
 
     public void clickWithRetryByJS(WebElement element){
         try{
-            element.click();
-            TestBase.log("Clicked");
+            click(element);
         }
         catch (Exception e){
             TestBase.log("Retry click by JS");
-            js.executeScript("arguments[0].click()",element);
-            TestBase.log("Clicked using JS");
+            clickByJS(element);
         }
     }
 
@@ -130,6 +136,17 @@ public class GenericHelper {
         }
         if(!elementFound){
             logger.error("Element with following text not found : " + text);
+        }
+    }
+
+    public void selectByVisibleText(WebElement element, String text){
+        Select select = new Select(element);
+        try{
+            select.selectByVisibleText(text);
+            TestBase.log("Selected by Visible text : " + text);
+        }catch (Exception e){
+            TestBase.log("No Visible Text found for : " + text);
+//            Assert.fail("No Visible Text found for : " + text);
         }
     }
 

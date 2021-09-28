@@ -8,8 +8,11 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
+import utils.fileHandlers.ExcelUtils;
+import utils.fileHandlers.PropertyUtils;
 import utils.listeners.TestListeners;
 
+import java.io.IOException;
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
@@ -21,6 +24,7 @@ public abstract class TestBase {
     protected WebDriverWait wait;
     private static Logger logger;
     public static StringBuilder classLogs;
+    protected static String baseURL;
 
     @BeforeTest(alwaysRun = true)
     public void setLogger(){
@@ -33,7 +37,7 @@ public abstract class TestBase {
     public void invokeBrowser(){
         TestBase.log("*************** Invoking Browser ***************");
         browserSetup = new BrowserSetup();
-        driver = browserSetup.invokeWebDriver(logger);
+        driver = browserSetup.invokeWebDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
@@ -42,14 +46,16 @@ public abstract class TestBase {
     }
 
     @BeforeTest(alwaysRun = true,dependsOnMethods = "invokeBrowser")
-    public void navigateToBaseURL(){
-        String url = "http://demo.guru99.com/test/newtours/";
-        TestBase.log("Navigating to Base URL " + url);
+    public void navigateToBaseURL() throws IOException {
+        String env = ExcelUtils.readPropertyFromExcel("Configuration", "Environment");
+        TestBase.log("Environment is : " + env);
+        baseURL = PropertyUtils.getProperty(env);
+        TestBase.log("Navigating to Base URL " + baseURL);
         try{
-            driver.get(url);
+            driver.get(baseURL);
         }
         catch (Exception e){
-            Assert.fail("Unable to navigate to "+ url +"\nFollowing Error occurred\n" + e.getMessage());
+            Assert.fail("Unable to navigate to "+ baseURL +"\nFollowing Error occurred\n" + e.getMessage());
         }
     }
 
