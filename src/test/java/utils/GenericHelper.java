@@ -67,13 +67,11 @@ public class GenericHelper {
 
     public void clickWithRetryByJS(WebElement element){
         try{
-            element.click();
-            TestBase.log("Clicked");
+            click(element);
         }
         catch (Exception e){
             TestBase.log("Retry click by JS");
-            js.executeScript("arguments[0].click()",element);
-            TestBase.log("Clicked using JS");
+            clickByJS(element);
         }
     }
 

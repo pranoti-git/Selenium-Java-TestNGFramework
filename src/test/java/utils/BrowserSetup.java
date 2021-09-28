@@ -10,8 +10,6 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import utils.fileHandlers.ExcelUtils;
 
-import java.util.Locale;
-
 public class BrowserSetup {
     public static ThreadLocal<WebDriver> threadDriver = new ThreadLocal<>();
     public static WebDriver driver;
