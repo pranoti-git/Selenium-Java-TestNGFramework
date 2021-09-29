@@ -50,7 +50,7 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
                 testResult.setThrowable(new AssertionError(throwable.getMessage()));
             }
             else{
-                testResult.setThrowable(new Exception(throwable.getMessage()));
+                testResult.setThrowable(new AssertionError(throwable.getMessage()));
             }
             logger.info(testResult.getThrowable().getMessage());
             attachScreenshot(method.getTestMethod().getMethodName(),BrowserSetup.getDriver());
