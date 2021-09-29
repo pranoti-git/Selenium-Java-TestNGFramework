@@ -45,6 +45,13 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
         }
 
         if(testResult.getThrowable() != null){
+            Throwable throwable = testResult.getThrowable();
+            if(throwable instanceof AssertionError){
+                testResult.setThrowable(new AssertionError(throwable.getMessage()));
+            }
+            else{
+                testResult.setThrowable(new Exception(throwable.getMessage()));
+            }
             logger.info(testResult.getThrowable().getMessage());
             attachScreenshot(method.getTestMethod().getMethodName(),BrowserSetup.getDriver());
         }
@@ -58,13 +65,6 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
 
     @Override
     public void onTestFailure(ITestResult testResult){
-        Throwable throwable = testResult.getThrowable();
-        if(throwable instanceof AssertionError){
-            testResult.setThrowable(new AssertionError(throwable.getMessage()));
-        }
-        else{
-            testResult.setThrowable(new Exception(throwable.getMessage()));
-        }
         logger.info("Case Failed $$ " + testResult.getMethod().getMethodName());
     }
 
