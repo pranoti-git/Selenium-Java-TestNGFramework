@@ -58,6 +58,7 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
 
     @Override
     public void onTestFailure(ITestResult testResult){
+        testResult.setStatus(ITestResult.FAILURE);
         logger.info("Case Failed $$ " + testResult.getMethod().getMethodName());
     }
 
