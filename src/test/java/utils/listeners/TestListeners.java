@@ -43,7 +43,7 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
         if(TestBase.classLogs != null){
             attachLogs(method.getTestMethod().getMethodName(),TestBase.classLogs);
         }
-
+        ITestListener.super.onTestFailure(testResult);
         if(testResult.getThrowable() != null){
             Throwable throwable = testResult.getThrowable();
             if(throwable instanceof AssertionError){
@@ -65,7 +65,7 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
 
     @Override
     public void onTestFailure(ITestResult testResult){
-        ITestListener.super.onTestFailure(testResult);
+//        ITestListener.super.onTestFailure(testResult);
         logger.info("Case Failed $$ " + testResult.getMethod().getMethodName());
     }
 
