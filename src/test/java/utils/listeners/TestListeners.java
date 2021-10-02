@@ -38,20 +38,10 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
 
     public void afterInvocation(IInvokedMethod method, ITestResult testResult) {
         logger.info("Execution Finished For $$ " + method.getTestMethod().getMethodName() + " of Class : " + testResult.getTestClass());
-//                attachLogs(testResult.getMethod().getConstructorOrMethod().getName());
-//        attachLogs(method.getTestMethod().getMethodName(),method.getTestMethod().getMethodName());
         if(TestBase.classLogs != null){
             attachLogs(method.getTestMethod().getMethodName(),TestBase.classLogs);
         }
-        ITestListener.super.onTestFailure(testResult);
         if(testResult.getThrowable() != null){
-            Throwable throwable = testResult.getThrowable();
-            if(throwable instanceof AssertionError){
-                testResult.setThrowable(new AssertionError(throwable.getMessage()));
-            }
-            else{
-                testResult.setThrowable(new AssertionError(throwable.getMessage()));
-            }
             logger.info(testResult.getThrowable().getMessage());
             attachScreenshot(method.getTestMethod().getMethodName(),BrowserSetup.getDriver());
         }
@@ -65,7 +55,6 @@ public class TestListeners implements IInvokedMethodListener, ITestListener {
 
     @Override
     public void onTestFailure(ITestResult testResult){
-//        ITestListener.super.onTestFailure(testResult);
         logger.info("Case Failed $$ " + testResult.getMethod().getMethodName());
     }
 
