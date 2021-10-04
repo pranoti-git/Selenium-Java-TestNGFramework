@@ -15,6 +15,7 @@ import java.util.*;
 public class ExcelUtils {
     private static String testCaseMasterFilePath = "src/test/resources/TestCaseMaster.xlsx";
     private static Logger logger = LogManager.getLogger(ExcelUtils.class);
+
     public static String readPropertyFromExcel(String sheetName, String property) throws IOException {
         logger.info("Reading Property '" + property +"' from sheet '" + sheetName + "'");
         String value = "";
