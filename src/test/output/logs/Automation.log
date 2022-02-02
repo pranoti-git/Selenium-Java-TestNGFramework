@@ -10299,3 +10299,1875 @@ Password:admin
 2021-10-04 20:34:29,272 - Web Browser Closed
 2021-10-04 20:34:29,272 - Execution Finished For $$ closeDriver of Class : [TestClass name=class tests.flight.FlightTest]
 2021-10-04 20:34:29,272 - Attaching Logs for closeDriver
+2021-12-13 20:41:45,076 - Method Started $$ setLogger of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:45,080 - *************** Logger Set ***************
+2021-12-13 20:41:45,080 - Execution Finished For $$ setLogger of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:45,084 - Attaching Logs for setLogger
+2021-12-13 20:41:45,088 - Method Started $$ invokeBrowser of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:45,088 - *************** Invoking Browser ***************
+2021-12-13 20:41:45,092 - Reading Property 'Browser' from sheet 'Configuration'
+2021-12-13 20:41:45,696 - Value is : Chrome
+2021-12-13 20:41:45,696 - Launching Chrome Browser
+2021-12-13 20:41:53,991 - *************** Invoking Finished ***************
+2021-12-13 20:41:53,991 - Execution Finished For $$ invokeBrowser of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:53,991 - Attaching Logs for invokeBrowser
+2021-12-13 20:41:53,995 - Method Started $$ navigateToBaseURL of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:53,995 - Reading Property 'Environment' from sheet 'Configuration'
+2021-12-13 20:41:54,067 - Value is : Automation
+2021-12-13 20:41:54,067 - Environment is : Automation
+2021-12-13 20:41:54,067 - Reading property : Automation
+2021-12-13 20:41:54,071 - Value is : http://demo.guru99.com/test/newtours
+2021-12-13 20:41:54,071 - Navigating to Base URL http://demo.guru99.com/test/newtours
+2021-12-13 20:41:57,451 - Execution Finished For $$ navigateToBaseURL of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:57,451 - Attaching Logs for navigateToBaseURL
+2021-12-13 20:41:57,467 - Method Started $$ initialize of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:57,491 - Execution Finished For $$ initialize of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:57,491 - Attaching Logs for initialize
+2021-12-13 20:41:57,507 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:57,507 - Navigating to Register Page
+2021-12-13 20:41:57,507 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2021-12-13 20:41:58,428 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:58,428 - Attaching Logs for navigateToRegisterPage
+2021-12-13 20:41:58,468 - Method Started $$ verifyTitleOfRegisterPage_RG0001 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:58,468 - Getting title of Web Page
+2021-12-13 20:41:58,476 - Title is : Register: Mercury Tours
+2021-12-13 20:41:58,488 - Execution Finished For $$ verifyTitleOfRegisterPage_RG0001 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:58,488 - Attaching Logs for verifyTitleOfRegisterPage_RG0001
+2021-12-13 20:41:58,488 - Title not matched. Actual title is : 'Register: Mercury Tours'. Expected Title is : 'Register: Mercury Tours and Travels' expected [true] but found [false]
+2021-12-13 20:41:58,496 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register.php
+2021-12-13 20:41:58,726 - Case Failed $$ verifyTitleOfRegisterPage_RG0001
+2021-12-13 20:41:58,746 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:58,746 - Navigating to Register Page
+2021-12-13 20:41:58,746 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2021-12-13 20:41:59,469 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:59,469 - Attaching Logs for navigateToRegisterPage
+2021-12-13 20:41:59,473 - Method Started $$ verifyMandatoryFieldsDisplayedInRegisterPage_RG0002 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:59,737 - Case Pass : Verify Mandatory Fields Displayed In Register Page RG0002
+2021-12-13 20:41:59,737 - Execution Finished For $$ verifyMandatoryFieldsDisplayedInRegisterPage_RG0002 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:59,737 - Attaching Logs for verifyMandatoryFieldsDisplayedInRegisterPage_RG0002
+2021-12-13 20:41:59,741 - Case Pass $$ verifyMandatoryFieldsDisplayedInRegisterPage_RG0002
+2021-12-13 20:41:59,745 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register.php
+2021-12-13 20:41:59,985 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:41:59,985 - Navigating to Register Page
+2021-12-13 20:41:59,985 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2021-12-13 20:42:00,762 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:00,762 - Attaching Logs for navigateToRegisterPage
+2021-12-13 20:42:00,766 - Method Started $$ verifyRegistrationWithMandatoryFields_RG0003 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:00,766 - Setting Username as : qwerty
+2021-12-13 20:42:00,987 - Text set : qwerty
+2021-12-13 20:42:00,987 - Setting Password as : 123
+2021-12-13 20:42:01,152 - Text set : 123
+2021-12-13 20:42:01,152 - Setting Confirm Password as : 123
+2021-12-13 20:42:01,316 - Text set : 123
+2021-12-13 20:42:01,324 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register.php
+2021-12-13 20:42:01,537 - Clicking Submit button
+2021-12-13 20:42:02,720 - Clicked
+2021-12-13 20:42:02,720 - Getting Success Message
+2021-12-13 20:42:02,760 - Text is : Thank you for registering. You may now sign-in using the user name and password you've just entered.
+2021-12-13 20:42:02,788 - Case Pass : Verify Registration With Mandatory Fields RG0003
+2021-12-13 20:42:02,788 - Execution Finished For $$ verifyRegistrationWithMandatoryFields_RG0003 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:02,788 - Attaching Logs for verifyRegistrationWithMandatoryFields_RG0003
+2021-12-13 20:42:02,792 - Case Pass $$ verifyRegistrationWithMandatoryFields_RG0003
+2021-12-13 20:42:02,796 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register_sucess.php
+2021-12-13 20:42:03,020 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:03,020 - Navigating to Register Page
+2021-12-13 20:42:03,020 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2021-12-13 20:42:03,801 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:03,801 - Attaching Logs for navigateToRegisterPage
+2021-12-13 20:42:03,809 - Method Started $$ verifyRegistrationWithBlankMandatoryFields_RG0004 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:03,809 - Setting Username as : 
+2021-12-13 20:42:03,961 - Text set : 
+2021-12-13 20:42:03,961 - Setting Password as : 
+2021-12-13 20:42:04,109 - Text set : 
+2021-12-13 20:42:04,109 - Setting Confirm Password as : 
+2021-12-13 20:42:04,253 - Text set : 
+2021-12-13 20:42:04,253 - Clicking Submit button
+2021-12-13 20:42:05,425 - Clicked
+2021-12-13 20:42:05,485 - Execution Finished For $$ verifyRegistrationWithBlankMandatoryFields_RG0004 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:05,485 - Attaching Logs for verifyRegistrationWithBlankMandatoryFields_RG0004
+2021-12-13 20:42:05,489 - Success Message is displayed for Blank Mandatory Fields expected [true] but found [false]
+2021-12-13 20:42:05,497 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register_sucess.php
+2021-12-13 20:42:05,725 - Case Failed $$ verifyRegistrationWithBlankMandatoryFields_RG0004
+2021-12-13 20:42:05,729 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:05,729 - Navigating to Register Page
+2021-12-13 20:42:05,733 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2021-12-13 20:42:06,474 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:06,474 - Attaching Logs for navigateToRegisterPage
+2021-12-13 20:42:06,478 - Method Started $$ verifyAvailableCountries_RG0005 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:06,478 - Opening country dropdown
+2021-12-13 20:42:06,622 - Clicked
+2021-12-13 20:42:06,622 - Getting options in countries
+2021-12-13 20:42:10,776 - Text for List is : 
+[ALBANIA, ALGERIA, AMERICAN SAMOA, ANDORRA, ANGOLA, ANGUILLA, ANTARCTICA, ANTIGUA AND BARBUDA, ARGENTINA, ARMENIA, ARUBA, ASHMORE AND CARTIER ISLANDS, AUSTRALIA, AUSTRIA, AZERBAIJAN, BAHAMAS, BAHRAIN, BAKER ISLAND, BANGLADESH, BARBADOS, BASSA DE INDIA, BELARUS, BELGIUM, BELIZE, BENIN, BERMUDA, BHUTAN, BOLIVIA, BOSNIA AND HERZEGOVINA, BOTSWANA, BOUVET ISLAND, BRAZIL, BRITISH INDIAN OCEAN TERRITORY, BRITISH VIRGIN ISLANDS, BRUNEI, BULGARIA, BURKINA FASO, BURMA, BURUNDI, CAMBODIA, CAMEROON, CANADA, CAPE VERDE, CAYMAN ISLANDS, CENTRAL AFRICAN REPUBLIC, CHAD, CHILE, CHINA, CHRISTMAS ISLAND, CLIPPERTON ISLAND, COCOS (KEELING) ISLANDS, COLOMBIA, COMOROS, CONGO, COOK ISLANDS, CORAL SEA ISLANDS, COSTA RICA, COTE D'IVOIRE, CROATIA, CUBA, CYPRUS, CZECH REPUBLIC, DENMARK, DJIBOUTI, DOMINICA, DOMINICAN REPUBLIC, ECUADOR, EGYPT, EL SALVADOR, EQUATORIAL GUINEA, ERITREA, ESTONIA, ETHIOPIA, EUROPA ISLAND, FALKLAND ISLANDS, FAROE ISLANDS, FIJI, FINLAND, FRANCE, FRENCH GUIANA, FRENCH POLYNESIA, FRENCH SOUTHERN AND ANTARCTIC LANDS, GABON, GAMBIA, THE, GAZA STRIP, GEORGIA, GERMANY, GHANA, GIBRALTAR, GLORIOSO ISLANDS, GREECE, GREENLAND, GRENADA, GUADELOUPE, GUAM, GUATEMALA, GUERNSEY, GUINEA, GUINEA-BISSAU, GUYANA, HAITI, HEARD ISLAND AND MCDONALD ISLANDS, HONDURAS, HONG KONG, HOWLAND ISLAND, HUNGARY, ICELAND, INDIA, INDONESIA, IRAN, IRAQ, IRELAND, ISRAEL, ITALY, JAMAICA, JAN MAYEN, JAPAN, JARVIS ISLAND, JERSEY, JOHNSTON ATOLL, JORDAN, JUAN DE NOVA ISLAND, KAZAKHSTAN, KENYA, KINGMAN REEF, KIRIBATI, KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF, KOREA, REPUBLIC OF, KUWAIT, KYRGYZSTAN, LAOS, LATVIA, LEBANON, LESOTHO, LIBERIA, LIBYA, LIECHTENSTEIN, LITHUANIA, LUXEMBOURG, MACAU, MACEDONIA, FORMER REPUBLIC OF, MADAGASCAR, MALAWI, MALAYSIA, MALDIVES, MALI, MALTA, MAN, ISLE OF, MARSHALL ISLANDS, MARTINIQUE, MAURITANIA, MAURITIUS, MAYOTTE, MEXICO, MICRONESIA, MIDWAY ISLANDS, MOLDOVA, MONACO, MONGOLIA, MONTENEGRO, MONTSERRAT, MOROCCO, MOZAMBIQUE, NAMIBIA, NAURU, NAVASSA ISLAND, NEPAL, NETHERLANDS, NETHERLANDS ANTILLES, NEW CALEDONIA, NEW ZEALAND, NICARAGUA, NIGER, NIGERIA, NIUE, NO MANS LAND, NORFOLK ISLAND, NORTHERN MARIANA ISLANDS, NORWAY, OCEANS, OMAN, PAKISTAN, PALMYRA ATOLL, PANAMA, PAPUA NEW GUINEA, PARACEL ISLANDS, PARAGUAY, PERU, PHILIPPINES, PITCAIRN ISLANDS, POLAND, PORTUGAL, PUERTO RICO, QATAR, REUNION, ROMANIA, RUSSIA, RWANDA, SAN MARINO, SAO TOME AND PRINCIPE, SAUDI ARABIA, SENEGAL, SERBIA, SEYCHELLES, SIERRA LEONE, SINGAPORE, SLOVAKIA, SLOVENIA, SOLOMON ISLANDS, SOMALIA, SOUTH AFRICA, SOVIET UNION, SPAIN, SPRATLY ISLANDS, SRI LANKA, ST. HELENA, ST. KITTS AND NEVIS, ST. LUCIA, ST. PIERRE AND MIQUELON, ST. VINCENT AND THE GRENADINES, SUDAN, SURINAME, SVALBARD, SWAZILAND, SWEDEN, SWITZERLAND, SYRIA, TAIWAN, TAJIKISTAN, TANZANIA, UNITED REPUBLIC OF, THAILAND, TOGO, TOKELAU, TONGA, TRINIDAD AND TOBAGO, TROMELIN ISLAND, TUNISIA, TURKEY, TURKMENISTAN, TURKS AND CAICOS ISLANDS, TUVALU, UGANDA, UKRAINE, UNDERSEA FEATURES, UNITED ARAB EMIRATES, UNITED KINGDOM, UNITED STATES, URUGUAY, UZBEKISTAN, VANUATU, VATICAN CITY, VENEZUELA, VIETNAM, VIRGIN ISLANDS, WAKE ISLAND, WALLIS AND FUTUNA, WEST BANK, WESTERN SAHARA, WESTERN SAMOA, YEMEN, YUGOSLAVIA, ZAIRE, ZAMBIA, ZIMBABWE]
+2021-12-13 20:42:10,784 - Execution Finished For $$ verifyAvailableCountries_RG0005 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:10,784 - Attaching Logs for verifyAvailableCountries_RG0005
+2021-12-13 20:42:10,784 - The following asserts failed:
+	Following country not displayed : ARCTIC expected [true] but found [false],
+	Following country displayed Extra : ALBANIA expected [true] but found [false],
+	Following country displayed Extra : ALGERIA expected [true] but found [false],
+	Following country displayed Extra : AMERICAN SAMOA expected [true] but found [false],
+	Following country displayed Extra : ANDORRA expected [true] but found [false],
+	Following country displayed Extra : ANGOLA expected [true] but found [false],
+	Following country displayed Extra : ANGUILLA expected [true] but found [false],
+	Following country displayed Extra : ANTARCTICA expected [true] but found [false],
+	Following country displayed Extra : ANTIGUA AND BARBUDA expected [true] but found [false],
+	Following country displayed Extra : ARGENTINA expected [true] but found [false],
+	Following country displayed Extra : ARMENIA expected [true] but found [false],
+	Following country displayed Extra : ARUBA expected [true] but found [false],
+	Following country displayed Extra : ASHMORE AND CARTIER ISLANDS expected [true] but found [false],
+	Following country displayed Extra : AUSTRALIA expected [true] but found [false],
+	Following country displayed Extra : AUSTRIA expected [true] but found [false],
+	Following country displayed Extra : AZERBAIJAN expected [true] but found [false],
+	Following country displayed Extra : BAHAMAS expected [true] but found [false],
+	Following country displayed Extra : BAHRAIN expected [true] but found [false],
+	Following country displayed Extra : BAKER ISLAND expected [true] but found [false],
+	Following country displayed Extra : BANGLADESH expected [true] but found [false],
+	Following country displayed Extra : BARBADOS expected [true] but found [false],
+	Following country displayed Extra : BASSA DE INDIA expected [true] but found [false],
+	Following country displayed Extra : BELARUS expected [true] but found [false],
+	Following country displayed Extra : BELGIUM expected [true] but found [false],
+	Following country displayed Extra : BELIZE expected [true] but found [false],
+	Following country displayed Extra : BENIN expected [true] but found [false],
+	Following country displayed Extra : BERMUDA expected [true] but found [false],
+	Following country displayed Extra : BHUTAN expected [true] but found [false],
+	Following country displayed Extra : BOLIVIA expected [true] but found [false],
+	Following country displayed Extra : BOSNIA AND HERZEGOVINA expected [true] but found [false],
+	Following country displayed Extra : BOTSWANA expected [true] but found [false],
+	Following country displayed Extra : BOUVET ISLAND expected [true] but found [false],
+	Following country displayed Extra : BRAZIL expected [true] but found [false],
+	Following country displayed Extra : BRITISH INDIAN OCEAN TERRITORY expected [true] but found [false],
+	Following country displayed Extra : BRITISH VIRGIN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : BRUNEI expected [true] but found [false],
+	Following country displayed Extra : BULGARIA expected [true] but found [false],
+	Following country displayed Extra : BURKINA FASO expected [true] but found [false],
+	Following country displayed Extra : BURMA expected [true] but found [false],
+	Following country displayed Extra : BURUNDI expected [true] but found [false],
+	Following country displayed Extra : CAMBODIA expected [true] but found [false],
+	Following country displayed Extra : CAMEROON expected [true] but found [false],
+	Following country displayed Extra : CANADA expected [true] but found [false],
+	Following country displayed Extra : CAPE VERDE expected [true] but found [false],
+	Following country displayed Extra : CAYMAN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : CENTRAL AFRICAN REPUBLIC expected [true] but found [false],
+	Following country displayed Extra : CHAD expected [true] but found [false],
+	Following country displayed Extra : CHILE expected [true] but found [false],
+	Following country displayed Extra : CHINA expected [true] but found [false],
+	Following country displayed Extra : CHRISTMAS ISLAND expected [true] but found [false],
+	Following country displayed Extra : CLIPPERTON ISLAND expected [true] but found [false],
+	Following country displayed Extra : COCOS (KEELING) ISLANDS expected [true] but found [false],
+	Following country displayed Extra : COLOMBIA expected [true] but found [false],
+	Following country displayed Extra : COMOROS expected [true] but found [false],
+	Following country displayed Extra : CONGO expected [true] but found [false],
+	Following country displayed Extra : COOK ISLANDS expected [true] but found [false],
+	Following country displayed Extra : CORAL SEA ISLANDS expected [true] but found [false],
+	Following country displayed Extra : COSTA RICA expected [true] but found [false],
+	Following country displayed Extra : COTE D'IVOIRE expected [true] but found [false],
+	Following country displayed Extra : CROATIA expected [true] but found [false],
+	Following country displayed Extra : CUBA expected [true] but found [false],
+	Following country displayed Extra : CYPRUS expected [true] but found [false],
+	Following country displayed Extra : CZECH REPUBLIC expected [true] but found [false],
+	Following country displayed Extra : DENMARK expected [true] but found [false],
+	Following country displayed Extra : DJIBOUTI expected [true] but found [false],
+	Following country displayed Extra : DOMINICA expected [true] but found [false],
+	Following country displayed Extra : DOMINICAN REPUBLIC expected [true] but found [false],
+	Following country displayed Extra : ECUADOR expected [true] but found [false],
+	Following country displayed Extra : EGYPT expected [true] but found [false],
+	Following country displayed Extra : EL SALVADOR expected [true] but found [false],
+	Following country displayed Extra : EQUATORIAL GUINEA expected [true] but found [false],
+	Following country displayed Extra : ERITREA expected [true] but found [false],
+	Following country displayed Extra : ESTONIA expected [true] but found [false],
+	Following country displayed Extra : ETHIOPIA expected [true] but found [false],
+	Following country displayed Extra : EUROPA ISLAND expected [true] but found [false],
+	Following country displayed Extra : FALKLAND ISLANDS expected [true] but found [false],
+	Following country displayed Extra : FAROE ISLANDS expected [true] but found [false],
+	Following country displayed Extra : FIJI expected [true] but found [false],
+	Following country displayed Extra : FINLAND expected [true] but found [false],
+	Following country displayed Extra : FRANCE expected [true] but found [false],
+	Following country displayed Extra : FRENCH GUIANA expected [true] but found [false],
+	Following country displayed Extra : FRENCH POLYNESIA expected [true] but found [false],
+	Following country displayed Extra : FRENCH SOUTHERN AND ANTARCTIC LANDS expected [true] but found [false],
+	Following country displayed Extra : GABON expected [true] but found [false],
+	Following country displayed Extra : GAMBIA, THE expected [true] but found [false],
+	Following country displayed Extra : GAZA STRIP expected [true] but found [false],
+	Following country displayed Extra : GEORGIA expected [true] but found [false],
+	Following country displayed Extra : GHANA expected [true] but found [false],
+	Following country displayed Extra : GIBRALTAR expected [true] but found [false],
+	Following country displayed Extra : GLORIOSO ISLANDS expected [true] but found [false],
+	Following country displayed Extra : GREECE expected [true] but found [false],
+	Following country displayed Extra : GREENLAND expected [true] but found [false],
+	Following country displayed Extra : GRENADA expected [true] but found [false],
+	Following country displayed Extra : GUADELOUPE expected [true] but found [false],
+	Following country displayed Extra : GUAM expected [true] but found [false],
+	Following country displayed Extra : GUATEMALA expected [true] but found [false],
+	Following country displayed Extra : GUERNSEY expected [true] but found [false],
+	Following country displayed Extra : GUINEA expected [true] but found [false],
+	Following country displayed Extra : GUINEA-BISSAU expected [true] but found [false],
+	Following country displayed Extra : GUYANA expected [true] but found [false],
+	Following country displayed Extra : HAITI expected [true] but found [false],
+	Following country displayed Extra : HEARD ISLAND AND MCDONALD ISLANDS expected [true] but found [false],
+	Following country displayed Extra : HONDURAS expected [true] but found [false],
+	Following country displayed Extra : HONG KONG expected [true] but found [false],
+	Following country displayed Extra : HOWLAND ISLAND expected [true] but found [false],
+	Following country displayed Extra : HUNGARY expected [true] but found [false],
+	Following country displayed Extra : ICELAND expected [true] but found [false],
+	Following country displayed Extra : INDONESIA expected [true] but found [false],
+	Following country displayed Extra : IRAN expected [true] but found [false],
+	Following country displayed Extra : IRAQ expected [true] but found [false],
+	Following country displayed Extra : IRELAND expected [true] but found [false],
+	Following country displayed Extra : ISRAEL expected [true] but found [false],
+	Following country displayed Extra : ITALY expected [true] but found [false],
+	Following country displayed Extra : JAMAICA expected [true] but found [false],
+	Following country displayed Extra : JAN MAYEN expected [true] but found [false],
+	Following country displayed Extra : JAPAN expected [true] but found [false],
+	Following country displayed Extra : JARVIS ISLAND expected [true] but found [false],
+	Following country displayed Extra : JERSEY expected [true] but found [false],
+	Following country displayed Extra : JOHNSTON ATOLL expected [true] but found [false],
+	Following country displayed Extra : JORDAN expected [true] but found [false],
+	Following country displayed Extra : JUAN DE NOVA ISLAND expected [true] but found [false],
+	Following country displayed Extra : KAZAKHSTAN expected [true] but found [false],
+	Following country displayed Extra : KENYA expected [true] but found [false],
+	Following country displayed Extra : KINGMAN REEF expected [true] but found [false],
+	Following country displayed Extra : KIRIBATI expected [true] but found [false],
+	Following country displayed Extra : KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : KOREA, REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : KUWAIT expected [true] but found [false],
+	Following country displayed Extra : KYRGYZSTAN expected [true] but found [false],
+	Following country displayed Extra : LAOS expected [true] but found [false],
+	Following country displayed Extra : LATVIA expected [true] but found [false],
+	Following country displayed Extra : LEBANON expected [true] but found [false],
+	Following country displayed Extra : LESOTHO expected [true] but found [false],
+	Following country displayed Extra : LIBERIA expected [true] but found [false],
+	Following country displayed Extra : LIBYA expected [true] but found [false],
+	Following country displayed Extra : LIECHTENSTEIN expected [true] but found [false],
+	Following country displayed Extra : LITHUANIA expected [true] but found [false],
+	Following country displayed Extra : LUXEMBOURG expected [true] but found [false],
+	Following country displayed Extra : MACAU expected [true] but found [false],
+	Following country displayed Extra : MACEDONIA, FORMER REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : MADAGASCAR expected [true] but found [false],
+	Following country displayed Extra : MALAWI expected [true] but found [false],
+	Following country displayed Extra : MALAYSIA expected [true] but found [false],
+	Following country displayed Extra : MALDIVES expected [true] but found [false],
+	Following country displayed Extra : MALI expected [true] but found [false],
+	Following country displayed Extra : MALTA expected [true] but found [false],
+	Following country displayed Extra : MAN, ISLE OF expected [true] but found [false],
+	Following country displayed Extra : MARSHALL ISLANDS expected [true] but found [false],
+	Following country displayed Extra : MARTINIQUE expected [true] but found [false],
+	Following country displayed Extra : MAURITANIA expected [true] but found [false],
+	Following country displayed Extra : MAURITIUS expected [true] but found [false],
+	Following country displayed Extra : MAYOTTE expected [true] but found [false],
+	Following country displayed Extra : MEXICO expected [true] but found [false],
+	Following country displayed Extra : MICRONESIA expected [true] but found [false],
+	Following country displayed Extra : MIDWAY ISLANDS expected [true] but found [false],
+	Following country displayed Extra : MOLDOVA expected [true] but found [false],
+	Following country displayed Extra : MONACO expected [true] but found [false],
+	Following country displayed Extra : MONGOLIA expected [true] but found [false],
+	Following country displayed Extra : MONTENEGRO expected [true] but found [false],
+	Following country displayed Extra : MONTSERRAT expected [true] but found [false],
+	Following country displayed Extra : MOROCCO expected [true] but found [false],
+	Following country displayed Extra : MOZAMBIQUE expected [true] but found [false],
+	Following country displayed Extra : NAMIBIA expected [true] but found [false],
+	Following country displayed Extra : NAURU expected [true] but found [false],
+	Following country displayed Extra : NAVASSA ISLAND expected [true] but found [false],
+	Following country displayed Extra : NEPAL expected [true] but found [false],
+	Following country displayed Extra : NETHERLANDS expected [true] but found [false],
+	Following country displayed Extra : NETHERLANDS ANTILLES expected [true] but found [false],
+	Following country displayed Extra : NEW CALEDONIA expected [true] but found [false],
+	Following country displayed Extra : NEW ZEALAND expected [true] but found [false],
+	Following country displayed Extra : NICARAGUA expected [true] but found [false],
+	Following country displayed Extra : NIGER expected [true] but found [false],
+	Following country displayed Extra : NIGERIA expected [true] but found [false],
+	Following country displayed Extra : NIUE expected [true] but found [false],
+	Following country displayed Extra : NO MANS LAND expected [true] but found [false],
+	Following country displayed Extra : NORFOLK ISLAND expected [true] but found [false],
+	Following country displayed Extra : NORTHERN MARIANA ISLANDS expected [true] but found [false],
+	Following country displayed Extra : NORWAY expected [true] but found [false],
+	Following country displayed Extra : OCEANS expected [true] but found [false],
+	Following country displayed Extra : OMAN expected [true] but found [false],
+	Following country displayed Extra : PAKISTAN expected [true] but found [false],
+	Following country displayed Extra : PALMYRA ATOLL expected [true] but found [false],
+	Following country displayed Extra : PANAMA expected [true] but found [false],
+	Following country displayed Extra : PAPUA NEW GUINEA expected [true] but found [false],
+	Following country displayed Extra : PARACEL ISLANDS expected [true] but found [false],
+	Following country displayed Extra : PARAGUAY expected [true] but found [false],
+	Following country displayed Extra : PERU expected [true] but found [false],
+	Following country displayed Extra : PHILIPPINES expected [true] but found [false],
+	Following country displayed Extra : PITCAIRN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : POLAND expected [true] but found [false],
+	Following country displayed Extra : PORTUGAL expected [true] but found [false],
+	Following country displayed Extra : PUERTO RICO expected [true] but found [false],
+	Following country displayed Extra : QATAR expected [true] but found [false],
+	Following country displayed Extra : REUNION expected [true] but found [false],
+	Following country displayed Extra : ROMANIA expected [true] but found [false],
+	Following country displayed Extra : RUSSIA expected [true] but found [false],
+	Following country displayed Extra : RWANDA expected [true] but found [false],
+	Following country displayed Extra : SAN MARINO expected [true] but found [false],
+	Following country displayed Extra : SAO TOME AND PRINCIPE expected [true] but found [false],
+	Following country displayed Extra : SAUDI ARABIA expected [true] but found [false],
+	Following country displayed Extra : SENEGAL expected [true] but found [false],
+	Following country displayed Extra : SERBIA expected [true] but found [false],
+	Following country displayed Extra : SEYCHELLES expected [true] but found [false],
+	Following country displayed Extra : SIERRA LEONE expected [true] but found [false],
+	Following country displayed Extra : SINGAPORE expected [true] but found [false],
+	Following country displayed Extra : SLOVAKIA expected [true] but found [false],
+	Following country displayed Extra : SLOVENIA expected [true] but found [false],
+	Following country displayed Extra : SOLOMON ISLANDS expected [true] but found [false],
+	Following country displayed Extra : SOMALIA expected [true] but found [false],
+	Following country displayed Extra : SOUTH AFRICA expected [true] but found [false],
+	Following country displayed Extra : SOVIET UNION expected [true] but found [false],
+	Following country displayed Extra : SPAIN expected [true] but found [false],
+	Following country displayed Extra : SPRATLY ISLANDS expected [true] but found [false],
+	Following country displayed Extra : SRI LANKA expected [true] but found [false],
+	Following country displayed Extra : ST. HELENA expected [true] but found [false],
+	Following country displayed Extra : ST. KITTS AND NEVIS expected [true] but found [false],
+	Following country displayed Extra : ST. LUCIA expected [true] but found [false],
+	Following country displayed Extra : ST. PIERRE AND MIQUELON expected [true] but found [false],
+	Following country displayed Extra : ST. VINCENT AND THE GRENADINES expected [true] but found [false],
+	Following country displayed Extra : SUDAN expected [true] but found [false],
+	Following country displayed Extra : SURINAME expected [true] but found [false],
+	Following country displayed Extra : SVALBARD expected [true] but found [false],
+	Following country displayed Extra : SWAZILAND expected [true] but found [false],
+	Following country displayed Extra : SWEDEN expected [true] but found [false],
+	Following country displayed Extra : SWITZERLAND expected [true] but found [false],
+	Following country displayed Extra : SYRIA expected [true] but found [false],
+	Following country displayed Extra : TAIWAN expected [true] but found [false],
+	Following country displayed Extra : TAJIKISTAN expected [true] but found [false],
+	Following country displayed Extra : TANZANIA, UNITED REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : THAILAND expected [true] but found [false],
+	Following country displayed Extra : TOGO expected [true] but found [false],
+	Following country displayed Extra : TOKELAU expected [true] but found [false],
+	Following country displayed Extra : TONGA expected [true] but found [false],
+	Following country displayed Extra : TRINIDAD AND TOBAGO expected [true] but found [false],
+	Following country displayed Extra : TROMELIN ISLAND expected [true] but found [false],
+	Following country displayed Extra : TUNISIA expected [true] but found [false],
+	Following country displayed Extra : TURKEY expected [true] but found [false],
+	Following country displayed Extra : TURKMENISTAN expected [true] but found [false],
+	Following country displayed Extra : TURKS AND CAICOS ISLANDS expected [true] but found [false],
+	Following country displayed Extra : TUVALU expected [true] but found [false],
+	Following country displayed Extra : UGANDA expected [true] but found [false],
+	Following country displayed Extra : UKRAINE expected [true] but found [false],
+	Following country displayed Extra : UNDERSEA FEATURES expected [true] but found [false],
+	Following country displayed Extra : UNITED ARAB EMIRATES expected [true] but found [false],
+	Following country displayed Extra : UNITED KINGDOM expected [true] but found [false],
+	Following country displayed Extra : URUGUAY expected [true] but found [false],
+	Following country displayed Extra : UZBEKISTAN expected [true] but found [false],
+	Following country displayed Extra : VANUATU expected [true] but found [false],
+	Following country displayed Extra : VATICAN CITY expected [true] but found [false],
+	Following country displayed Extra : VENEZUELA expected [true] but found [false],
+	Following country displayed Extra : VIETNAM expected [true] but found [false],
+	Following country displayed Extra : VIRGIN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : WAKE ISLAND expected [true] but found [false],
+	Following country displayed Extra : WALLIS AND FUTUNA expected [true] but found [false],
+	Following country displayed Extra : WEST BANK expected [true] but found [false],
+	Following country displayed Extra : WESTERN SAHARA expected [true] but found [false],
+	Following country displayed Extra : WESTERN SAMOA expected [true] but found [false],
+	Following country displayed Extra : YEMEN expected [true] but found [false],
+	Following country displayed Extra : YUGOSLAVIA expected [true] but found [false],
+	Following country displayed Extra : ZAIRE expected [true] but found [false],
+	Following country displayed Extra : ZAMBIA expected [true] but found [false],
+	Following country displayed Extra : ZIMBABWE expected [true] but found [false]
+2021-12-13 20:42:10,796 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register.php
+2021-12-13 20:42:11,019 - Case Failed $$ verifyAvailableCountries_RG0005
+2021-12-13 20:42:11,109 - Method Started $$ closeDriver of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:11,109 - Closing Web Browser
+2021-12-13 20:42:11,736 - Web Browser Closed
+2021-12-13 20:42:11,736 - Execution Finished For $$ closeDriver of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-13 20:42:11,736 - Attaching Logs for closeDriver
+2021-12-13 20:42:11,744 - Method Started $$ setLogger of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:11,744 - *************** Logger Set ***************
+2021-12-13 20:42:11,744 - Execution Finished For $$ setLogger of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:11,744 - Attaching Logs for setLogger
+2021-12-13 20:42:11,748 - Method Started $$ invokeBrowser of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:11,748 - *************** Invoking Browser ***************
+2021-12-13 20:42:11,748 - Reading Property 'Browser' from sheet 'Configuration'
+2021-12-13 20:42:11,788 - Value is : Chrome
+2021-12-13 20:42:11,788 - Launching Chrome Browser
+2021-12-13 20:42:13,406 - *************** Invoking Finished ***************
+2021-12-13 20:42:13,406 - Execution Finished For $$ invokeBrowser of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:13,406 - Attaching Logs for invokeBrowser
+2021-12-13 20:42:13,406 - Method Started $$ navigateToBaseURL of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:13,406 - Reading Property 'Environment' from sheet 'Configuration'
+2021-12-13 20:42:13,442 - Value is : Automation
+2021-12-13 20:42:13,442 - Environment is : Automation
+2021-12-13 20:42:13,442 - Reading property : Automation
+2021-12-13 20:42:13,442 - Value is : http://demo.guru99.com/test/newtours
+2021-12-13 20:42:13,442 - Navigating to Base URL http://demo.guru99.com/test/newtours
+2021-12-13 20:42:16,812 - Execution Finished For $$ navigateToBaseURL of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:16,812 - Attaching Logs for navigateToBaseURL
+2021-12-13 20:42:16,816 - Method Started $$ initialize of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:16,816 - Execution Finished For $$ initialize of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:16,816 - Attaching Logs for initialize
+2021-12-13 20:42:16,820 - Method Started $$ navigateToLoginPage of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:16,820 - Navigating to Login Page
+2021-12-13 20:42:16,820 - Navigating to : http://demo.guru99.com/test/newtours/index.php
+2021-12-13 20:42:16,848 - Execution Finished For $$ navigateToLoginPage of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:16,848 - Attaching Logs for navigateToLoginPage
+2021-12-13 20:42:16,852 - Method Started $$ verifyLoginForPublicUser_LG0001 of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:16,860 - Fetching User Data for 'publicUser' From : src/test/resources/data/users.yaml
+2021-12-13 20:42:16,992 - User Data is 
+Username:user
+Password:user
+2021-12-13 20:42:16,992 - Entering username as : user
+2021-12-13 20:42:17,008 - Execution Finished For $$ verifyLoginForPublicUser_LG0001 of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:17,008 - Attaching Logs for verifyLoginForPublicUser_LG0001
+2021-12-13 20:42:17,012 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-2IF3L2SP', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\redij\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9850192166ef43d390a9b75808cf6ef
+*** Element info: {Using=name, value=userName}
+2021-12-13 20:42:17,012 - Case Failed $$ verifyLoginForPublicUser_LG0001
+2021-12-13 20:42:17,020 - Method Started $$ navigateToLoginPage of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:17,020 - Navigating to Login Page
+2021-12-13 20:42:17,020 - Navigating to : http://demo.guru99.com/test/newtours/index.php
+2021-12-13 20:42:17,036 - Some issue occurred while navigation. 
+[Ljava.lang.StackTraceElement;@655bc8f9
+2021-12-13 20:42:17,036 - Execution Finished For $$ navigateToLoginPage of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:17,036 - Attaching Logs for navigateToLoginPage
+2021-12-13 20:42:17,040 - Method Started $$ verifyLoginForSupportUser_LG0002 of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:17,040 - Fetching User Data for 'supportUser' From : src/test/resources/data/users.yaml
+2021-12-13 20:42:17,044 - User Data is 
+Username:supportAdmin
+Password:support
+2021-12-13 20:42:17,044 - Entering username as : supportAdmin
+2021-12-13 20:42:17,052 - Execution Finished For $$ verifyLoginForSupportUser_LG0002 of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:17,052 - Attaching Logs for verifyLoginForSupportUser_LG0002
+2021-12-13 20:42:17,052 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-2IF3L2SP', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\redij\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9850192166ef43d390a9b75808cf6ef
+*** Element info: {Using=name, value=userName}
+2021-12-13 20:42:17,056 - Case Failed $$ verifyLoginForSupportUser_LG0002
+2021-12-13 20:42:17,060 - Method Started $$ navigateToLoginPage of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:17,060 - Navigating to Login Page
+2021-12-13 20:42:17,060 - Navigating to : http://demo.guru99.com/test/newtours/index.php
+2021-12-13 20:42:17,068 - Some issue occurred while navigation. 
+[Ljava.lang.StackTraceElement;@4288ebac
+2021-12-13 20:42:17,068 - Execution Finished For $$ navigateToLoginPage of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:17,068 - Attaching Logs for navigateToLoginPage
+2021-12-13 20:42:17,072 - Method Started $$ verifyLoginForAdminUser_LG0003 of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:17,072 - Fetching User Data for 'adminUser' From : src/test/resources/data/users.yaml
+2021-12-13 20:42:17,076 - User Data is 
+Username:admin
+Password:admin
+2021-12-13 20:42:17,076 - Entering username as : admin
+2021-12-13 20:42:17,084 - Execution Finished For $$ verifyLoginForAdminUser_LG0003 of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:17,084 - Attaching Logs for verifyLoginForAdminUser_LG0003
+2021-12-13 20:42:17,084 - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.93)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-2IF3L2SP', ip: '192.168.1.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.93, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\redij\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49766}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e9850192166ef43d390a9b75808cf6ef
+*** Element info: {Using=name, value=userName}
+2021-12-13 20:42:17,088 - Case Failed $$ verifyLoginForAdminUser_LG0003
+2021-12-13 20:42:17,092 - Method Started $$ closeDriver of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:17,092 - Closing Web Browser
+2021-12-13 20:42:17,672 - Web Browser Closed
+2021-12-13 20:42:17,672 - Execution Finished For $$ closeDriver of Class : [TestClass name=class tests.login.LoginTest]
+2021-12-13 20:42:17,672 - Attaching Logs for closeDriver
+2021-12-13 20:42:17,676 - Method Started $$ setLogger of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:42:17,676 - *************** Logger Set ***************
+2021-12-13 20:42:17,676 - Execution Finished For $$ setLogger of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:42:17,676 - Attaching Logs for setLogger
+2021-12-13 20:42:17,676 - Method Started $$ invokeBrowser of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:42:17,676 - *************** Invoking Browser ***************
+2021-12-13 20:42:17,680 - Reading Property 'Browser' from sheet 'Configuration'
+2021-12-13 20:42:17,708 - Value is : Chrome
+2021-12-13 20:42:17,708 - Launching Chrome Browser
+2021-12-13 20:42:19,231 - *************** Invoking Finished ***************
+2021-12-13 20:42:19,231 - Execution Finished For $$ invokeBrowser of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:42:19,231 - Attaching Logs for invokeBrowser
+2021-12-13 20:42:19,231 - Method Started $$ navigateToBaseURL of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:42:19,231 - Reading Property 'Environment' from sheet 'Configuration'
+2021-12-13 20:42:19,263 - Value is : Automation
+2021-12-13 20:42:19,263 - Environment is : Automation
+2021-12-13 20:42:19,263 - Reading property : Automation
+2021-12-13 20:42:19,263 - Value is : http://demo.guru99.com/test/newtours
+2021-12-13 20:42:19,263 - Navigating to Base URL http://demo.guru99.com/test/newtours
+2021-12-13 20:44:15,788 - Method Started $$ setLogger of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:15,792 - *************** Logger Set ***************
+2021-12-13 20:44:15,796 - Execution Finished For $$ setLogger of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:15,796 - Attaching Logs for setLogger
+2021-12-13 20:44:15,804 - Method Started $$ invokeBrowser of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:15,804 - *************** Invoking Browser ***************
+2021-12-13 20:44:15,808 - Reading Property 'Browser' from sheet 'Configuration'
+2021-12-13 20:44:16,509 - Value is : Chrome
+2021-12-13 20:44:16,513 - Launching Chrome Browser
+2021-12-13 20:44:19,023 - *************** Invoking Finished ***************
+2021-12-13 20:44:19,023 - Execution Finished For $$ invokeBrowser of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:19,023 - Attaching Logs for invokeBrowser
+2021-12-13 20:44:19,023 - Method Started $$ navigateToBaseURL of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:19,023 - Reading Property 'Environment' from sheet 'Configuration'
+2021-12-13 20:44:19,079 - Value is : Automation
+2021-12-13 20:44:19,079 - Environment is : Automation
+2021-12-13 20:44:19,079 - Reading property : Automation
+2021-12-13 20:44:19,079 - Value is : http://demo.guru99.com/test/newtours
+2021-12-13 20:44:19,079 - Navigating to Base URL http://demo.guru99.com/test/newtours
+2021-12-13 20:44:22,537 - Execution Finished For $$ navigateToBaseURL of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:22,537 - Attaching Logs for navigateToBaseURL
+2021-12-13 20:44:22,557 - Method Started $$ initialize of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:22,585 - Execution Finished For $$ initialize of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:22,585 - Attaching Logs for initialize
+2021-12-13 20:44:22,689 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:22,689 - Navigating to Flight Page
+2021-12-13 20:44:22,689 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2021-12-13 20:44:23,541 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:23,541 - Attaching Logs for navigateToFlightPage
+2021-12-13 20:44:23,585 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:23,585 - Selecting Trip Type as : Round Trip
+2021-12-13 20:44:23,585 - Clicking Radio Button for Round Trip
+2021-12-13 20:44:23,693 - Clicked
+2021-12-13 20:44:23,693 - Selecting Number of passenger to : 1
+2021-12-13 20:44:23,837 - Selected by Visible text : 1
+2021-12-13 20:44:23,837 - Selecting source as : Frankfurt
+2021-12-13 20:44:24,025 - Selected by Visible text : Frankfurt
+2021-12-13 20:44:24,025 - Selecting Start Month as : February
+2021-12-13 20:44:24,169 - Selected by Visible text : February
+2021-12-13 20:44:24,169 - Selecting Start Day as : 9
+2021-12-13 20:44:24,317 - Selected by Visible text : 9
+2021-12-13 20:44:24,317 - Selecting Destination as : London
+2021-12-13 20:44:24,466 - Selected by Visible text : London
+2021-12-13 20:44:24,466 - Selecting Return Month as : February
+2021-12-13 20:44:24,622 - Selected by Visible text : February
+2021-12-13 20:44:24,622 - Selecting Return Day as : 19
+2021-12-13 20:44:24,774 - Selected by Visible text : 19
+2021-12-13 20:44:24,774 - Selecting Travel Class : Economy
+2021-12-13 20:44:24,774 - Clicking radio button for Economy Class
+2021-12-13 20:44:24,886 - Clicked
+2021-12-13 20:44:24,886 - Setting No Preference
+2021-12-13 20:44:24,894 - Attaching Full Page Screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation.php
+2021-12-13 20:44:27,944 - Clicking Find Flight Button
+2021-12-13 20:44:29,068 - Clicked
+2021-12-13 20:44:29,117 - Text is : After flight finder - No Seats Avaialble  
+2021-12-13 20:44:29,165 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:29,165 - Attaching Logs for verifyFindFlight_FF0001
+2021-12-13 20:44:29,165 - Case Pass $$ verifyFindFlight_FF0001
+2021-12-13 20:44:29,173 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation2.php
+2021-12-13 20:44:29,402 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:29,402 - Navigating to Flight Page
+2021-12-13 20:44:29,402 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2021-12-13 20:44:29,754 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:29,754 - Attaching Logs for navigateToFlightPage
+2021-12-13 20:44:29,762 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:29,762 - Selecting Trip Type as : One Way
+2021-12-13 20:44:29,762 - Clicking Radio Button for One Way
+2021-12-13 20:44:29,858 - Clicked
+2021-12-13 20:44:29,858 - Selecting Number of passenger to : 2
+2021-12-13 20:44:30,022 - Selected by Visible text : 2
+2021-12-13 20:44:30,022 - Selecting source as : Paris
+2021-12-13 20:44:30,178 - Selected by Visible text : Paris
+2021-12-13 20:44:30,178 - Selecting Start Month as : June
+2021-12-13 20:44:30,327 - Selected by Visible text : June
+2021-12-13 20:44:30,327 - Selecting Start Day as : 7
+2021-12-13 20:44:30,507 - Selected by Visible text : 7
+2021-12-13 20:44:30,507 - Selecting Destination as : Seattle
+2021-12-13 20:44:30,671 - Selected by Visible text : Seattle
+2021-12-13 20:44:30,675 - Keeping return Month to default as no data provided
+2021-12-13 20:44:30,675 - Keeping return Day to default as no data provided
+2021-12-13 20:44:30,675 - Selecting Travel Class : Business
+2021-12-13 20:44:30,675 - Clicking radio button for Business Class
+2021-12-13 20:44:30,779 - Clicked
+2021-12-13 20:44:30,779 - Selecting Airline Preference as : Blue Skies Airlines
+2021-12-13 20:44:30,931 - Selected by Visible text : Blue Skies Airlines
+2021-12-13 20:44:30,939 - Attaching Full Page Screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation.php
+2021-12-13 20:44:33,706 - Clicking Find Flight Button
+2021-12-13 20:44:34,828 - Clicked
+2021-12-13 20:44:34,876 - Text is : After flight finder - No Seats Avaialble  
+2021-12-13 20:44:34,912 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:34,912 - Attaching Logs for verifyFindFlight_FF0001
+2021-12-13 20:44:34,916 - Case Pass $$ verifyFindFlight_FF0001
+2021-12-13 20:44:34,920 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation2.php
+2021-12-13 20:44:35,145 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:35,145 - Navigating to Flight Page
+2021-12-13 20:44:35,145 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2021-12-13 20:44:35,506 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:35,506 - Attaching Logs for navigateToFlightPage
+2021-12-13 20:44:35,510 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:35,510 - Selecting Trip Type as : Round Trip
+2021-12-13 20:44:35,510 - Clicking Radio Button for Round Trip
+2021-12-13 20:44:35,618 - Clicked
+2021-12-13 20:44:35,618 - Selecting Number of passenger to : 3
+2021-12-13 20:44:35,762 - Selected by Visible text : 3
+2021-12-13 20:44:35,766 - Selecting source as : Seattle
+2021-12-13 20:44:35,926 - Selected by Visible text : Seattle
+2021-12-13 20:44:35,926 - Selecting Start Month as : March
+2021-12-13 20:44:36,086 - Selected by Visible text : March
+2021-12-13 20:44:36,086 - Selecting Start Day as : 14
+2021-12-13 20:44:36,244 - Selected by Visible text : 14
+2021-12-13 20:44:36,244 - Selecting Destination as : Acapulco
+2021-12-13 20:44:36,364 - Selected by Visible text : Acapulco
+2021-12-13 20:44:36,368 - Selecting Return Month as : March
+2021-12-13 20:44:36,540 - Selected by Visible text : March
+2021-12-13 20:44:36,544 - Selecting Return Day as : 20
+2021-12-13 20:44:36,716 - Selected by Visible text : 20
+2021-12-13 20:44:36,716 - Selecting Travel Class : First
+2021-12-13 20:44:36,716 - Clicking radio button for First Class
+2021-12-13 20:44:36,796 - Clicked
+2021-12-13 20:44:36,796 - Selecting Airline Preference as : Unified Airlines
+2021-12-13 20:44:36,945 - Selected by Visible text : Unified Airlines
+2021-12-13 20:44:36,953 - Attaching Full Page Screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation.php
+2021-12-13 20:44:39,643 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:39,643 - Attaching Logs for verifyFindFlight_FF0001
+2021-12-13 20:44:39,643 - 
+2021-12-13 20:44:39,655 - Case Failed $$ verifyFindFlight_FF0001
+2021-12-13 20:44:39,675 - Method Started $$ closeDriver of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:39,675 - Closing Web Browser
+2021-12-13 20:44:40,319 - Web Browser Closed
+2021-12-13 20:44:40,319 - Execution Finished For $$ closeDriver of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-13 20:44:40,319 - Attaching Logs for closeDriver
+2021-12-28 13:15:15,417 - Method Started $$ setLogger of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:15,421 - *************** Logger Set ***************
+2021-12-28 13:15:15,421 - Execution Finished For $$ setLogger of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:15,421 - Attaching Logs for setLogger
+2021-12-28 13:15:15,429 - Method Started $$ invokeBrowser of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:15,429 - *************** Invoking Browser ***************
+2021-12-28 13:15:15,433 - Reading Property 'Browser' from sheet 'Configuration'
+2021-12-28 13:15:16,205 - Value is : Chrome
+2021-12-28 13:15:16,205 - Launching Chrome Browser
+2021-12-28 13:15:20,798 - *************** Invoking Finished ***************
+2021-12-28 13:15:20,798 - Execution Finished For $$ invokeBrowser of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:20,798 - Attaching Logs for invokeBrowser
+2021-12-28 13:15:20,802 - Method Started $$ navigateToBaseURL of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:20,802 - Reading Property 'Environment' from sheet 'Configuration'
+2021-12-28 13:15:20,850 - Value is : Automation
+2021-12-28 13:15:20,850 - Environment is : Automation
+2021-12-28 13:15:20,850 - Reading property : Automation
+2021-12-28 13:15:20,854 - Value is : http://demo.guru99.com/test/newtours
+2021-12-28 13:15:20,854 - Navigating to Base URL http://demo.guru99.com/test/newtours
+2021-12-28 13:15:25,603 - Execution Finished For $$ navigateToBaseURL of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:25,603 - Attaching Logs for navigateToBaseURL
+2021-12-28 13:15:25,619 - Method Started $$ initialize of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:25,647 - Execution Finished For $$ initialize of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:25,647 - Attaching Logs for initialize
+2021-12-28 13:15:25,755 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:25,755 - Navigating to Flight Page
+2021-12-28 13:15:25,755 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:15:26,662 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:26,662 - Attaching Logs for navigateToFlightPage
+2021-12-28 13:15:26,718 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:26,718 - Selecting Trip Type as : Round Trip
+2021-12-28 13:15:26,718 - Clicking Radio Button for Round Trip
+2021-12-28 13:15:26,935 - Clicked
+2021-12-28 13:15:26,935 - Selecting Number of passenger to : 1
+2021-12-28 13:15:27,076 - Selected by Visible text : 1
+2021-12-28 13:15:27,076 - Selecting source as : Frankfurt
+2021-12-28 13:15:27,334 - Selected by Visible text : Frankfurt
+2021-12-28 13:15:27,334 - Selecting Start Month as : February
+2021-12-28 13:15:27,483 - Selected by Visible text : February
+2021-12-28 13:15:27,483 - Selecting Start Day as : 9
+2021-12-28 13:15:27,639 - Selected by Visible text : 9
+2021-12-28 13:15:27,639 - Selecting Destination as : London
+2021-12-28 13:15:27,803 - Selected by Visible text : London
+2021-12-28 13:15:27,803 - Selecting Return Month as : February
+2021-12-28 13:15:27,979 - Selected by Visible text : February
+2021-12-28 13:15:27,979 - Selecting Return Day as : 19
+2021-12-28 13:15:28,139 - Selected by Visible text : 19
+2021-12-28 13:15:28,139 - Selecting Travel Class : Economy
+2021-12-28 13:15:28,139 - Clicking radio button for Economy Class
+2021-12-28 13:15:28,243 - Clicked
+2021-12-28 13:15:28,243 - Setting No Preference
+2021-12-28 13:15:28,251 - Attaching Full Page Screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:15:31,243 - Clicking Find Flight Button
+2021-12-28 13:15:32,354 - Clicked
+2021-12-28 13:15:32,390 - Text is : After flight finder - No Seats Avaialble  
+2021-12-28 13:15:32,422 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:32,422 - Attaching Logs for verifyFindFlight_FF0001
+2021-12-28 13:15:32,422 - Case Pass $$ verifyFindFlight_FF0001
+2021-12-28 13:15:32,426 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation2.php
+2021-12-28 13:15:32,690 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:32,690 - Navigating to Flight Page
+2021-12-28 13:15:32,690 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:15:33,442 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:33,442 - Attaching Logs for navigateToFlightPage
+2021-12-28 13:15:33,446 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:33,446 - Selecting Trip Type as : One Way
+2021-12-28 13:15:33,446 - Clicking Radio Button for One Way
+2021-12-28 13:15:33,530 - Clicked
+2021-12-28 13:15:33,530 - Selecting Number of passenger to : 2
+2021-12-28 13:15:33,710 - Selected by Visible text : 2
+2021-12-28 13:15:33,714 - Selecting source as : Paris
+2021-12-28 13:15:33,838 - Selected by Visible text : Paris
+2021-12-28 13:15:33,838 - Selecting Start Month as : June
+2021-12-28 13:15:33,967 - Selected by Visible text : June
+2021-12-28 13:15:33,967 - Selecting Start Day as : 7
+2021-12-28 13:15:34,111 - Selected by Visible text : 7
+2021-12-28 13:15:34,111 - Selecting Destination as : Seattle
+2021-12-28 13:15:34,255 - Selected by Visible text : Seattle
+2021-12-28 13:15:34,255 - Keeping return Month to default as no data provided
+2021-12-28 13:15:34,255 - Keeping return Day to default as no data provided
+2021-12-28 13:15:34,255 - Selecting Travel Class : Business
+2021-12-28 13:15:34,255 - Clicking radio button for Business Class
+2021-12-28 13:15:34,343 - Clicked
+2021-12-28 13:15:34,347 - Selecting Airline Preference as : Blue Skies Airlines
+2021-12-28 13:15:34,495 - Selected by Visible text : Blue Skies Airlines
+2021-12-28 13:15:34,499 - Attaching Full Page Screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:15:37,272 - Clicking Find Flight Button
+2021-12-28 13:15:38,443 - Clicked
+2021-12-28 13:15:38,475 - Text is : After flight finder - No Seats Avaialble  
+2021-12-28 13:15:38,503 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:38,503 - Attaching Logs for verifyFindFlight_FF0001
+2021-12-28 13:15:38,503 - Case Pass $$ verifyFindFlight_FF0001
+2021-12-28 13:15:38,511 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation2.php
+2021-12-28 13:15:38,799 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:38,799 - Navigating to Flight Page
+2021-12-28 13:15:38,799 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:15:39,382 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:39,382 - Attaching Logs for navigateToFlightPage
+2021-12-28 13:15:39,386 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:39,386 - Selecting Trip Type as : Round Trip
+2021-12-28 13:15:39,386 - Clicking Radio Button for Round Trip
+2021-12-28 13:15:39,570 - Clicked
+2021-12-28 13:15:39,570 - Selecting Number of passenger to : 3
+2021-12-28 13:15:39,726 - Selected by Visible text : 3
+2021-12-28 13:15:39,730 - Selecting source as : Seattle
+2021-12-28 13:15:39,890 - Selected by Visible text : Seattle
+2021-12-28 13:15:39,890 - Selecting Start Month as : March
+2021-12-28 13:15:40,046 - Selected by Visible text : March
+2021-12-28 13:15:40,046 - Selecting Start Day as : 14
+2021-12-28 13:15:40,202 - Selected by Visible text : 14
+2021-12-28 13:15:40,206 - Selecting Destination as : Acapulco
+2021-12-28 13:15:40,330 - Selected by Visible text : Acapulco
+2021-12-28 13:15:40,330 - Selecting Return Month as : March
+2021-12-28 13:15:40,478 - Selected by Visible text : March
+2021-12-28 13:15:40,478 - Selecting Return Day as : 20
+2021-12-28 13:15:40,638 - Selected by Visible text : 20
+2021-12-28 13:15:40,638 - Selecting Travel Class : First
+2021-12-28 13:15:40,638 - Clicking radio button for First Class
+2021-12-28 13:15:40,730 - Clicked
+2021-12-28 13:15:40,730 - Selecting Airline Preference as : Unified Airlines
+2021-12-28 13:15:40,879 - Selected by Visible text : Unified Airlines
+2021-12-28 13:15:40,887 - Attaching Full Page Screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:15:43,641 - Clicking Find Flight Button
+2021-12-28 13:15:44,490 - Clicked
+2021-12-28 13:15:44,522 - Text is : After flight finder - No Seats Avaialble  
+2021-12-28 13:15:44,550 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:44,550 - Attaching Logs for verifyFindFlight_FF0001
+2021-12-28 13:15:44,554 - Case Pass $$ verifyFindFlight_FF0001
+2021-12-28 13:15:44,562 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation2.php
+2021-12-28 13:15:44,946 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:44,946 - Navigating to Flight Page
+2021-12-28 13:15:44,946 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:15:45,331 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:45,335 - Attaching Logs for navigateToFlightPage
+2021-12-28 13:15:45,339 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:45,339 - Selecting Trip Type as : One Way
+2021-12-28 13:15:45,339 - Clicking Radio Button for One Way
+2021-12-28 13:15:45,440 - Clicked
+2021-12-28 13:15:45,440 - Selecting Number of passenger to : 4
+2021-12-28 13:15:45,660 - Selected by Visible text : 4
+2021-12-28 13:15:45,660 - Selecting source as : Sydney
+2021-12-28 13:15:45,792 - Selected by Visible text : Sydney
+2021-12-28 13:15:45,792 - Selecting Start Month as : October
+2021-12-28 13:15:45,916 - Selected by Visible text : October
+2021-12-28 13:15:45,916 - Selecting Start Day as : 30
+2021-12-28 13:15:46,059 - Selected by Visible text : 30
+2021-12-28 13:15:46,059 - Selecting Destination as : Portland
+2021-12-28 13:15:46,202 - Selected by Visible text : Portland
+2021-12-28 13:15:46,202 - Keeping return Month to default as no data provided
+2021-12-28 13:15:46,202 - Keeping return Day to default as no data provided
+2021-12-28 13:15:46,202 - Selecting Travel Class : Economy
+2021-12-28 13:15:46,202 - Clicking radio button for Economy Class
+2021-12-28 13:15:46,310 - Clicked
+2021-12-28 13:15:46,310 - Selecting Airline Preference as : Pangea Airlines
+2021-12-28 13:15:46,450 - Selected by Visible text : Pangea Airlines
+2021-12-28 13:15:46,458 - Attaching Full Page Screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:15:49,184 - Clicking Find Flight Button
+2021-12-28 13:15:50,383 - Clicked
+2021-12-28 13:15:50,415 - Text is : After flight finder - No Seats Avaialble  
+2021-12-28 13:15:50,439 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:50,439 - Attaching Logs for verifyFindFlight_FF0001
+2021-12-28 13:15:50,439 - Case Pass $$ verifyFindFlight_FF0001
+2021-12-28 13:15:50,447 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation2.php
+2021-12-28 13:15:50,683 - Method Started $$ closeDriver of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:50,687 - Closing Web Browser
+2021-12-28 13:15:51,369 - Web Browser Closed
+2021-12-28 13:15:51,369 - Execution Finished For $$ closeDriver of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:15:51,369 - Attaching Logs for closeDriver
+2021-12-28 13:16:39,490 - Method Started $$ setLogger of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:39,494 - *************** Logger Set ***************
+2021-12-28 13:16:39,494 - Execution Finished For $$ setLogger of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:39,494 - Attaching Logs for setLogger
+2021-12-28 13:16:39,504 - Method Started $$ invokeBrowser of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:39,504 - *************** Invoking Browser ***************
+2021-12-28 13:16:39,508 - Reading Property 'Browser' from sheet 'Configuration'
+2021-12-28 13:16:40,209 - Value is : Chrome
+2021-12-28 13:16:40,209 - Launching Chrome Browser
+2021-12-28 13:16:42,671 - *************** Invoking Finished ***************
+2021-12-28 13:16:42,671 - Execution Finished For $$ invokeBrowser of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:42,671 - Attaching Logs for invokeBrowser
+2021-12-28 13:16:42,675 - Method Started $$ navigateToBaseURL of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:42,675 - Reading Property 'Environment' from sheet 'Configuration'
+2021-12-28 13:16:42,728 - Value is : Automation
+2021-12-28 13:16:42,728 - Environment is : Automation
+2021-12-28 13:16:42,732 - Reading property : Automation
+2021-12-28 13:16:42,732 - Value is : http://demo.guru99.com/test/newtours
+2021-12-28 13:16:42,732 - Navigating to Base URL http://demo.guru99.com/test/newtours
+2021-12-28 13:16:47,219 - Execution Finished For $$ navigateToBaseURL of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:47,219 - Attaching Logs for navigateToBaseURL
+2021-12-28 13:16:47,243 - Method Started $$ initialize of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:47,275 - Execution Finished For $$ initialize of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:47,275 - Attaching Logs for initialize
+2021-12-28 13:16:47,291 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:47,291 - Navigating to Register Page
+2021-12-28 13:16:47,291 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2021-12-28 13:16:48,893 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:48,893 - Attaching Logs for navigateToRegisterPage
+2021-12-28 13:16:48,933 - Method Started $$ verifyTitleOfRegisterPage_RG0001 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:48,933 - Getting title of Web Page
+2021-12-28 13:16:48,937 - Title is : Register: Mercury Tours
+2021-12-28 13:16:48,949 - Execution Finished For $$ verifyTitleOfRegisterPage_RG0001 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:48,949 - Attaching Logs for verifyTitleOfRegisterPage_RG0001
+2021-12-28 13:16:48,953 - Title not matched. Actual title is : 'Register: Mercury Tours'. Expected Title is : 'Register: Mercury Tours and Travels' expected [true] but found [false]
+2021-12-28 13:16:48,957 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register.php
+2021-12-28 13:16:49,185 - Case Failed $$ verifyTitleOfRegisterPage_RG0001
+2021-12-28 13:16:49,213 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:49,213 - Navigating to Register Page
+2021-12-28 13:16:49,213 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2021-12-28 13:16:49,979 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:49,979 - Attaching Logs for navigateToRegisterPage
+2021-12-28 13:16:49,983 - Method Started $$ verifyMandatoryFieldsDisplayedInRegisterPage_RG0002 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:50,315 - Case Pass : Verify Mandatory Fields Displayed In Register Page RG0002
+2021-12-28 13:16:50,315 - Execution Finished For $$ verifyMandatoryFieldsDisplayedInRegisterPage_RG0002 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:50,315 - Attaching Logs for verifyMandatoryFieldsDisplayedInRegisterPage_RG0002
+2021-12-28 13:16:50,315 - Case Pass $$ verifyMandatoryFieldsDisplayedInRegisterPage_RG0002
+2021-12-28 13:16:50,323 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register.php
+2021-12-28 13:16:50,555 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:50,555 - Navigating to Register Page
+2021-12-28 13:16:50,555 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2021-12-28 13:16:51,325 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:51,325 - Attaching Logs for navigateToRegisterPage
+2021-12-28 13:16:51,329 - Method Started $$ verifyRegistrationWithMandatoryFields_RG0003 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:51,329 - Setting Username as : qwerty
+2021-12-28 13:16:51,705 - Text set : qwerty
+2021-12-28 13:16:51,705 - Setting Password as : 123
+2021-12-28 13:16:51,854 - Text set : 123
+2021-12-28 13:16:51,854 - Setting Confirm Password as : 123
+2021-12-28 13:16:51,998 - Text set : 123
+2021-12-28 13:16:52,002 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register.php
+2021-12-28 13:16:52,217 - Clicking Submit button
+2021-12-28 13:16:53,814 - Clicked
+2021-12-28 13:16:53,814 - Getting Success Message
+2021-12-28 13:16:53,858 - Text is : Thank you for registering. You may now sign-in using the user name and password you've just entered.
+2021-12-28 13:16:53,886 - Case Pass : Verify Registration With Mandatory Fields RG0003
+2021-12-28 13:16:53,890 - Execution Finished For $$ verifyRegistrationWithMandatoryFields_RG0003 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:53,890 - Attaching Logs for verifyRegistrationWithMandatoryFields_RG0003
+2021-12-28 13:16:53,890 - Case Pass $$ verifyRegistrationWithMandatoryFields_RG0003
+2021-12-28 13:16:53,898 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register_sucess.php
+2021-12-28 13:16:54,134 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:54,134 - Navigating to Register Page
+2021-12-28 13:16:54,134 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2021-12-28 13:16:54,899 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:54,899 - Attaching Logs for navigateToRegisterPage
+2021-12-28 13:16:54,903 - Method Started $$ verifyRegistrationWithBlankMandatoryFields_RG0004 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:54,903 - Setting Username as : 
+2021-12-28 13:16:55,219 - Text set : 
+2021-12-28 13:16:55,219 - Setting Password as : 
+2021-12-28 13:16:55,339 - Text set : 
+2021-12-28 13:16:55,339 - Setting Confirm Password as : 
+2021-12-28 13:16:55,475 - Text set : 
+2021-12-28 13:16:55,475 - Clicking Submit button
+2021-12-28 13:16:56,690 - Clicked
+2021-12-28 13:16:56,730 - Execution Finished For $$ verifyRegistrationWithBlankMandatoryFields_RG0004 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:56,730 - Attaching Logs for verifyRegistrationWithBlankMandatoryFields_RG0004
+2021-12-28 13:16:56,730 - Success Message is displayed for Blank Mandatory Fields expected [true] but found [false]
+2021-12-28 13:16:56,738 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register_sucess.php
+2021-12-28 13:16:57,004 - Case Failed $$ verifyRegistrationWithBlankMandatoryFields_RG0004
+2021-12-28 13:16:57,010 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:57,010 - Navigating to Register Page
+2021-12-28 13:16:57,010 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2021-12-28 13:16:57,829 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:57,829 - Attaching Logs for navigateToRegisterPage
+2021-12-28 13:16:57,833 - Method Started $$ verifyAvailableCountries_RG0005 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:16:57,833 - Opening country dropdown
+2021-12-28 13:16:57,969 - Clicked
+2021-12-28 13:16:57,969 - Getting options in countries
+2021-12-28 13:17:02,328 - Text for List is : 
+[ALBANIA, ALGERIA, AMERICAN SAMOA, ANDORRA, ANGOLA, ANGUILLA, ANTARCTICA, ANTIGUA AND BARBUDA, ARGENTINA, ARMENIA, ARUBA, ASHMORE AND CARTIER ISLANDS, AUSTRALIA, AUSTRIA, AZERBAIJAN, BAHAMAS, BAHRAIN, BAKER ISLAND, BANGLADESH, BARBADOS, BASSA DE INDIA, BELARUS, BELGIUM, BELIZE, BENIN, BERMUDA, BHUTAN, BOLIVIA, BOSNIA AND HERZEGOVINA, BOTSWANA, BOUVET ISLAND, BRAZIL, BRITISH INDIAN OCEAN TERRITORY, BRITISH VIRGIN ISLANDS, BRUNEI, BULGARIA, BURKINA FASO, BURMA, BURUNDI, CAMBODIA, CAMEROON, CANADA, CAPE VERDE, CAYMAN ISLANDS, CENTRAL AFRICAN REPUBLIC, CHAD, CHILE, CHINA, CHRISTMAS ISLAND, CLIPPERTON ISLAND, COCOS (KEELING) ISLANDS, COLOMBIA, COMOROS, CONGO, COOK ISLANDS, CORAL SEA ISLANDS, COSTA RICA, COTE D'IVOIRE, CROATIA, CUBA, CYPRUS, CZECH REPUBLIC, DENMARK, DJIBOUTI, DOMINICA, DOMINICAN REPUBLIC, ECUADOR, EGYPT, EL SALVADOR, EQUATORIAL GUINEA, ERITREA, ESTONIA, ETHIOPIA, EUROPA ISLAND, FALKLAND ISLANDS, FAROE ISLANDS, FIJI, FINLAND, FRANCE, FRENCH GUIANA, FRENCH POLYNESIA, FRENCH SOUTHERN AND ANTARCTIC LANDS, GABON, GAMBIA, THE, GAZA STRIP, GEORGIA, GERMANY, GHANA, GIBRALTAR, GLORIOSO ISLANDS, GREECE, GREENLAND, GRENADA, GUADELOUPE, GUAM, GUATEMALA, GUERNSEY, GUINEA, GUINEA-BISSAU, GUYANA, HAITI, HEARD ISLAND AND MCDONALD ISLANDS, HONDURAS, HONG KONG, HOWLAND ISLAND, HUNGARY, ICELAND, INDIA, INDONESIA, IRAN, IRAQ, IRELAND, ISRAEL, ITALY, JAMAICA, JAN MAYEN, JAPAN, JARVIS ISLAND, JERSEY, JOHNSTON ATOLL, JORDAN, JUAN DE NOVA ISLAND, KAZAKHSTAN, KENYA, KINGMAN REEF, KIRIBATI, KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF, KOREA, REPUBLIC OF, KUWAIT, KYRGYZSTAN, LAOS, LATVIA, LEBANON, LESOTHO, LIBERIA, LIBYA, LIECHTENSTEIN, LITHUANIA, LUXEMBOURG, MACAU, MACEDONIA, FORMER REPUBLIC OF, MADAGASCAR, MALAWI, MALAYSIA, MALDIVES, MALI, MALTA, MAN, ISLE OF, MARSHALL ISLANDS, MARTINIQUE, MAURITANIA, MAURITIUS, MAYOTTE, MEXICO, MICRONESIA, MIDWAY ISLANDS, MOLDOVA, MONACO, MONGOLIA, MONTENEGRO, MONTSERRAT, MOROCCO, MOZAMBIQUE, NAMIBIA, NAURU, NAVASSA ISLAND, NEPAL, NETHERLANDS, NETHERLANDS ANTILLES, NEW CALEDONIA, NEW ZEALAND, NICARAGUA, NIGER, NIGERIA, NIUE, NO MANS LAND, NORFOLK ISLAND, NORTHERN MARIANA ISLANDS, NORWAY, OCEANS, OMAN, PAKISTAN, PALMYRA ATOLL, PANAMA, PAPUA NEW GUINEA, PARACEL ISLANDS, PARAGUAY, PERU, PHILIPPINES, PITCAIRN ISLANDS, POLAND, PORTUGAL, PUERTO RICO, QATAR, REUNION, ROMANIA, RUSSIA, RWANDA, SAN MARINO, SAO TOME AND PRINCIPE, SAUDI ARABIA, SENEGAL, SERBIA, SEYCHELLES, SIERRA LEONE, SINGAPORE, SLOVAKIA, SLOVENIA, SOLOMON ISLANDS, SOMALIA, SOUTH AFRICA, SOVIET UNION, SPAIN, SPRATLY ISLANDS, SRI LANKA, ST. HELENA, ST. KITTS AND NEVIS, ST. LUCIA, ST. PIERRE AND MIQUELON, ST. VINCENT AND THE GRENADINES, SUDAN, SURINAME, SVALBARD, SWAZILAND, SWEDEN, SWITZERLAND, SYRIA, TAIWAN, TAJIKISTAN, TANZANIA, UNITED REPUBLIC OF, THAILAND, TOGO, TOKELAU, TONGA, TRINIDAD AND TOBAGO, TROMELIN ISLAND, TUNISIA, TURKEY, TURKMENISTAN, TURKS AND CAICOS ISLANDS, TUVALU, UGANDA, UKRAINE, UNDERSEA FEATURES, UNITED ARAB EMIRATES, UNITED KINGDOM, UNITED STATES, URUGUAY, UZBEKISTAN, VANUATU, VATICAN CITY, VENEZUELA, VIETNAM, VIRGIN ISLANDS, WAKE ISLAND, WALLIS AND FUTUNA, WEST BANK, WESTERN SAHARA, WESTERN SAMOA, YEMEN, YUGOSLAVIA, ZAIRE, ZAMBIA, ZIMBABWE]
+2021-12-28 13:17:02,332 - Execution Finished For $$ verifyAvailableCountries_RG0005 of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:17:02,332 - Attaching Logs for verifyAvailableCountries_RG0005
+2021-12-28 13:17:02,332 - The following asserts failed:
+	Following country not displayed : ARCTIC expected [true] but found [false],
+	Following country displayed Extra : ALBANIA expected [true] but found [false],
+	Following country displayed Extra : ALGERIA expected [true] but found [false],
+	Following country displayed Extra : AMERICAN SAMOA expected [true] but found [false],
+	Following country displayed Extra : ANDORRA expected [true] but found [false],
+	Following country displayed Extra : ANGOLA expected [true] but found [false],
+	Following country displayed Extra : ANGUILLA expected [true] but found [false],
+	Following country displayed Extra : ANTARCTICA expected [true] but found [false],
+	Following country displayed Extra : ANTIGUA AND BARBUDA expected [true] but found [false],
+	Following country displayed Extra : ARGENTINA expected [true] but found [false],
+	Following country displayed Extra : ARMENIA expected [true] but found [false],
+	Following country displayed Extra : ARUBA expected [true] but found [false],
+	Following country displayed Extra : ASHMORE AND CARTIER ISLANDS expected [true] but found [false],
+	Following country displayed Extra : AUSTRALIA expected [true] but found [false],
+	Following country displayed Extra : AUSTRIA expected [true] but found [false],
+	Following country displayed Extra : AZERBAIJAN expected [true] but found [false],
+	Following country displayed Extra : BAHAMAS expected [true] but found [false],
+	Following country displayed Extra : BAHRAIN expected [true] but found [false],
+	Following country displayed Extra : BAKER ISLAND expected [true] but found [false],
+	Following country displayed Extra : BANGLADESH expected [true] but found [false],
+	Following country displayed Extra : BARBADOS expected [true] but found [false],
+	Following country displayed Extra : BASSA DE INDIA expected [true] but found [false],
+	Following country displayed Extra : BELARUS expected [true] but found [false],
+	Following country displayed Extra : BELGIUM expected [true] but found [false],
+	Following country displayed Extra : BELIZE expected [true] but found [false],
+	Following country displayed Extra : BENIN expected [true] but found [false],
+	Following country displayed Extra : BERMUDA expected [true] but found [false],
+	Following country displayed Extra : BHUTAN expected [true] but found [false],
+	Following country displayed Extra : BOLIVIA expected [true] but found [false],
+	Following country displayed Extra : BOSNIA AND HERZEGOVINA expected [true] but found [false],
+	Following country displayed Extra : BOTSWANA expected [true] but found [false],
+	Following country displayed Extra : BOUVET ISLAND expected [true] but found [false],
+	Following country displayed Extra : BRAZIL expected [true] but found [false],
+	Following country displayed Extra : BRITISH INDIAN OCEAN TERRITORY expected [true] but found [false],
+	Following country displayed Extra : BRITISH VIRGIN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : BRUNEI expected [true] but found [false],
+	Following country displayed Extra : BULGARIA expected [true] but found [false],
+	Following country displayed Extra : BURKINA FASO expected [true] but found [false],
+	Following country displayed Extra : BURMA expected [true] but found [false],
+	Following country displayed Extra : BURUNDI expected [true] but found [false],
+	Following country displayed Extra : CAMBODIA expected [true] but found [false],
+	Following country displayed Extra : CAMEROON expected [true] but found [false],
+	Following country displayed Extra : CANADA expected [true] but found [false],
+	Following country displayed Extra : CAPE VERDE expected [true] but found [false],
+	Following country displayed Extra : CAYMAN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : CENTRAL AFRICAN REPUBLIC expected [true] but found [false],
+	Following country displayed Extra : CHAD expected [true] but found [false],
+	Following country displayed Extra : CHILE expected [true] but found [false],
+	Following country displayed Extra : CHINA expected [true] but found [false],
+	Following country displayed Extra : CHRISTMAS ISLAND expected [true] but found [false],
+	Following country displayed Extra : CLIPPERTON ISLAND expected [true] but found [false],
+	Following country displayed Extra : COCOS (KEELING) ISLANDS expected [true] but found [false],
+	Following country displayed Extra : COLOMBIA expected [true] but found [false],
+	Following country displayed Extra : COMOROS expected [true] but found [false],
+	Following country displayed Extra : CONGO expected [true] but found [false],
+	Following country displayed Extra : COOK ISLANDS expected [true] but found [false],
+	Following country displayed Extra : CORAL SEA ISLANDS expected [true] but found [false],
+	Following country displayed Extra : COSTA RICA expected [true] but found [false],
+	Following country displayed Extra : COTE D'IVOIRE expected [true] but found [false],
+	Following country displayed Extra : CROATIA expected [true] but found [false],
+	Following country displayed Extra : CUBA expected [true] but found [false],
+	Following country displayed Extra : CYPRUS expected [true] but found [false],
+	Following country displayed Extra : CZECH REPUBLIC expected [true] but found [false],
+	Following country displayed Extra : DENMARK expected [true] but found [false],
+	Following country displayed Extra : DJIBOUTI expected [true] but found [false],
+	Following country displayed Extra : DOMINICA expected [true] but found [false],
+	Following country displayed Extra : DOMINICAN REPUBLIC expected [true] but found [false],
+	Following country displayed Extra : ECUADOR expected [true] but found [false],
+	Following country displayed Extra : EGYPT expected [true] but found [false],
+	Following country displayed Extra : EL SALVADOR expected [true] but found [false],
+	Following country displayed Extra : EQUATORIAL GUINEA expected [true] but found [false],
+	Following country displayed Extra : ERITREA expected [true] but found [false],
+	Following country displayed Extra : ESTONIA expected [true] but found [false],
+	Following country displayed Extra : ETHIOPIA expected [true] but found [false],
+	Following country displayed Extra : EUROPA ISLAND expected [true] but found [false],
+	Following country displayed Extra : FALKLAND ISLANDS expected [true] but found [false],
+	Following country displayed Extra : FAROE ISLANDS expected [true] but found [false],
+	Following country displayed Extra : FIJI expected [true] but found [false],
+	Following country displayed Extra : FINLAND expected [true] but found [false],
+	Following country displayed Extra : FRANCE expected [true] but found [false],
+	Following country displayed Extra : FRENCH GUIANA expected [true] but found [false],
+	Following country displayed Extra : FRENCH POLYNESIA expected [true] but found [false],
+	Following country displayed Extra : FRENCH SOUTHERN AND ANTARCTIC LANDS expected [true] but found [false],
+	Following country displayed Extra : GABON expected [true] but found [false],
+	Following country displayed Extra : GAMBIA, THE expected [true] but found [false],
+	Following country displayed Extra : GAZA STRIP expected [true] but found [false],
+	Following country displayed Extra : GEORGIA expected [true] but found [false],
+	Following country displayed Extra : GHANA expected [true] but found [false],
+	Following country displayed Extra : GIBRALTAR expected [true] but found [false],
+	Following country displayed Extra : GLORIOSO ISLANDS expected [true] but found [false],
+	Following country displayed Extra : GREECE expected [true] but found [false],
+	Following country displayed Extra : GREENLAND expected [true] but found [false],
+	Following country displayed Extra : GRENADA expected [true] but found [false],
+	Following country displayed Extra : GUADELOUPE expected [true] but found [false],
+	Following country displayed Extra : GUAM expected [true] but found [false],
+	Following country displayed Extra : GUATEMALA expected [true] but found [false],
+	Following country displayed Extra : GUERNSEY expected [true] but found [false],
+	Following country displayed Extra : GUINEA expected [true] but found [false],
+	Following country displayed Extra : GUINEA-BISSAU expected [true] but found [false],
+	Following country displayed Extra : GUYANA expected [true] but found [false],
+	Following country displayed Extra : HAITI expected [true] but found [false],
+	Following country displayed Extra : HEARD ISLAND AND MCDONALD ISLANDS expected [true] but found [false],
+	Following country displayed Extra : HONDURAS expected [true] but found [false],
+	Following country displayed Extra : HONG KONG expected [true] but found [false],
+	Following country displayed Extra : HOWLAND ISLAND expected [true] but found [false],
+	Following country displayed Extra : HUNGARY expected [true] but found [false],
+	Following country displayed Extra : ICELAND expected [true] but found [false],
+	Following country displayed Extra : INDONESIA expected [true] but found [false],
+	Following country displayed Extra : IRAN expected [true] but found [false],
+	Following country displayed Extra : IRAQ expected [true] but found [false],
+	Following country displayed Extra : IRELAND expected [true] but found [false],
+	Following country displayed Extra : ISRAEL expected [true] but found [false],
+	Following country displayed Extra : ITALY expected [true] but found [false],
+	Following country displayed Extra : JAMAICA expected [true] but found [false],
+	Following country displayed Extra : JAN MAYEN expected [true] but found [false],
+	Following country displayed Extra : JAPAN expected [true] but found [false],
+	Following country displayed Extra : JARVIS ISLAND expected [true] but found [false],
+	Following country displayed Extra : JERSEY expected [true] but found [false],
+	Following country displayed Extra : JOHNSTON ATOLL expected [true] but found [false],
+	Following country displayed Extra : JORDAN expected [true] but found [false],
+	Following country displayed Extra : JUAN DE NOVA ISLAND expected [true] but found [false],
+	Following country displayed Extra : KAZAKHSTAN expected [true] but found [false],
+	Following country displayed Extra : KENYA expected [true] but found [false],
+	Following country displayed Extra : KINGMAN REEF expected [true] but found [false],
+	Following country displayed Extra : KIRIBATI expected [true] but found [false],
+	Following country displayed Extra : KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : KOREA, REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : KUWAIT expected [true] but found [false],
+	Following country displayed Extra : KYRGYZSTAN expected [true] but found [false],
+	Following country displayed Extra : LAOS expected [true] but found [false],
+	Following country displayed Extra : LATVIA expected [true] but found [false],
+	Following country displayed Extra : LEBANON expected [true] but found [false],
+	Following country displayed Extra : LESOTHO expected [true] but found [false],
+	Following country displayed Extra : LIBERIA expected [true] but found [false],
+	Following country displayed Extra : LIBYA expected [true] but found [false],
+	Following country displayed Extra : LIECHTENSTEIN expected [true] but found [false],
+	Following country displayed Extra : LITHUANIA expected [true] but found [false],
+	Following country displayed Extra : LUXEMBOURG expected [true] but found [false],
+	Following country displayed Extra : MACAU expected [true] but found [false],
+	Following country displayed Extra : MACEDONIA, FORMER REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : MADAGASCAR expected [true] but found [false],
+	Following country displayed Extra : MALAWI expected [true] but found [false],
+	Following country displayed Extra : MALAYSIA expected [true] but found [false],
+	Following country displayed Extra : MALDIVES expected [true] but found [false],
+	Following country displayed Extra : MALI expected [true] but found [false],
+	Following country displayed Extra : MALTA expected [true] but found [false],
+	Following country displayed Extra : MAN, ISLE OF expected [true] but found [false],
+	Following country displayed Extra : MARSHALL ISLANDS expected [true] but found [false],
+	Following country displayed Extra : MARTINIQUE expected [true] but found [false],
+	Following country displayed Extra : MAURITANIA expected [true] but found [false],
+	Following country displayed Extra : MAURITIUS expected [true] but found [false],
+	Following country displayed Extra : MAYOTTE expected [true] but found [false],
+	Following country displayed Extra : MEXICO expected [true] but found [false],
+	Following country displayed Extra : MICRONESIA expected [true] but found [false],
+	Following country displayed Extra : MIDWAY ISLANDS expected [true] but found [false],
+	Following country displayed Extra : MOLDOVA expected [true] but found [false],
+	Following country displayed Extra : MONACO expected [true] but found [false],
+	Following country displayed Extra : MONGOLIA expected [true] but found [false],
+	Following country displayed Extra : MONTENEGRO expected [true] but found [false],
+	Following country displayed Extra : MONTSERRAT expected [true] but found [false],
+	Following country displayed Extra : MOROCCO expected [true] but found [false],
+	Following country displayed Extra : MOZAMBIQUE expected [true] but found [false],
+	Following country displayed Extra : NAMIBIA expected [true] but found [false],
+	Following country displayed Extra : NAURU expected [true] but found [false],
+	Following country displayed Extra : NAVASSA ISLAND expected [true] but found [false],
+	Following country displayed Extra : NEPAL expected [true] but found [false],
+	Following country displayed Extra : NETHERLANDS expected [true] but found [false],
+	Following country displayed Extra : NETHERLANDS ANTILLES expected [true] but found [false],
+	Following country displayed Extra : NEW CALEDONIA expected [true] but found [false],
+	Following country displayed Extra : NEW ZEALAND expected [true] but found [false],
+	Following country displayed Extra : NICARAGUA expected [true] but found [false],
+	Following country displayed Extra : NIGER expected [true] but found [false],
+	Following country displayed Extra : NIGERIA expected [true] but found [false],
+	Following country displayed Extra : NIUE expected [true] but found [false],
+	Following country displayed Extra : NO MANS LAND expected [true] but found [false],
+	Following country displayed Extra : NORFOLK ISLAND expected [true] but found [false],
+	Following country displayed Extra : NORTHERN MARIANA ISLANDS expected [true] but found [false],
+	Following country displayed Extra : NORWAY expected [true] but found [false],
+	Following country displayed Extra : OCEANS expected [true] but found [false],
+	Following country displayed Extra : OMAN expected [true] but found [false],
+	Following country displayed Extra : PAKISTAN expected [true] but found [false],
+	Following country displayed Extra : PALMYRA ATOLL expected [true] but found [false],
+	Following country displayed Extra : PANAMA expected [true] but found [false],
+	Following country displayed Extra : PAPUA NEW GUINEA expected [true] but found [false],
+	Following country displayed Extra : PARACEL ISLANDS expected [true] but found [false],
+	Following country displayed Extra : PARAGUAY expected [true] but found [false],
+	Following country displayed Extra : PERU expected [true] but found [false],
+	Following country displayed Extra : PHILIPPINES expected [true] but found [false],
+	Following country displayed Extra : PITCAIRN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : POLAND expected [true] but found [false],
+	Following country displayed Extra : PORTUGAL expected [true] but found [false],
+	Following country displayed Extra : PUERTO RICO expected [true] but found [false],
+	Following country displayed Extra : QATAR expected [true] but found [false],
+	Following country displayed Extra : REUNION expected [true] but found [false],
+	Following country displayed Extra : ROMANIA expected [true] but found [false],
+	Following country displayed Extra : RUSSIA expected [true] but found [false],
+	Following country displayed Extra : RWANDA expected [true] but found [false],
+	Following country displayed Extra : SAN MARINO expected [true] but found [false],
+	Following country displayed Extra : SAO TOME AND PRINCIPE expected [true] but found [false],
+	Following country displayed Extra : SAUDI ARABIA expected [true] but found [false],
+	Following country displayed Extra : SENEGAL expected [true] but found [false],
+	Following country displayed Extra : SERBIA expected [true] but found [false],
+	Following country displayed Extra : SEYCHELLES expected [true] but found [false],
+	Following country displayed Extra : SIERRA LEONE expected [true] but found [false],
+	Following country displayed Extra : SINGAPORE expected [true] but found [false],
+	Following country displayed Extra : SLOVAKIA expected [true] but found [false],
+	Following country displayed Extra : SLOVENIA expected [true] but found [false],
+	Following country displayed Extra : SOLOMON ISLANDS expected [true] but found [false],
+	Following country displayed Extra : SOMALIA expected [true] but found [false],
+	Following country displayed Extra : SOUTH AFRICA expected [true] but found [false],
+	Following country displayed Extra : SOVIET UNION expected [true] but found [false],
+	Following country displayed Extra : SPAIN expected [true] but found [false],
+	Following country displayed Extra : SPRATLY ISLANDS expected [true] but found [false],
+	Following country displayed Extra : SRI LANKA expected [true] but found [false],
+	Following country displayed Extra : ST. HELENA expected [true] but found [false],
+	Following country displayed Extra : ST. KITTS AND NEVIS expected [true] but found [false],
+	Following country displayed Extra : ST. LUCIA expected [true] but found [false],
+	Following country displayed Extra : ST. PIERRE AND MIQUELON expected [true] but found [false],
+	Following country displayed Extra : ST. VINCENT AND THE GRENADINES expected [true] but found [false],
+	Following country displayed Extra : SUDAN expected [true] but found [false],
+	Following country displayed Extra : SURINAME expected [true] but found [false],
+	Following country displayed Extra : SVALBARD expected [true] but found [false],
+	Following country displayed Extra : SWAZILAND expected [true] but found [false],
+	Following country displayed Extra : SWEDEN expected [true] but found [false],
+	Following country displayed Extra : SWITZERLAND expected [true] but found [false],
+	Following country displayed Extra : SYRIA expected [true] but found [false],
+	Following country displayed Extra : TAIWAN expected [true] but found [false],
+	Following country displayed Extra : TAJIKISTAN expected [true] but found [false],
+	Following country displayed Extra : TANZANIA, UNITED REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : THAILAND expected [true] but found [false],
+	Following country displayed Extra : TOGO expected [true] but found [false],
+	Following country displayed Extra : TOKELAU expected [true] but found [false],
+	Following country displayed Extra : TONGA expected [true] but found [false],
+	Following country displayed Extra : TRINIDAD AND TOBAGO expected [true] but found [false],
+	Following country displayed Extra : TROMELIN ISLAND expected [true] but found [false],
+	Following country displayed Extra : TUNISIA expected [true] but found [false],
+	Following country displayed Extra : TURKEY expected [true] but found [false],
+	Following country displayed Extra : TURKMENISTAN expected [true] but found [false],
+	Following country displayed Extra : TURKS AND CAICOS ISLANDS expected [true] but found [false],
+	Following country displayed Extra : TUVALU expected [true] but found [false],
+	Following country displayed Extra : UGANDA expected [true] but found [false],
+	Following country displayed Extra : UKRAINE expected [true] but found [false],
+	Following country displayed Extra : UNDERSEA FEATURES expected [true] but found [false],
+	Following country displayed Extra : UNITED ARAB EMIRATES expected [true] but found [false],
+	Following country displayed Extra : UNITED KINGDOM expected [true] but found [false],
+	Following country displayed Extra : URUGUAY expected [true] but found [false],
+	Following country displayed Extra : UZBEKISTAN expected [true] but found [false],
+	Following country displayed Extra : VANUATU expected [true] but found [false],
+	Following country displayed Extra : VATICAN CITY expected [true] but found [false],
+	Following country displayed Extra : VENEZUELA expected [true] but found [false],
+	Following country displayed Extra : VIETNAM expected [true] but found [false],
+	Following country displayed Extra : VIRGIN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : WAKE ISLAND expected [true] but found [false],
+	Following country displayed Extra : WALLIS AND FUTUNA expected [true] but found [false],
+	Following country displayed Extra : WEST BANK expected [true] but found [false],
+	Following country displayed Extra : WESTERN SAHARA expected [true] but found [false],
+	Following country displayed Extra : WESTERN SAMOA expected [true] but found [false],
+	Following country displayed Extra : YEMEN expected [true] but found [false],
+	Following country displayed Extra : YUGOSLAVIA expected [true] but found [false],
+	Following country displayed Extra : ZAIRE expected [true] but found [false],
+	Following country displayed Extra : ZAMBIA expected [true] but found [false],
+	Following country displayed Extra : ZIMBABWE expected [true] but found [false]
+2021-12-28 13:17:02,340 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/register.php
+2021-12-28 13:17:02,560 - Case Failed $$ verifyAvailableCountries_RG0005
+2021-12-28 13:17:02,652 - Method Started $$ closeDriver of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:17:02,652 - Closing Web Browser
+2021-12-28 13:17:03,269 - Web Browser Closed
+2021-12-28 13:17:03,269 - Execution Finished For $$ closeDriver of Class : [TestClass name=class tests.register.RegisterTest]
+2021-12-28 13:17:03,269 - Attaching Logs for closeDriver
+2021-12-28 13:17:03,281 - Method Started $$ setLogger of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:03,281 - *************** Logger Set ***************
+2021-12-28 13:17:03,281 - Execution Finished For $$ setLogger of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:03,281 - Attaching Logs for setLogger
+2021-12-28 13:17:03,281 - Method Started $$ invokeBrowser of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:03,281 - *************** Invoking Browser ***************
+2021-12-28 13:17:03,281 - Reading Property 'Browser' from sheet 'Configuration'
+2021-12-28 13:17:03,333 - Value is : Chrome
+2021-12-28 13:17:03,333 - Launching Chrome Browser
+2021-12-28 13:17:04,872 - *************** Invoking Finished ***************
+2021-12-28 13:17:04,872 - Execution Finished For $$ invokeBrowser of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:04,872 - Attaching Logs for invokeBrowser
+2021-12-28 13:17:04,872 - Method Started $$ navigateToBaseURL of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:04,872 - Reading Property 'Environment' from sheet 'Configuration'
+2021-12-28 13:17:04,911 - Value is : Automation
+2021-12-28 13:17:04,911 - Environment is : Automation
+2021-12-28 13:17:04,911 - Reading property : Automation
+2021-12-28 13:17:04,915 - Value is : http://demo.guru99.com/test/newtours
+2021-12-28 13:17:04,915 - Navigating to Base URL http://demo.guru99.com/test/newtours
+2021-12-28 13:17:09,208 - Execution Finished For $$ navigateToBaseURL of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:09,208 - Attaching Logs for navigateToBaseURL
+2021-12-28 13:17:09,208 - Method Started $$ initialize of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:09,212 - Execution Finished For $$ initialize of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:09,212 - Attaching Logs for initialize
+2021-12-28 13:17:09,276 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:09,276 - Navigating to Flight Page
+2021-12-28 13:17:09,276 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:17:10,015 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:10,015 - Attaching Logs for navigateToFlightPage
+2021-12-28 13:17:10,019 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:10,019 - Selecting Trip Type as : Round Trip
+2021-12-28 13:17:10,023 - Clicking Radio Button for Round Trip
+2021-12-28 13:17:10,111 - Clicked
+2021-12-28 13:17:10,111 - Selecting Number of passenger to : 1
+2021-12-28 13:17:10,247 - Selected by Visible text : 1
+2021-12-28 13:17:10,247 - Selecting source as : Frankfurt
+2021-12-28 13:17:10,427 - Selected by Visible text : Frankfurt
+2021-12-28 13:17:10,427 - Selecting Start Month as : February
+2021-12-28 13:17:10,579 - Selected by Visible text : February
+2021-12-28 13:17:10,579 - Selecting Start Day as : 9
+2021-12-28 13:17:10,715 - Selected by Visible text : 9
+2021-12-28 13:17:10,715 - Selecting Destination as : London
+2021-12-28 13:17:10,859 - Selected by Visible text : London
+2021-12-28 13:17:10,859 - Selecting Return Month as : February
+2021-12-28 13:17:11,003 - Selected by Visible text : February
+2021-12-28 13:17:11,003 - Selecting Return Day as : 19
+2021-12-28 13:17:11,167 - Selected by Visible text : 19
+2021-12-28 13:17:11,171 - Selecting Travel Class : Economy
+2021-12-28 13:17:11,171 - Clicking radio button for Economy Class
+2021-12-28 13:17:11,271 - Clicked
+2021-12-28 13:17:11,271 - Setting No Preference
+2021-12-28 13:17:11,279 - Attaching Full Page Screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:17:14,218 - Clicking Find Flight Button
+2021-12-28 13:17:15,383 - Clicked
+2021-12-28 13:17:15,423 - Text is : After flight finder - No Seats Avaialble  
+2021-12-28 13:17:15,443 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:15,443 - Attaching Logs for verifyFindFlight_FF0001
+2021-12-28 13:17:15,443 - Case Pass $$ verifyFindFlight_FF0001
+2021-12-28 13:17:15,447 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation2.php
+2021-12-28 13:17:15,695 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:15,695 - Navigating to Flight Page
+2021-12-28 13:17:15,695 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:17:16,067 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:16,067 - Attaching Logs for navigateToFlightPage
+2021-12-28 13:17:16,071 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:16,071 - Selecting Trip Type as : One Way
+2021-12-28 13:17:16,071 - Clicking Radio Button for One Way
+2021-12-28 13:17:16,163 - Clicked
+2021-12-28 13:17:16,163 - Selecting Number of passenger to : 2
+2021-12-28 13:17:16,391 - Selected by Visible text : 2
+2021-12-28 13:17:16,391 - Selecting source as : Paris
+2021-12-28 13:17:16,527 - Selected by Visible text : Paris
+2021-12-28 13:17:16,527 - Selecting Start Month as : June
+2021-12-28 13:17:16,679 - Selected by Visible text : June
+2021-12-28 13:17:16,679 - Selecting Start Day as : 7
+2021-12-28 13:17:16,792 - Selected by Visible text : 7
+2021-12-28 13:17:16,796 - Selecting Destination as : Seattle
+2021-12-28 13:17:16,936 - Selected by Visible text : Seattle
+2021-12-28 13:17:16,936 - Keeping return Month to default as no data provided
+2021-12-28 13:17:16,936 - Keeping return Day to default as no data provided
+2021-12-28 13:17:16,936 - Selecting Travel Class : Business
+2021-12-28 13:17:16,936 - Clicking radio button for Business Class
+2021-12-28 13:17:17,000 - Clicked
+2021-12-28 13:17:17,000 - Selecting Airline Preference as : Blue Skies Airlines
+2021-12-28 13:17:17,160 - Selected by Visible text : Blue Skies Airlines
+2021-12-28 13:17:17,168 - Attaching Full Page Screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:17:19,920 - Clicking Find Flight Button
+2021-12-28 13:17:21,021 - Clicked
+2021-12-28 13:17:21,065 - Text is : After flight finder - No Seats Avaialble  
+2021-12-28 13:17:21,097 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:21,097 - Attaching Logs for verifyFindFlight_FF0001
+2021-12-28 13:17:21,097 - Case Pass $$ verifyFindFlight_FF0001
+2021-12-28 13:17:21,105 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation2.php
+2021-12-28 13:17:21,341 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:21,341 - Navigating to Flight Page
+2021-12-28 13:17:21,341 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:17:21,741 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:21,741 - Attaching Logs for navigateToFlightPage
+2021-12-28 13:17:21,745 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:21,745 - Selecting Trip Type as : Round Trip
+2021-12-28 13:17:21,745 - Clicking Radio Button for Round Trip
+2021-12-28 13:17:21,835 - Clicked
+2021-12-28 13:17:21,835 - Selecting Number of passenger to : 3
+2021-12-28 13:17:22,100 - Selected by Visible text : 3
+2021-12-28 13:17:22,100 - Selecting source as : Seattle
+2021-12-28 13:17:22,249 - Selected by Visible text : Seattle
+2021-12-28 13:17:22,249 - Selecting Start Month as : March
+2021-12-28 13:17:22,401 - Selected by Visible text : March
+2021-12-28 13:17:22,401 - Selecting Start Day as : 14
+2021-12-28 13:17:22,529 - Selected by Visible text : 14
+2021-12-28 13:17:22,533 - Selecting Destination as : Acapulco
+2021-12-28 13:17:22,657 - Selected by Visible text : Acapulco
+2021-12-28 13:17:22,657 - Selecting Return Month as : March
+2021-12-28 13:17:22,789 - Selected by Visible text : March
+2021-12-28 13:17:22,793 - Selecting Return Day as : 20
+2021-12-28 13:17:22,953 - Selected by Visible text : 20
+2021-12-28 13:17:22,953 - Selecting Travel Class : First
+2021-12-28 13:17:22,953 - Clicking radio button for First Class
+2021-12-28 13:17:23,041 - Clicked
+2021-12-28 13:17:23,041 - Selecting Airline Preference as : Unified Airlines
+2021-12-28 13:17:23,194 - Selected by Visible text : Unified Airlines
+2021-12-28 13:17:23,198 - Attaching Full Page Screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:17:25,926 - Clicking Find Flight Button
+2021-12-28 13:17:26,723 - Clicked
+2021-12-28 13:17:26,760 - Text is : After flight finder - No Seats Avaialble  
+2021-12-28 13:17:26,779 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:26,779 - Attaching Logs for verifyFindFlight_FF0001
+2021-12-28 13:17:26,783 - Case Pass $$ verifyFindFlight_FF0001
+2021-12-28 13:17:26,787 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation2.php
+2021-12-28 13:17:27,059 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:27,059 - Navigating to Flight Page
+2021-12-28 13:17:27,059 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:17:27,411 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:27,411 - Attaching Logs for navigateToFlightPage
+2021-12-28 13:17:27,415 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:27,415 - Selecting Trip Type as : One Way
+2021-12-28 13:17:27,415 - Clicking Radio Button for One Way
+2021-12-28 13:17:27,503 - Clicked
+2021-12-28 13:17:27,503 - Selecting Number of passenger to : 4
+2021-12-28 13:17:27,759 - Selected by Visible text : 4
+2021-12-28 13:17:27,763 - Selecting source as : Sydney
+2021-12-28 13:17:27,899 - Selected by Visible text : Sydney
+2021-12-28 13:17:27,899 - Selecting Start Month as : October
+2021-12-28 13:17:28,043 - Selected by Visible text : October
+2021-12-28 13:17:28,043 - Selecting Start Day as : 30
+2021-12-28 13:17:28,192 - Selected by Visible text : 30
+2021-12-28 13:17:28,196 - Selecting Destination as : Portland
+2021-12-28 13:17:28,352 - Selected by Visible text : Portland
+2021-12-28 13:17:28,352 - Keeping return Month to default as no data provided
+2021-12-28 13:17:28,352 - Keeping return Day to default as no data provided
+2021-12-28 13:17:28,352 - Selecting Travel Class : Economy
+2021-12-28 13:17:28,352 - Clicking radio button for Economy Class
+2021-12-28 13:17:28,424 - Clicked
+2021-12-28 13:17:28,424 - Selecting Airline Preference as : Pangea Airlines
+2021-12-28 13:17:28,581 - Selected by Visible text : Pangea Airlines
+2021-12-28 13:17:28,588 - Attaching Full Page Screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation.php
+2021-12-28 13:17:31,328 - Clicking Find Flight Button
+2021-12-28 13:17:32,440 - Clicked
+2021-12-28 13:17:32,476 - Text is : After flight finder - No Seats Avaialble  
+2021-12-28 13:17:32,513 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:32,513 - Attaching Logs for verifyFindFlight_FF0001
+2021-12-28 13:17:32,517 - Case Pass $$ verifyFindFlight_FF0001
+2021-12-28 13:17:32,521 - Attaching screenshot of URL $$ http://demo.guru99.com/test/newtours/reservation2.php
+2021-12-28 13:17:32,801 - Method Started $$ closeDriver of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:32,801 - Closing Web Browser
+2021-12-28 13:17:33,458 - Web Browser Closed
+2021-12-28 13:17:33,458 - Execution Finished For $$ closeDriver of Class : [TestClass name=class tests.flight.FlightTest]
+2021-12-28 13:17:33,458 - Attaching Logs for closeDriver
+2022-01-09 16:37:15,142 - Method Started $$ setLogger of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:15,145 - *************** Logger Set ***************
+2022-01-09 16:37:15,148 - Execution Finished For $$ setLogger of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:15,148 - Attaching Logs for setLogger
+2022-01-09 16:37:15,153 - Method Started $$ invokeBrowser of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:15,153 - *************** Invoking Browser ***************
+2022-01-09 16:37:15,156 - Reading Property 'Browser' from sheet 'Configuration'
+2022-01-09 16:37:15,637 - Value is : Chrome
+2022-01-09 16:37:15,637 - Launching Chrome Browser
+2022-01-09 16:37:28,629 - *************** Invoking Finished ***************
+2022-01-09 16:37:28,629 - Execution Finished For $$ invokeBrowser of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:28,629 - Attaching Logs for invokeBrowser
+2022-01-09 16:37:28,631 - Method Started $$ navigateToBaseURL of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:28,631 - Reading Property 'Environment' from sheet 'Configuration'
+2022-01-09 16:37:28,669 - Value is : Automation
+2022-01-09 16:37:28,669 - Environment is : Automation
+2022-01-09 16:37:28,670 - Reading property : Automation
+2022-01-09 16:37:28,671 - Value is : http://demo.guru99.com/test/newtours
+2022-01-09 16:37:28,671 - Navigating to Base URL http://demo.guru99.com/test/newtours
+2022-01-09 16:37:32,808 - Execution Finished For $$ navigateToBaseURL of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:32,808 - Attaching Logs for navigateToBaseURL
+2022-01-09 16:37:32,852 - Method Started $$ initialize of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:32,871 - Execution Finished For $$ initialize of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:32,871 - Attaching Logs for initialize
+2022-01-09 16:37:32,879 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:32,879 - Navigating to Register Page
+2022-01-09 16:37:32,879 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2022-01-09 16:37:33,839 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:33,839 - Attaching Logs for navigateToRegisterPage
+2022-01-09 16:37:33,862 - Method Started $$ verifyTitleOfRegisterPage_RG0001 of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:33,862 - Getting title of Web Page
+2022-01-09 16:37:33,867 - Title is : Register: Mercury Tours
+2022-01-09 16:37:33,873 - Execution Finished For $$ verifyTitleOfRegisterPage_RG0001 of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:33,873 - Attaching Logs for verifyTitleOfRegisterPage_RG0001
+2022-01-09 16:37:33,874 - Title not matched. Actual title is : 'Register: Mercury Tours'. Expected Title is : 'Register: Mercury Tours and Travels' expected [true] but found [false]
+2022-01-09 16:37:33,878 - Attaching screenshot of URL $$ https://demo.guru99.com/test/newtours/register.php
+2022-01-09 16:37:34,031 - Case Failed $$ verifyTitleOfRegisterPage_RG0001
+2022-01-09 16:37:34,052 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:34,052 - Navigating to Register Page
+2022-01-09 16:37:34,052 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2022-01-09 16:37:34,379 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:34,379 - Attaching Logs for navigateToRegisterPage
+2022-01-09 16:37:34,382 - Method Started $$ verifyMandatoryFieldsDisplayedInRegisterPage_RG0002 of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:34,553 - Case Pass : Verify Mandatory Fields Displayed In Register Page RG0002
+2022-01-09 16:37:34,554 - Execution Finished For $$ verifyMandatoryFieldsDisplayedInRegisterPage_RG0002 of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:34,554 - Attaching Logs for verifyMandatoryFieldsDisplayedInRegisterPage_RG0002
+2022-01-09 16:37:34,555 - Case Pass $$ verifyMandatoryFieldsDisplayedInRegisterPage_RG0002
+2022-01-09 16:37:34,558 - Attaching screenshot of URL $$ https://demo.guru99.com/test/newtours/register.php
+2022-01-09 16:37:34,710 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:34,710 - Navigating to Register Page
+2022-01-09 16:37:34,710 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2022-01-09 16:37:35,012 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:35,012 - Attaching Logs for navigateToRegisterPage
+2022-01-09 16:37:35,014 - Method Started $$ verifyRegistrationWithMandatoryFields_RG0003 of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:35,014 - Setting Username as : qwerty
+2022-01-09 16:37:35,191 - Text set : qwerty
+2022-01-09 16:37:35,191 - Setting Password as : 123
+2022-01-09 16:37:35,314 - Text set : 123
+2022-01-09 16:37:35,315 - Setting Confirm Password as : 123
+2022-01-09 16:37:35,424 - Text set : 123
+2022-01-09 16:37:35,429 - Attaching screenshot of URL $$ https://demo.guru99.com/test/newtours/register.php
+2022-01-09 16:37:35,544 - Clicking Submit button
+2022-01-09 16:37:36,528 - Clicked
+2022-01-09 16:37:36,529 - Getting Success Message
+2022-01-09 16:37:36,564 - Text is : Thank you for registering. You may now sign-in using the user name and password you've just entered.
+2022-01-09 16:37:36,587 - Case Pass : Verify Registration With Mandatory Fields RG0003
+2022-01-09 16:37:36,587 - Execution Finished For $$ verifyRegistrationWithMandatoryFields_RG0003 of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:36,587 - Attaching Logs for verifyRegistrationWithMandatoryFields_RG0003
+2022-01-09 16:37:36,588 - Case Pass $$ verifyRegistrationWithMandatoryFields_RG0003
+2022-01-09 16:37:36,591 - Attaching screenshot of URL $$ https://demo.guru99.com/test/newtours/register_sucess.php
+2022-01-09 16:37:36,768 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:36,769 - Navigating to Register Page
+2022-01-09 16:37:36,769 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2022-01-09 16:37:37,380 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:37,380 - Attaching Logs for navigateToRegisterPage
+2022-01-09 16:37:37,382 - Method Started $$ verifyRegistrationWithBlankMandatoryFields_RG0004 of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:37,382 - Setting Username as : 
+2022-01-09 16:37:37,539 - Text set : 
+2022-01-09 16:37:37,539 - Setting Password as : 
+2022-01-09 16:37:37,895 - Text set : 
+2022-01-09 16:37:37,895 - Setting Confirm Password as : 
+2022-01-09 16:37:37,991 - Text set : 
+2022-01-09 16:37:37,991 - Clicking Submit button
+2022-01-09 16:37:38,953 - Clicked
+2022-01-09 16:37:38,978 - Execution Finished For $$ verifyRegistrationWithBlankMandatoryFields_RG0004 of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:38,978 - Attaching Logs for verifyRegistrationWithBlankMandatoryFields_RG0004
+2022-01-09 16:37:38,979 - Success Message is displayed for Blank Mandatory Fields expected [true] but found [false]
+2022-01-09 16:37:38,982 - Attaching screenshot of URL $$ https://demo.guru99.com/test/newtours/register_sucess.php
+2022-01-09 16:37:39,142 - Case Failed $$ verifyRegistrationWithBlankMandatoryFields_RG0004
+2022-01-09 16:37:39,145 - Method Started $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:39,145 - Navigating to Register Page
+2022-01-09 16:37:39,145 - Navigating to : http://demo.guru99.com/test/newtours/register.php
+2022-01-09 16:37:39,773 - Execution Finished For $$ navigateToRegisterPage of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:39,773 - Attaching Logs for navigateToRegisterPage
+2022-01-09 16:37:39,775 - Method Started $$ verifyAvailableCountries_RG0005 of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:39,776 - Opening country dropdown
+2022-01-09 16:37:39,851 - Clicked
+2022-01-09 16:37:39,851 - Getting options in countries
+2022-01-09 16:37:42,430 - Text for List is : 
+[ALBANIA, ALGERIA, AMERICAN SAMOA, ANDORRA, ANGOLA, ANGUILLA, ANTARCTICA, ANTIGUA AND BARBUDA, ARGENTINA, ARMENIA, ARUBA, ASHMORE AND CARTIER ISLANDS, AUSTRALIA, AUSTRIA, AZERBAIJAN, BAHAMAS, BAHRAIN, BAKER ISLAND, BANGLADESH, BARBADOS, BASSA DE INDIA, BELARUS, BELGIUM, BELIZE, BENIN, BERMUDA, BHUTAN, BOLIVIA, BOSNIA AND HERZEGOVINA, BOTSWANA, BOUVET ISLAND, BRAZIL, BRITISH INDIAN OCEAN TERRITORY, BRITISH VIRGIN ISLANDS, BRUNEI, BULGARIA, BURKINA FASO, BURMA, BURUNDI, CAMBODIA, CAMEROON, CANADA, CAPE VERDE, CAYMAN ISLANDS, CENTRAL AFRICAN REPUBLIC, CHAD, CHILE, CHINA, CHRISTMAS ISLAND, CLIPPERTON ISLAND, COCOS (KEELING) ISLANDS, COLOMBIA, COMOROS, CONGO, COOK ISLANDS, CORAL SEA ISLANDS, COSTA RICA, COTE D'IVOIRE, CROATIA, CUBA, CYPRUS, CZECH REPUBLIC, DENMARK, DJIBOUTI, DOMINICA, DOMINICAN REPUBLIC, ECUADOR, EGYPT, EL SALVADOR, EQUATORIAL GUINEA, ERITREA, ESTONIA, ETHIOPIA, EUROPA ISLAND, FALKLAND ISLANDS, FAROE ISLANDS, FIJI, FINLAND, FRANCE, FRENCH GUIANA, FRENCH POLYNESIA, FRENCH SOUTHERN AND ANTARCTIC LANDS, GABON, GAMBIA, THE, GAZA STRIP, GEORGIA, GERMANY, GHANA, GIBRALTAR, GLORIOSO ISLANDS, GREECE, GREENLAND, GRENADA, GUADELOUPE, GUAM, GUATEMALA, GUERNSEY, GUINEA, GUINEA-BISSAU, GUYANA, HAITI, HEARD ISLAND AND MCDONALD ISLANDS, HONDURAS, HONG KONG, HOWLAND ISLAND, HUNGARY, ICELAND, INDIA, INDONESIA, IRAN, IRAQ, IRELAND, ISRAEL, ITALY, JAMAICA, JAN MAYEN, JAPAN, JARVIS ISLAND, JERSEY, JOHNSTON ATOLL, JORDAN, JUAN DE NOVA ISLAND, KAZAKHSTAN, KENYA, KINGMAN REEF, KIRIBATI, KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF, KOREA, REPUBLIC OF, KUWAIT, KYRGYZSTAN, LAOS, LATVIA, LEBANON, LESOTHO, LIBERIA, LIBYA, LIECHTENSTEIN, LITHUANIA, LUXEMBOURG, MACAU, MACEDONIA, FORMER REPUBLIC OF, MADAGASCAR, MALAWI, MALAYSIA, MALDIVES, MALI, MALTA, MAN, ISLE OF, MARSHALL ISLANDS, MARTINIQUE, MAURITANIA, MAURITIUS, MAYOTTE, MEXICO, MICRONESIA, MIDWAY ISLANDS, MOLDOVA, MONACO, MONGOLIA, MONTENEGRO, MONTSERRAT, MOROCCO, MOZAMBIQUE, NAMIBIA, NAURU, NAVASSA ISLAND, NEPAL, NETHERLANDS, NETHERLANDS ANTILLES, NEW CALEDONIA, NEW ZEALAND, NICARAGUA, NIGER, NIGERIA, NIUE, NO MANS LAND, NORFOLK ISLAND, NORTHERN MARIANA ISLANDS, NORWAY, OCEANS, OMAN, PAKISTAN, PALMYRA ATOLL, PANAMA, PAPUA NEW GUINEA, PARACEL ISLANDS, PARAGUAY, PERU, PHILIPPINES, PITCAIRN ISLANDS, POLAND, PORTUGAL, PUERTO RICO, QATAR, REUNION, ROMANIA, RUSSIA, RWANDA, SAN MARINO, SAO TOME AND PRINCIPE, SAUDI ARABIA, SENEGAL, SERBIA, SEYCHELLES, SIERRA LEONE, SINGAPORE, SLOVAKIA, SLOVENIA, SOLOMON ISLANDS, SOMALIA, SOUTH AFRICA, SOVIET UNION, SPAIN, SPRATLY ISLANDS, SRI LANKA, ST. HELENA, ST. KITTS AND NEVIS, ST. LUCIA, ST. PIERRE AND MIQUELON, ST. VINCENT AND THE GRENADINES, SUDAN, SURINAME, SVALBARD, SWAZILAND, SWEDEN, SWITZERLAND, SYRIA, TAIWAN, TAJIKISTAN, TANZANIA, UNITED REPUBLIC OF, THAILAND, TOGO, TOKELAU, TONGA, TRINIDAD AND TOBAGO, TROMELIN ISLAND, TUNISIA, TURKEY, TURKMENISTAN, TURKS AND CAICOS ISLANDS, TUVALU, UGANDA, UKRAINE, UNDERSEA FEATURES, UNITED ARAB EMIRATES, UNITED KINGDOM, UNITED STATES, URUGUAY, UZBEKISTAN, VANUATU, VATICAN CITY, VENEZUELA, VIETNAM, VIRGIN ISLANDS, WAKE ISLAND, WALLIS AND FUTUNA, WEST BANK, WESTERN SAHARA, WESTERN SAMOA, YEMEN, YUGOSLAVIA, ZAIRE, ZAMBIA, ZIMBABWE]
+2022-01-09 16:37:42,433 - Execution Finished For $$ verifyAvailableCountries_RG0005 of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:42,433 - Attaching Logs for verifyAvailableCountries_RG0005
+2022-01-09 16:37:42,434 - The following asserts failed:
+	Following country not displayed : ARCTIC expected [true] but found [false],
+	Following country displayed Extra : ALBANIA expected [true] but found [false],
+	Following country displayed Extra : ALGERIA expected [true] but found [false],
+	Following country displayed Extra : AMERICAN SAMOA expected [true] but found [false],
+	Following country displayed Extra : ANDORRA expected [true] but found [false],
+	Following country displayed Extra : ANGOLA expected [true] but found [false],
+	Following country displayed Extra : ANGUILLA expected [true] but found [false],
+	Following country displayed Extra : ANTARCTICA expected [true] but found [false],
+	Following country displayed Extra : ANTIGUA AND BARBUDA expected [true] but found [false],
+	Following country displayed Extra : ARGENTINA expected [true] but found [false],
+	Following country displayed Extra : ARMENIA expected [true] but found [false],
+	Following country displayed Extra : ARUBA expected [true] but found [false],
+	Following country displayed Extra : ASHMORE AND CARTIER ISLANDS expected [true] but found [false],
+	Following country displayed Extra : AUSTRALIA expected [true] but found [false],
+	Following country displayed Extra : AUSTRIA expected [true] but found [false],
+	Following country displayed Extra : AZERBAIJAN expected [true] but found [false],
+	Following country displayed Extra : BAHAMAS expected [true] but found [false],
+	Following country displayed Extra : BAHRAIN expected [true] but found [false],
+	Following country displayed Extra : BAKER ISLAND expected [true] but found [false],
+	Following country displayed Extra : BANGLADESH expected [true] but found [false],
+	Following country displayed Extra : BARBADOS expected [true] but found [false],
+	Following country displayed Extra : BASSA DE INDIA expected [true] but found [false],
+	Following country displayed Extra : BELARUS expected [true] but found [false],
+	Following country displayed Extra : BELGIUM expected [true] but found [false],
+	Following country displayed Extra : BELIZE expected [true] but found [false],
+	Following country displayed Extra : BENIN expected [true] but found [false],
+	Following country displayed Extra : BERMUDA expected [true] but found [false],
+	Following country displayed Extra : BHUTAN expected [true] but found [false],
+	Following country displayed Extra : BOLIVIA expected [true] but found [false],
+	Following country displayed Extra : BOSNIA AND HERZEGOVINA expected [true] but found [false],
+	Following country displayed Extra : BOTSWANA expected [true] but found [false],
+	Following country displayed Extra : BOUVET ISLAND expected [true] but found [false],
+	Following country displayed Extra : BRAZIL expected [true] but found [false],
+	Following country displayed Extra : BRITISH INDIAN OCEAN TERRITORY expected [true] but found [false],
+	Following country displayed Extra : BRITISH VIRGIN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : BRUNEI expected [true] but found [false],
+	Following country displayed Extra : BULGARIA expected [true] but found [false],
+	Following country displayed Extra : BURKINA FASO expected [true] but found [false],
+	Following country displayed Extra : BURMA expected [true] but found [false],
+	Following country displayed Extra : BURUNDI expected [true] but found [false],
+	Following country displayed Extra : CAMBODIA expected [true] but found [false],
+	Following country displayed Extra : CAMEROON expected [true] but found [false],
+	Following country displayed Extra : CANADA expected [true] but found [false],
+	Following country displayed Extra : CAPE VERDE expected [true] but found [false],
+	Following country displayed Extra : CAYMAN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : CENTRAL AFRICAN REPUBLIC expected [true] but found [false],
+	Following country displayed Extra : CHAD expected [true] but found [false],
+	Following country displayed Extra : CHILE expected [true] but found [false],
+	Following country displayed Extra : CHINA expected [true] but found [false],
+	Following country displayed Extra : CHRISTMAS ISLAND expected [true] but found [false],
+	Following country displayed Extra : CLIPPERTON ISLAND expected [true] but found [false],
+	Following country displayed Extra : COCOS (KEELING) ISLANDS expected [true] but found [false],
+	Following country displayed Extra : COLOMBIA expected [true] but found [false],
+	Following country displayed Extra : COMOROS expected [true] but found [false],
+	Following country displayed Extra : CONGO expected [true] but found [false],
+	Following country displayed Extra : COOK ISLANDS expected [true] but found [false],
+	Following country displayed Extra : CORAL SEA ISLANDS expected [true] but found [false],
+	Following country displayed Extra : COSTA RICA expected [true] but found [false],
+	Following country displayed Extra : COTE D'IVOIRE expected [true] but found [false],
+	Following country displayed Extra : CROATIA expected [true] but found [false],
+	Following country displayed Extra : CUBA expected [true] but found [false],
+	Following country displayed Extra : CYPRUS expected [true] but found [false],
+	Following country displayed Extra : CZECH REPUBLIC expected [true] but found [false],
+	Following country displayed Extra : DENMARK expected [true] but found [false],
+	Following country displayed Extra : DJIBOUTI expected [true] but found [false],
+	Following country displayed Extra : DOMINICA expected [true] but found [false],
+	Following country displayed Extra : DOMINICAN REPUBLIC expected [true] but found [false],
+	Following country displayed Extra : ECUADOR expected [true] but found [false],
+	Following country displayed Extra : EGYPT expected [true] but found [false],
+	Following country displayed Extra : EL SALVADOR expected [true] but found [false],
+	Following country displayed Extra : EQUATORIAL GUINEA expected [true] but found [false],
+	Following country displayed Extra : ERITREA expected [true] but found [false],
+	Following country displayed Extra : ESTONIA expected [true] but found [false],
+	Following country displayed Extra : ETHIOPIA expected [true] but found [false],
+	Following country displayed Extra : EUROPA ISLAND expected [true] but found [false],
+	Following country displayed Extra : FALKLAND ISLANDS expected [true] but found [false],
+	Following country displayed Extra : FAROE ISLANDS expected [true] but found [false],
+	Following country displayed Extra : FIJI expected [true] but found [false],
+	Following country displayed Extra : FINLAND expected [true] but found [false],
+	Following country displayed Extra : FRANCE expected [true] but found [false],
+	Following country displayed Extra : FRENCH GUIANA expected [true] but found [false],
+	Following country displayed Extra : FRENCH POLYNESIA expected [true] but found [false],
+	Following country displayed Extra : FRENCH SOUTHERN AND ANTARCTIC LANDS expected [true] but found [false],
+	Following country displayed Extra : GABON expected [true] but found [false],
+	Following country displayed Extra : GAMBIA, THE expected [true] but found [false],
+	Following country displayed Extra : GAZA STRIP expected [true] but found [false],
+	Following country displayed Extra : GEORGIA expected [true] but found [false],
+	Following country displayed Extra : GHANA expected [true] but found [false],
+	Following country displayed Extra : GIBRALTAR expected [true] but found [false],
+	Following country displayed Extra : GLORIOSO ISLANDS expected [true] but found [false],
+	Following country displayed Extra : GREECE expected [true] but found [false],
+	Following country displayed Extra : GREENLAND expected [true] but found [false],
+	Following country displayed Extra : GRENADA expected [true] but found [false],
+	Following country displayed Extra : GUADELOUPE expected [true] but found [false],
+	Following country displayed Extra : GUAM expected [true] but found [false],
+	Following country displayed Extra : GUATEMALA expected [true] but found [false],
+	Following country displayed Extra : GUERNSEY expected [true] but found [false],
+	Following country displayed Extra : GUINEA expected [true] but found [false],
+	Following country displayed Extra : GUINEA-BISSAU expected [true] but found [false],
+	Following country displayed Extra : GUYANA expected [true] but found [false],
+	Following country displayed Extra : HAITI expected [true] but found [false],
+	Following country displayed Extra : HEARD ISLAND AND MCDONALD ISLANDS expected [true] but found [false],
+	Following country displayed Extra : HONDURAS expected [true] but found [false],
+	Following country displayed Extra : HONG KONG expected [true] but found [false],
+	Following country displayed Extra : HOWLAND ISLAND expected [true] but found [false],
+	Following country displayed Extra : HUNGARY expected [true] but found [false],
+	Following country displayed Extra : ICELAND expected [true] but found [false],
+	Following country displayed Extra : INDONESIA expected [true] but found [false],
+	Following country displayed Extra : IRAN expected [true] but found [false],
+	Following country displayed Extra : IRAQ expected [true] but found [false],
+	Following country displayed Extra : IRELAND expected [true] but found [false],
+	Following country displayed Extra : ISRAEL expected [true] but found [false],
+	Following country displayed Extra : ITALY expected [true] but found [false],
+	Following country displayed Extra : JAMAICA expected [true] but found [false],
+	Following country displayed Extra : JAN MAYEN expected [true] but found [false],
+	Following country displayed Extra : JAPAN expected [true] but found [false],
+	Following country displayed Extra : JARVIS ISLAND expected [true] but found [false],
+	Following country displayed Extra : JERSEY expected [true] but found [false],
+	Following country displayed Extra : JOHNSTON ATOLL expected [true] but found [false],
+	Following country displayed Extra : JORDAN expected [true] but found [false],
+	Following country displayed Extra : JUAN DE NOVA ISLAND expected [true] but found [false],
+	Following country displayed Extra : KAZAKHSTAN expected [true] but found [false],
+	Following country displayed Extra : KENYA expected [true] but found [false],
+	Following country displayed Extra : KINGMAN REEF expected [true] but found [false],
+	Following country displayed Extra : KIRIBATI expected [true] but found [false],
+	Following country displayed Extra : KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : KOREA, REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : KUWAIT expected [true] but found [false],
+	Following country displayed Extra : KYRGYZSTAN expected [true] but found [false],
+	Following country displayed Extra : LAOS expected [true] but found [false],
+	Following country displayed Extra : LATVIA expected [true] but found [false],
+	Following country displayed Extra : LEBANON expected [true] but found [false],
+	Following country displayed Extra : LESOTHO expected [true] but found [false],
+	Following country displayed Extra : LIBERIA expected [true] but found [false],
+	Following country displayed Extra : LIBYA expected [true] but found [false],
+	Following country displayed Extra : LIECHTENSTEIN expected [true] but found [false],
+	Following country displayed Extra : LITHUANIA expected [true] but found [false],
+	Following country displayed Extra : LUXEMBOURG expected [true] but found [false],
+	Following country displayed Extra : MACAU expected [true] but found [false],
+	Following country displayed Extra : MACEDONIA, FORMER REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : MADAGASCAR expected [true] but found [false],
+	Following country displayed Extra : MALAWI expected [true] but found [false],
+	Following country displayed Extra : MALAYSIA expected [true] but found [false],
+	Following country displayed Extra : MALDIVES expected [true] but found [false],
+	Following country displayed Extra : MALI expected [true] but found [false],
+	Following country displayed Extra : MALTA expected [true] but found [false],
+	Following country displayed Extra : MAN, ISLE OF expected [true] but found [false],
+	Following country displayed Extra : MARSHALL ISLANDS expected [true] but found [false],
+	Following country displayed Extra : MARTINIQUE expected [true] but found [false],
+	Following country displayed Extra : MAURITANIA expected [true] but found [false],
+	Following country displayed Extra : MAURITIUS expected [true] but found [false],
+	Following country displayed Extra : MAYOTTE expected [true] but found [false],
+	Following country displayed Extra : MEXICO expected [true] but found [false],
+	Following country displayed Extra : MICRONESIA expected [true] but found [false],
+	Following country displayed Extra : MIDWAY ISLANDS expected [true] but found [false],
+	Following country displayed Extra : MOLDOVA expected [true] but found [false],
+	Following country displayed Extra : MONACO expected [true] but found [false],
+	Following country displayed Extra : MONGOLIA expected [true] but found [false],
+	Following country displayed Extra : MONTENEGRO expected [true] but found [false],
+	Following country displayed Extra : MONTSERRAT expected [true] but found [false],
+	Following country displayed Extra : MOROCCO expected [true] but found [false],
+	Following country displayed Extra : MOZAMBIQUE expected [true] but found [false],
+	Following country displayed Extra : NAMIBIA expected [true] but found [false],
+	Following country displayed Extra : NAURU expected [true] but found [false],
+	Following country displayed Extra : NAVASSA ISLAND expected [true] but found [false],
+	Following country displayed Extra : NEPAL expected [true] but found [false],
+	Following country displayed Extra : NETHERLANDS expected [true] but found [false],
+	Following country displayed Extra : NETHERLANDS ANTILLES expected [true] but found [false],
+	Following country displayed Extra : NEW CALEDONIA expected [true] but found [false],
+	Following country displayed Extra : NEW ZEALAND expected [true] but found [false],
+	Following country displayed Extra : NICARAGUA expected [true] but found [false],
+	Following country displayed Extra : NIGER expected [true] but found [false],
+	Following country displayed Extra : NIGERIA expected [true] but found [false],
+	Following country displayed Extra : NIUE expected [true] but found [false],
+	Following country displayed Extra : NO MANS LAND expected [true] but found [false],
+	Following country displayed Extra : NORFOLK ISLAND expected [true] but found [false],
+	Following country displayed Extra : NORTHERN MARIANA ISLANDS expected [true] but found [false],
+	Following country displayed Extra : NORWAY expected [true] but found [false],
+	Following country displayed Extra : OCEANS expected [true] but found [false],
+	Following country displayed Extra : OMAN expected [true] but found [false],
+	Following country displayed Extra : PAKISTAN expected [true] but found [false],
+	Following country displayed Extra : PALMYRA ATOLL expected [true] but found [false],
+	Following country displayed Extra : PANAMA expected [true] but found [false],
+	Following country displayed Extra : PAPUA NEW GUINEA expected [true] but found [false],
+	Following country displayed Extra : PARACEL ISLANDS expected [true] but found [false],
+	Following country displayed Extra : PARAGUAY expected [true] but found [false],
+	Following country displayed Extra : PERU expected [true] but found [false],
+	Following country displayed Extra : PHILIPPINES expected [true] but found [false],
+	Following country displayed Extra : PITCAIRN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : POLAND expected [true] but found [false],
+	Following country displayed Extra : PORTUGAL expected [true] but found [false],
+	Following country displayed Extra : PUERTO RICO expected [true] but found [false],
+	Following country displayed Extra : QATAR expected [true] but found [false],
+	Following country displayed Extra : REUNION expected [true] but found [false],
+	Following country displayed Extra : ROMANIA expected [true] but found [false],
+	Following country displayed Extra : RUSSIA expected [true] but found [false],
+	Following country displayed Extra : RWANDA expected [true] but found [false],
+	Following country displayed Extra : SAN MARINO expected [true] but found [false],
+	Following country displayed Extra : SAO TOME AND PRINCIPE expected [true] but found [false],
+	Following country displayed Extra : SAUDI ARABIA expected [true] but found [false],
+	Following country displayed Extra : SENEGAL expected [true] but found [false],
+	Following country displayed Extra : SERBIA expected [true] but found [false],
+	Following country displayed Extra : SEYCHELLES expected [true] but found [false],
+	Following country displayed Extra : SIERRA LEONE expected [true] but found [false],
+	Following country displayed Extra : SINGAPORE expected [true] but found [false],
+	Following country displayed Extra : SLOVAKIA expected [true] but found [false],
+	Following country displayed Extra : SLOVENIA expected [true] but found [false],
+	Following country displayed Extra : SOLOMON ISLANDS expected [true] but found [false],
+	Following country displayed Extra : SOMALIA expected [true] but found [false],
+	Following country displayed Extra : SOUTH AFRICA expected [true] but found [false],
+	Following country displayed Extra : SOVIET UNION expected [true] but found [false],
+	Following country displayed Extra : SPAIN expected [true] but found [false],
+	Following country displayed Extra : SPRATLY ISLANDS expected [true] but found [false],
+	Following country displayed Extra : SRI LANKA expected [true] but found [false],
+	Following country displayed Extra : ST. HELENA expected [true] but found [false],
+	Following country displayed Extra : ST. KITTS AND NEVIS expected [true] but found [false],
+	Following country displayed Extra : ST. LUCIA expected [true] but found [false],
+	Following country displayed Extra : ST. PIERRE AND MIQUELON expected [true] but found [false],
+	Following country displayed Extra : ST. VINCENT AND THE GRENADINES expected [true] but found [false],
+	Following country displayed Extra : SUDAN expected [true] but found [false],
+	Following country displayed Extra : SURINAME expected [true] but found [false],
+	Following country displayed Extra : SVALBARD expected [true] but found [false],
+	Following country displayed Extra : SWAZILAND expected [true] but found [false],
+	Following country displayed Extra : SWEDEN expected [true] but found [false],
+	Following country displayed Extra : SWITZERLAND expected [true] but found [false],
+	Following country displayed Extra : SYRIA expected [true] but found [false],
+	Following country displayed Extra : TAIWAN expected [true] but found [false],
+	Following country displayed Extra : TAJIKISTAN expected [true] but found [false],
+	Following country displayed Extra : TANZANIA, UNITED REPUBLIC OF expected [true] but found [false],
+	Following country displayed Extra : THAILAND expected [true] but found [false],
+	Following country displayed Extra : TOGO expected [true] but found [false],
+	Following country displayed Extra : TOKELAU expected [true] but found [false],
+	Following country displayed Extra : TONGA expected [true] but found [false],
+	Following country displayed Extra : TRINIDAD AND TOBAGO expected [true] but found [false],
+	Following country displayed Extra : TROMELIN ISLAND expected [true] but found [false],
+	Following country displayed Extra : TUNISIA expected [true] but found [false],
+	Following country displayed Extra : TURKEY expected [true] but found [false],
+	Following country displayed Extra : TURKMENISTAN expected [true] but found [false],
+	Following country displayed Extra : TURKS AND CAICOS ISLANDS expected [true] but found [false],
+	Following country displayed Extra : TUVALU expected [true] but found [false],
+	Following country displayed Extra : UGANDA expected [true] but found [false],
+	Following country displayed Extra : UKRAINE expected [true] but found [false],
+	Following country displayed Extra : UNDERSEA FEATURES expected [true] but found [false],
+	Following country displayed Extra : UNITED ARAB EMIRATES expected [true] but found [false],
+	Following country displayed Extra : UNITED KINGDOM expected [true] but found [false],
+	Following country displayed Extra : URUGUAY expected [true] but found [false],
+	Following country displayed Extra : UZBEKISTAN expected [true] but found [false],
+	Following country displayed Extra : VANUATU expected [true] but found [false],
+	Following country displayed Extra : VATICAN CITY expected [true] but found [false],
+	Following country displayed Extra : VENEZUELA expected [true] but found [false],
+	Following country displayed Extra : VIETNAM expected [true] but found [false],
+	Following country displayed Extra : VIRGIN ISLANDS expected [true] but found [false],
+	Following country displayed Extra : WAKE ISLAND expected [true] but found [false],
+	Following country displayed Extra : WALLIS AND FUTUNA expected [true] but found [false],
+	Following country displayed Extra : WEST BANK expected [true] but found [false],
+	Following country displayed Extra : WESTERN SAHARA expected [true] but found [false],
+	Following country displayed Extra : WESTERN SAMOA expected [true] but found [false],
+	Following country displayed Extra : YEMEN expected [true] but found [false],
+	Following country displayed Extra : YUGOSLAVIA expected [true] but found [false],
+	Following country displayed Extra : ZAIRE expected [true] but found [false],
+	Following country displayed Extra : ZAMBIA expected [true] but found [false],
+	Following country displayed Extra : ZIMBABWE expected [true] but found [false]
+2022-01-09 16:37:42,439 - Attaching screenshot of URL $$ https://demo.guru99.com/test/newtours/register.php
+2022-01-09 16:37:42,578 - Case Failed $$ verifyAvailableCountries_RG0005
+2022-01-09 16:37:42,591 - Method Started $$ closeDriver of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:42,592 - Closing Web Browser
+2022-01-09 16:37:43,192 - Web Browser Closed
+2022-01-09 16:37:43,192 - Execution Finished For $$ closeDriver of Class : [TestClass name=class tests.register.RegisterTest]
+2022-01-09 16:37:43,192 - Attaching Logs for closeDriver
+2022-01-09 16:37:43,231 - Method Started $$ setLogger of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:43,231 - *************** Logger Set ***************
+2022-01-09 16:37:43,231 - Execution Finished For $$ setLogger of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:43,231 - Attaching Logs for setLogger
+2022-01-09 16:37:43,232 - Method Started $$ invokeBrowser of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:43,232 - *************** Invoking Browser ***************
+2022-01-09 16:37:43,232 - Reading Property 'Browser' from sheet 'Configuration'
+2022-01-09 16:37:43,256 - Value is : Chrome
+2022-01-09 16:37:43,256 - Launching Chrome Browser
+2022-01-09 16:37:44,495 - *************** Invoking Finished ***************
+2022-01-09 16:37:44,495 - Execution Finished For $$ invokeBrowser of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:44,496 - Attaching Logs for invokeBrowser
+2022-01-09 16:37:44,497 - Method Started $$ navigateToBaseURL of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:44,497 - Reading Property 'Environment' from sheet 'Configuration'
+2022-01-09 16:37:44,530 - Value is : Automation
+2022-01-09 16:37:44,530 - Environment is : Automation
+2022-01-09 16:37:44,530 - Reading property : Automation
+2022-01-09 16:37:44,531 - Value is : http://demo.guru99.com/test/newtours
+2022-01-09 16:37:44,531 - Navigating to Base URL http://demo.guru99.com/test/newtours
+2022-01-09 16:37:47,704 - Execution Finished For $$ navigateToBaseURL of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:47,704 - Attaching Logs for navigateToBaseURL
+2022-01-09 16:37:47,705 - Method Started $$ initialize of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:47,707 - Execution Finished For $$ initialize of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:47,707 - Attaching Logs for initialize
+2022-01-09 16:37:47,757 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:47,757 - Navigating to Flight Page
+2022-01-09 16:37:47,757 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2022-01-09 16:37:48,681 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:48,681 - Attaching Logs for navigateToFlightPage
+2022-01-09 16:37:48,684 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:48,684 - Selecting Trip Type as : Round Trip
+2022-01-09 16:37:48,684 - Clicking Radio Button for Round Trip
+2022-01-09 16:37:48,746 - Clicked
+2022-01-09 16:37:48,746 - Selecting Number of passenger to : 1
+2022-01-09 16:37:48,837 - Selected by Visible text : 1
+2022-01-09 16:37:48,837 - Selecting source as : Frankfurt
+2022-01-09 16:37:49,006 - Selected by Visible text : Frankfurt
+2022-01-09 16:37:49,007 - Selecting Start Month as : February
+2022-01-09 16:37:49,144 - Selected by Visible text : February
+2022-01-09 16:37:49,145 - Selecting Start Day as : 9
+2022-01-09 16:37:49,266 - Selected by Visible text : 9
+2022-01-09 16:37:49,267 - Selecting Destination as : London
+2022-01-09 16:37:49,393 - Selected by Visible text : London
+2022-01-09 16:37:49,393 - Selecting Return Month as : February
+2022-01-09 16:37:49,517 - Selected by Visible text : February
+2022-01-09 16:37:49,517 - Selecting Return Day as : 19
+2022-01-09 16:37:49,627 - Selected by Visible text : 19
+2022-01-09 16:37:49,628 - Selecting Travel Class : Economy
+2022-01-09 16:37:49,628 - Clicking radio button for Economy Class
+2022-01-09 16:37:49,688 - Clicked
+2022-01-09 16:37:49,688 - Setting No Preference
+2022-01-09 16:37:49,691 - Attaching Full Page Screenshot of URL $$ https://demo.guru99.com/test/newtours/reservation.php
+2022-01-09 16:37:52,295 - Clicking Find Flight Button
+2022-01-09 16:37:52,917 - Clicked
+2022-01-09 16:37:52,950 - Text is : After flight finder - No Seats Avaialble  
+2022-01-09 16:37:52,973 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:52,973 - Attaching Logs for verifyFindFlight_FF0001
+2022-01-09 16:37:52,975 - Case Pass $$ verifyFindFlight_FF0001
+2022-01-09 16:37:52,978 - Attaching screenshot of URL $$ https://demo.guru99.com/test/newtours/reservation2.php
+2022-01-09 16:37:53,140 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:53,140 - Navigating to Flight Page
+2022-01-09 16:37:53,140 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2022-01-09 16:37:53,495 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:53,496 - Attaching Logs for navigateToFlightPage
+2022-01-09 16:37:53,497 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:53,498 - Selecting Trip Type as : One Way
+2022-01-09 16:37:53,498 - Clicking Radio Button for One Way
+2022-01-09 16:37:53,556 - Clicked
+2022-01-09 16:37:53,556 - Selecting Number of passenger to : 2
+2022-01-09 16:37:53,745 - Selected by Visible text : 2
+2022-01-09 16:37:53,746 - Selecting source as : Paris
+2022-01-09 16:37:53,855 - Selected by Visible text : Paris
+2022-01-09 16:37:53,855 - Selecting Start Month as : June
+2022-01-09 16:37:53,966 - Selected by Visible text : June
+2022-01-09 16:37:53,966 - Selecting Start Day as : 7
+2022-01-09 16:37:54,078 - Selected by Visible text : 7
+2022-01-09 16:37:54,078 - Selecting Destination as : Seattle
+2022-01-09 16:37:54,187 - Selected by Visible text : Seattle
+2022-01-09 16:37:54,187 - Keeping return Month to default as no data provided
+2022-01-09 16:37:54,187 - Keeping return Day to default as no data provided
+2022-01-09 16:37:54,187 - Selecting Travel Class : Business
+2022-01-09 16:37:54,187 - Clicking radio button for Business Class
+2022-01-09 16:37:54,251 - Clicked
+2022-01-09 16:37:54,251 - Selecting Airline Preference as : Blue Skies Airlines
+2022-01-09 16:37:54,373 - Selected by Visible text : Blue Skies Airlines
+2022-01-09 16:37:54,376 - Attaching Full Page Screenshot of URL $$ https://demo.guru99.com/test/newtours/reservation.php
+2022-01-09 16:37:56,845 - Clicking Find Flight Button
+2022-01-09 16:37:58,158 - Clicked
+2022-01-09 16:37:58,187 - Text is : After flight finder - No Seats Avaialble  
+2022-01-09 16:37:58,214 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:58,214 - Attaching Logs for verifyFindFlight_FF0001
+2022-01-09 16:37:58,216 - Case Pass $$ verifyFindFlight_FF0001
+2022-01-09 16:37:58,219 - Attaching screenshot of URL $$ https://demo.guru99.com/test/newtours/reservation2.php
+2022-01-09 16:37:58,411 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:58,411 - Navigating to Flight Page
+2022-01-09 16:37:58,411 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2022-01-09 16:37:58,740 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:58,740 - Attaching Logs for navigateToFlightPage
+2022-01-09 16:37:58,743 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:37:58,743 - Selecting Trip Type as : Round Trip
+2022-01-09 16:37:58,743 - Clicking Radio Button for Round Trip
+2022-01-09 16:37:58,801 - Clicked
+2022-01-09 16:37:58,802 - Selecting Number of passenger to : 3
+2022-01-09 16:37:58,984 - Selected by Visible text : 3
+2022-01-09 16:37:58,984 - Selecting source as : Seattle
+2022-01-09 16:37:59,096 - Selected by Visible text : Seattle
+2022-01-09 16:37:59,097 - Selecting Start Month as : March
+2022-01-09 16:37:59,221 - Selected by Visible text : March
+2022-01-09 16:37:59,221 - Selecting Start Day as : 14
+2022-01-09 16:37:59,330 - Selected by Visible text : 14
+2022-01-09 16:37:59,330 - Selecting Destination as : Acapulco
+2022-01-09 16:37:59,422 - Selected by Visible text : Acapulco
+2022-01-09 16:37:59,423 - Selecting Return Month as : March
+2022-01-09 16:37:59,532 - Selected by Visible text : March
+2022-01-09 16:37:59,533 - Selecting Return Day as : 20
+2022-01-09 16:37:59,657 - Selected by Visible text : 20
+2022-01-09 16:37:59,657 - Selecting Travel Class : First
+2022-01-09 16:37:59,657 - Clicking radio button for First Class
+2022-01-09 16:37:59,719 - Clicked
+2022-01-09 16:37:59,719 - Selecting Airline Preference as : Unified Airlines
+2022-01-09 16:37:59,828 - Selected by Visible text : Unified Airlines
+2022-01-09 16:37:59,831 - Attaching Full Page Screenshot of URL $$ https://demo.guru99.com/test/newtours/reservation.php
+2022-01-09 16:38:02,284 - Clicking Find Flight Button
+2022-01-09 16:38:03,226 - Clicked
+2022-01-09 16:38:03,249 - Text is : After flight finder - No Seats Avaialble  
+2022-01-09 16:38:03,319 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:38:03,319 - Attaching Logs for verifyFindFlight_FF0001
+2022-01-09 16:38:03,321 - Case Pass $$ verifyFindFlight_FF0001
+2022-01-09 16:38:03,336 - Attaching screenshot of URL $$ https://demo.guru99.com/test/newtours/reservation2.php
+2022-01-09 16:38:03,466 - Method Started $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:38:03,466 - Navigating to Flight Page
+2022-01-09 16:38:03,466 - Navigating to : http://demo.guru99.com/test/newtours/reservation.php
+2022-01-09 16:38:03,786 - Execution Finished For $$ navigateToFlightPage of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:38:03,786 - Attaching Logs for navigateToFlightPage
+2022-01-09 16:38:03,788 - Method Started $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:38:03,788 - Selecting Trip Type as : One Way
+2022-01-09 16:38:03,788 - Clicking Radio Button for One Way
+2022-01-09 16:38:03,843 - Clicked
+2022-01-09 16:38:03,843 - Selecting Number of passenger to : 4
+2022-01-09 16:38:04,021 - Selected by Visible text : 4
+2022-01-09 16:38:04,021 - Selecting source as : Sydney
+2022-01-09 16:38:04,140 - Selected by Visible text : Sydney
+2022-01-09 16:38:04,140 - Selecting Start Month as : October
+2022-01-09 16:38:04,248 - Selected by Visible text : October
+2022-01-09 16:38:04,248 - Selecting Start Day as : 30
+2022-01-09 16:38:04,371 - Selected by Visible text : 30
+2022-01-09 16:38:04,371 - Selecting Destination as : Portland
+2022-01-09 16:38:04,493 - Selected by Visible text : Portland
+2022-01-09 16:38:04,493 - Keeping return Month to default as no data provided
+2022-01-09 16:38:04,493 - Keeping return Day to default as no data provided
+2022-01-09 16:38:04,493 - Selecting Travel Class : Economy
+2022-01-09 16:38:04,493 - Clicking radio button for Economy Class
+2022-01-09 16:38:04,556 - Clicked
+2022-01-09 16:38:04,556 - Selecting Airline Preference as : Pangea Airlines
+2022-01-09 16:38:04,684 - Selected by Visible text : Pangea Airlines
+2022-01-09 16:38:04,687 - Attaching Full Page Screenshot of URL $$ https://demo.guru99.com/test/newtours/reservation.php
+2022-01-09 16:38:07,158 - Clicking Find Flight Button
+2022-01-09 16:38:08,347 - Clicked
+2022-01-09 16:38:08,365 - Text is : After flight finder - No Seats Avaialble  
+2022-01-09 16:38:08,394 - Execution Finished For $$ verifyFindFlight_FF0001 of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:38:08,394 - Attaching Logs for verifyFindFlight_FF0001
+2022-01-09 16:38:08,396 - Case Pass $$ verifyFindFlight_FF0001
+2022-01-09 16:38:08,399 - Attaching screenshot of URL $$ https://demo.guru99.com/test/newtours/reservation2.php
+2022-01-09 16:38:08,574 - Method Started $$ closeDriver of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:38:08,574 - Closing Web Browser
+2022-01-09 16:38:09,173 - Web Browser Closed
+2022-01-09 16:38:09,173 - Execution Finished For $$ closeDriver of Class : [TestClass name=class tests.flight.FlightTest]
+2022-01-09 16:38:09,173 - Attaching Logs for closeDriver

@@ -17,12 +17,12 @@ import java.util.List;
 
 public class GenericHelper {
     WebDriver driver;
-    private Logger logger;
+//    private Logger logger;
     JavascriptExecutor js;
 
     public GenericHelper(WebDriver driver){
         this.driver = driver;
-        logger = LogManager.getLogger(this.getClass());
+//        logger = LogManager.getLogger(this.getClass());
         js = (JavascriptExecutor)driver;
     }
 
@@ -135,7 +135,7 @@ public class GenericHelper {
             }
         }
         if(!elementFound){
-            logger.error("Element with following text not found : " + text);
+//            logger.error("Element with following text not found : " + text);
         }
     }
 

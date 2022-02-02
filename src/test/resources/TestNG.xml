@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="utils.listeners.TestListeners"/>
   </listeners>
-  <test thread-count="1" name="Register" parallel="tests">
+  <test thread-count="1" name="Register" parallel="tests" enabled="true">
     <groups>
       <run>
         <include name="P1"/>
@@ -16,7 +16,7 @@
       <class name="tests.register.RegisterTest"/>
     </classes>
   </test> <!-- Register -->
-  <test thread-count="1" name="Login" parallel="tests">
+  <test thread-count="1" name="Login" parallel="tests" enabled="false">
     <groups>
       <run>
         <include name="P1"/>
